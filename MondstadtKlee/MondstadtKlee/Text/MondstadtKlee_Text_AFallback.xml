@@ -285,6 +285,9 @@
 		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_PRODUCTION" Language="en_US">
 			<Text>+{1_num} [ICON_Production] Production from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
 		</Row>
+		<Row Tag="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy Site district.</Text>
+		</Row>
 
 		<Row Tag="LOC_PROJECT_FISH_BLASTING_NAME" Language="en_US">
 			<Text>Fish Blasting Carnival</Text>

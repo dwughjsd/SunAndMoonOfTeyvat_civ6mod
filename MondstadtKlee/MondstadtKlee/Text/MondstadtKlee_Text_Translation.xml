@@ -285,6 +285,9 @@
 		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_PRODUCTION" Language="zh_Hans_CN">
 			<Text>相邻牧场提供+{1_num} [ICON_Production] 生产力。</Text>
 		</Row>
+		<Row Tag="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" Language="zh_Hans_CN">
+			<Text>相邻圣地区域提供+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
 
 		<Row Tag="LOC_PROJECT_FISH_BLASTING_NAME" Language="zh_Hans_CN">
 			<Text>炸鱼狂欢节</Text>

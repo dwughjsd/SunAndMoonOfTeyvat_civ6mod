@@ -33,7 +33,7 @@
 	</District_Adjacencies>
 
 	<Adjacency_YieldChanges>
-		<Row ID="Favonius_HolySite_Faith" Description="LOC_DISTRICT_HOLYSITE_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Favonius_HolySite_Faith" Description="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="Jungle_Science_Akademiya" Description="LOC_DISTRICT_JUNGLE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE"/>
 		<Row ID="District_Science_Akademiya" Description="LOC_DISTRICT_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
 	</Adjacency_YieldChanges>
