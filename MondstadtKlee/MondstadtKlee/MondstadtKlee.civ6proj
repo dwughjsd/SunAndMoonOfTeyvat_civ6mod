@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
+    <Guid>d7b995ea-e5f6-4dd5-bc4b-2d1da05075c2</Guid>
+    <ProjectGuid>59482318-ffed-4207-8fc6-5636dd5dda9e</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
+    <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
+    <Authors>Shimamura et al.</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <AssemblyName>MondstadtKlee</AssemblyName>
+    <RootNamespace>MondstadtKlee</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>MondstadtKlee</Criteria><File>Data/MondstadtKlee_Leaders.xml</File><File>Data/MondstadtKlee_Civilizations.xml</File><File>Data/MondstadtKlee_Districts.xml</File><File>Data/MondstadtKlee_Units.xml</File><File>Data/MondstadtKlee_Projects.xml</File><File>Data/MondstadtKlee_WMDs.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>MondstadtKlee</Criteria><File>Text/MondstadtKlee_ConfigText_Translation.xml</File><File>Text/MondstadtKlee_Text_Translation.xml</File><File>Text/MondstadtKlee_Text_AFallback.xml</File><File>Text/MondstadtKlee_ConfigText_AFallback.xml</File></UpdateText><UpdateArt id="Art"><Criteria>MondstadtKlee</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Colors"><Criteria>MondstadtKlee</Criteria><File>Data/MondstadtKlee_Colors.xml</File></UpdateColors><UpdateIcons id="Icons"><Criteria>MondstadtKlee</Criteria><File>Data/MondstadtKlee_Icons.xml</File></UpdateIcons><UpdateDatabase id="Expansion2"><Criteria>MondstadtKlee_Expansion2</Criteria><File>Data/MondstadtKlee_Expansion2.xml</File></UpdateDatabase><UpdateDatabase id="Gameplay_SecretSocieties"><Criteria>SecretSocieties</Criteria><File>Data/MondstadtKlee_Ethiopia.xml</File></UpdateDatabase><AddUserInterfaces id="UI"><Properties><Context>InGame</Context></Properties><Criteria>MondstadtKlee</Criteria><File>UI/Addition/TopPanelJumpyDumpty.xml</File><File>UI/Addition/MondstadtKlee_RangerUI.xml</File></AddUserInterfaces><UpdateAudio id="Audio"><Criteria>MondstadtKlee</Criteria><File>Platforms/Windows/Audio/KleeBanks.ini</File></UpdateAudio><AddGameplayScripts id="Scripts"><Criteria>MondstadtKlee</Criteria><File>Scripts/MondstadtKlee_RangerGameplay.lua</File></AddGameplayScripts><ReplaceUIScript id="ReplaceUI_SelectedUnit"><Properties><LuaContext>SelectedUnit</LuaContext><LuaReplace>UI/Replacements/SelectedUnit_MondstadtKlee.lua</LuaReplace><LoadOrder>150001</LoadOrder></Properties></ReplaceUIScript><ImportFiles id="ImportFiles_SelectedUnit"><Properties><LoadOrder>150001</LoadOrder></Properties><File>UI/Replacements/SelectedUnit_MondstadtKlee.lua</File></ImportFiles><UpdateDatabase id="Expansion1"><Criteria>MondstadtKlee_Expansion1</Criteria><File>Data/MondstadtKlee_Expansion1.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="MondstadtKlee"><LeaderPlayable>Players:StandardPlayers::LEADER_KLEE,StandardPlayers::LEADER_KLEE,Players:Expansion1_Players::LEADER_KLEE,Players:Expansion2_Players::LEADER_KLEE,Players:StandardPlayers::LEADER_NAHIDA,StandardPlayers::LEADER_NAHIDA,Players:Expansion1_Players::LEADER_NAHIDA,Players:Expansion2_Players::LEADER_NAHIDA</LeaderPlayable><RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="MondstadtKlee_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_KLEE,Players:Expansion1_Players::LEADER_NAHIDA</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="MondstadtKlee_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_KLEE,Players:Expansion2_Players::LEADER_NAHIDA</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="SecretSocieties"><ConfigurationValueMatches><Group>Game</Group><ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId><Value>1</Value></ConfigurationValueMatches></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="GameplayConfig"><File>Data/MondstadtKlee_Config.xml</File></UpdateDatabase><UpdateText id="TextConfig"><File>Text/MondstadtKlee_ConfigText_Translation.xml</File><File>Text/MondstadtKlee_ConfigText_AFallback.xml</File></UpdateText><UpdateIcons id="IconsConfig"><File>Data/MondstadtKlee_Icons.xml</File></UpdateIcons><UpdateColors id="ColorsConfig"><File>Data/MondstadtKlee_Colors.xml</File></UpdateColors><UpdateArt id="ArtConfig"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="MondstadtKlee.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\MondstadtKlee_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Ethiopia.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Projects.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\MondstadtKlee_WMDs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\147373166.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\222400468.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\23177848.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\244580365.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\440185306.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\637053650.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\729003882.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\853640003.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\862482301.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\86738637.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\965003625.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Mondstadt_Speech.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\KleeBanks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Mondstadt_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Mondstadt_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Mondstadt_Music_Bank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Mondstadt_Speech.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Mondstadt_Speech.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\MondstadtKlee_RangerGameplay.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\MondstadtKlee_ConfigText_Translation.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\MondstadtKlee_Text_Translation.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\MondstadtKlee_ConfigText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\MondstadtKlee_Text_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\MondstadtKlee_RangerUI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\MondstadtKlee_RangerUI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\TopPanelJumpyDumpty.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\TopPanelJumpyDumpty.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Replacements\SelectedUnit_MondstadtKlee.lua">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Scripts" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="UI" />
+    <Folder Include="Text" />
+    <Folder Include="UI\Addition" />
+    <Folder Include="UI\Replacements" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="WMD_JUMPY_DUMPTY" Kind="KIND_WMD"/>
+	</Types>
+	<WMDs>
+		<Row WeaponType="WMD_JUMPY_DUMPTY" Name="LOC_WMD_JUMPY_DUMPTY_NAME" BlastRadius="1" FalloutDuration="0" ICBMStrikeRange="8" AffectPopulation="false" AffectImprovements="false" AffectBuildings="true" AffectUnits="true" AffectResources="false" AffectRoutes="false" Maintenance="8"/>
+	</WMDs>
+</GameData>

@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>蒙德帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>蒙德的</Text>
+		</Row>
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_1" Language="zh_Hans_CN">
+			<Text>奥特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_2" Language="zh_Hans_CN">
+			<Text>艾伯特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_3" Language="zh_Hans_CN">
+			<Text>鲁道夫</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_4" Language="zh_Hans_CN">
+			<Text>伍德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_5" Language="zh_Hans_CN">
+			<Text>阿托</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_6" Language="zh_Hans_CN">
+			<Text>派恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_7" Language="zh_Hans_CN">
+			<Text>杰克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_8" Language="zh_Hans_CN">
+			<Text>查尔斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_9" Language="zh_Hans_CN">
+			<Text>安东尼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_10" Language="zh_Hans_CN">
+			<Text>麦尔斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>阿拉米</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>门罗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>威拉格</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>波尔托</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>昆恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>尼尔森</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>塞琉斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>布鲁斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>霍夫曼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>舒茨</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_1" Language="zh_Hans_CN">
+			<Text>吉丽安娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_2" Language="zh_Hans_CN">
+			<Text>薇尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_3" Language="zh_Hans_CN">
+			<Text>维多利亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_4" Language="zh_Hans_CN">
+			<Text>诺拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_5" Language="zh_Hans_CN">
+			<Text>艾琳</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_6" Language="zh_Hans_CN">
+			<Text>贝雅特丽奇</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_7" Language="zh_Hans_CN">
+			<Text>唐娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_8" Language="zh_Hans_CN">
+			<Text>芙萝拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_9" Language="zh_Hans_CN">
+			<Text>赫塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_10" Language="zh_Hans_CN">
+			<Text>玛乔丽</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>葛瑞丝</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>莉莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>苏西</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>艾拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>安娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>布兰琪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>优律</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>海伦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>玛格丽特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>莎拉</Text>
+		</Row>
+
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_MONDSTADT" Language="zh_Hans_CN">
+			<Text>蒙德城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="zh_Hans_CN">
+			<Text>坠星山谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="zh_Hans_CN">
+			<Text>摘星崖</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="zh_Hans_CN">
+			<Text>低语森林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="zh_Hans_CN">
+			<Text>仲夏庭园</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="zh_Hans_CN">
+			<Text>望风角</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="zh_Hans_CN">
+			<Text>千风神殿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GALESONG_HILL" Language="zh_Hans_CN">
+			<Text>风啸山坡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINDRISE" Language="zh_Hans_CN">
+			<Text>风起地</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAPE_OATH" Language="zh_Hans_CN">
+			<Text>誓言岬</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="zh_Hans_CN">
+			<Text>达达乌帕谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FALCON_COAST" Language="zh_Hans_CN">
+			<Text>鹰翔海滩</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="zh_Hans_CN">
+			<Text>苍风高地</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAWN" Language="zh_Hans_CN">
+			<Text>晨曦</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="zh_Hans_CN">
+			<Text>铭记之谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPRINGVALE" Language="zh_Hans_CN">
+			<Text>清泉镇</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="zh_Hans_CN">
+			<Text>忘却之峡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOLVENDOM" Language="zh_Hans_CN">
+			<Text>奔狼领</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CECILIA" Language="zh_Hans_CN">
+			<Text>塞西莉亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="zh_Hans_CN">
+			<Text>明冠峡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="zh_Hans_CN">
+			<Text>风龙废墟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="zh_Hans_CN">
+			<Text>雪葬之都</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="zh_Hans_CN">
+			<Text>寒天之钉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="zh_Hans_CN">
+			<Text>芬德尼尔</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="zh_Hans_CN">
+			<Text>覆雪之路</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="zh_Hans_CN">
+			<Text>星荧洞窟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="zh_Hans_CN">
+			<Text>眠龙谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUSK" Language="zh_Hans_CN">
+			<Text>马斯克</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="zh_Hans_CN">
+			<Text>无名小岛</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="zh_Hans_CN">
+			<Text>荆夫港</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_MONDSTADT_LOCATION" Language="zh_Hans_CN">
+			<Text>提瓦特大陆</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_SIZE" Language="zh_Hans_CN">
+			<Text>大约数十平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_POPULATION" Language="zh_Hans_CN">
+			<Text>大约数十万到上百万</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_CAPITAL" Language="zh_Hans_CN">
+			<Text>蒙德城</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_KLEE" Language="zh_Hans_CN">
+			<Text>可莉，在您所到之处，众敌皆化为灰烬。您是火花骑士，爆炸和火光是您最好的朋友，也是独特的至宝。与骑士团的伙伴一同玩转世界，让颂唱自由的牧歌传遍整个世界吧。那样的话，人们就会称赞您为蒙德的最强战力！</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_LAKE_CIDER_LAKE_NAME" Language="zh_Hans_CN">
+			<Text>果酒湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_STARFELL_LAKE_NAME" Language="zh_Hans_CN">
+			<Text>星落湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME" Language="zh_Hans_CN">
+			<Text>明冠山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME" Language="zh_Hans_CN">
+			<Text>望风山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME" Language="zh_Hans_CN">
+			<Text>龙脊山脉</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_FAITH" Language="zh_Hans_CN">
+			<Text>相邻种植园提供+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_SCIENCE" Language="zh_Hans_CN">
+			<Text>相邻种植园提供+{1_num} [ICON_Science] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_GOLD" Language="zh_Hans_CN">
+			<Text>相邻种植园提供+{1_num} [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_CULTURE" Language="zh_Hans_CN">
+			<Text>相邻种植园提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_PRODUCTION" Language="zh_Hans_CN">
+			<Text>相邻种植园提供+{1_num} [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_FAITH" Language="zh_Hans_CN">
+			<Text>相邻牧场提供+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_SCIENCE" Language="zh_Hans_CN">
+			<Text>相邻牧场提供+{1_num} [ICON_Science] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_GOLD" Language="zh_Hans_CN">
+			<Text>相邻牧场提供+{1_num} [ICON_Gold] 金币。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_CULTURE" Language="zh_Hans_CN">
+			<Text>相邻牧场提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_PRODUCTION" Language="zh_Hans_CN">
+			<Text>相邻牧场提供+{1_num} [ICON_Production] 生产力。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_NAME" Language="zh_Hans_CN">
+			<Text>炸鱼狂欢节</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>炸鱼狂欢节</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成后为您的国家财产增加一枚砰砰礼物，一种爆炸半径为1，不产生核污染，只能摧毁建筑和单位的大规模杀伤性武器。需要 [ICON_Resource_Niter] 硝石。维护费是8 [ICON_Gold] 金币。</Text>
+		</Row>
+		<!--Pounding Surprise-->
+		<Row Tag="LOC_WMD_JUMPY_DUMPTY_NAME" Language="zh_Hans_CN">
+			<Text>砰砰礼物</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_NAME" Language="zh_Hans_CN">
+			<Text>轰轰火花</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果 [ICON_Movement] 移动力允许，每回合+1额外攻击。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="zh_Hans_CN">
+			<Text>西风剑术：宗室</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>-100%夹击加成。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KLEE_QUOTE" Language="zh_Hans_CN">
+			<Text>“城里放炮禁闭室报到”、“炸弹伤人琴找上门”、“放火烧山可莉完蛋”——这就是可莉在骑士团的生存守则。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_NAME" Language="zh_Hans_CN">
+			<Text>逃跑的太阳</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>会毫不犹豫地使用核武器。尊重拥有强大核威慑力的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<Text>你也不害怕我的炸弹呢！嘿嘿，太好了，可莉果然交到了很好的朋友！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>可莉很高兴您喜欢大爆炸</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<Text>如果你想学习炸弹的制作方法，我也可以来教你哦。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_LOW_NUKE_LOVE" Language="zh_Hans_CN">
+			<Text>可莉失望于您不敢使用核武器</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>你是可莉的玩伴了！那就来和可莉一起撑到看完马戏团的午夜专场！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>凯亚哥哥说，这样做了以后，琴团长恐怕会让我再也见不到第二天的太阳……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>你是个好人！来和可莉做朋友，带我出去玩吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>带可莉出去玩吧！我们一起来冒险！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>可莉不是小孩子了——带我出去玩——</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--被宣战 - 1.6-->
+			<Text>既然要可莉来找你，那可莉就来啦！蹦蹦炸弹，预备——！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--主动宣战- 1.6-->
+			<Text>嗯，要带蹦蹦炸弹、嘟嘟可……还有我自己！我来抓你啦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣 - 收到赠礼・其二-->
+			<Text>可莉好开心！谢谢你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣 - 讨厌的食物…-->
+			<Text>讨厌使者——可莉要出去玩——</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节 - 想要了解可莉・其五-->
+			<Text>我们的代表团带了“可莉烤鱼”送给你！——呃，其实鱼是直接在湖里就被炸弹烤熟了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>如果你是在什么纵火现场发现了炸弹的话，那就不是我做的，绝对不是。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家 - 迷境之岛！无法预测的旅行-->
+			<Text>坏家伙、坏家伙坏家伙！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--初次见面 - 角色页面-->
+			<Text>西风骑士团“火花骑士”，可莉！……呃——后面该说什么词来着？可莉背不下来啦……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>要和可莉一起来我们附近的城市炸鱼吗？虽然被抓住就是一整天的禁闭，但鱼很好吃，所以值得！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>好耶！是大冒险。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>有好多餐馆和旅店都很在意妈妈写的《提瓦特游览指南》的权威评价，可是连她都没有听过你的首都。可莉一定要了解了解！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - 想要了解可莉・其一-->
+			<Text>你好！你是来找可莉玩的吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--请求结盟 - Civ6 generic-->
+			<Text>您想结为盟友吗？</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>可莉今天在我们的边界勇敢地抓到了打扮奇怪的军队！是你的吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--战败- 战斗语音-->
+			<Text>可莉……想回家了……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>好耶！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>过分……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>可莉喜欢和平！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>我要把你们全——都炸完！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>你是好人。等我们和谈了，再一起玩，好吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>你是个好人，所以我也会耐心地等你办完自己的事的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>讨厌你们的军队——什么人都讨厌！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>可莉必须要经过你的边境去一个地方！求求你啦——帮帮可莉吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_SUBTITLE" Language="zh_Hans_CN">
+			<Text>“逃跑的太阳”，西风骑士团火花骑士</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>务必小心可莉的“宝物”——她喜欢使用这些炸弹给敌人制造麻烦。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>作为风与牧歌的国度，蒙德的城市通常靠近丘陵和农业资源。他们专注于种植园和牧场而不是区域的建设，并让开拓者如蒲公英一般飞向远方。有了西风骑士团驻地，他们可以在购买单位时获得折扣，额外的 [ICON_Faith] 信仰值也有助于完成早期军事行动或宗教传播。对可莉领导的蒙德而言，发展未必需要依靠自己建立的城市——如果有其它玩家的城市挡道了，他们就可以送出一个砰砰礼物作为惊喜！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在蒙德的都市传说中，有一名红衣小女孩，拥有着西风骑士团中独一无二的最强“至宝”。在她出现的地方总是伴随着爆炸的火光与灰烬，随后她便消失无踪，无人知晓她的真容。人们甚至猜测，她是西风骑士团真正的最强战力，但对当时的西风骑士团团长而言，她——可莉，却是令人头痛的调皮鬼，不时需要被关进禁闭室反省一番。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>可莉的母亲是蒙德知名的大冒险家，《提瓦特游览指南》的作者，比可莉还要更擅长闯祸的艾莉丝。在可莉心中，妈妈非常厉害，无所不能。从小，她的母亲就手把手教她调配火药、挑选引信，依照个人创意制造更壮观漂亮的烟花……甚至还教她如何配置炸药来炸塌整座摘星崖，有时则是一起被无可奈何的西风骑士训斥。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>艾莉丝还为可莉制作了玩偶嘟嘟可，把它与可莉的幸运四叶草缀在一起，挂在可莉大大的背包上。嘟嘟可是可莉最初的朋友，也是最好的朋友之一。不过，考虑到艾莉丝母女二人的其他作品（比如说蹦蹦炸弹），骑士团相信这个东西也许某个时候也会爆炸！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>继承了母亲的贪玩本性，这位天赋异禀的爆炸狂人对会爆炸的物件投入了极大的热忱，在一场童年时期的爆炸试验中获得了了“神之眼”的认可。旅行者到达提瓦特大陆前3年，可莉的父母将她托付给西风骑士团抚养，并继续他们的冒险旅途。在西风骑士团的保护下，她得以安全地成长。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>虽然骑士团在保护她这一方面取得了可喜的成功，但令西风骑士团大为烦恼的是，他们在保护蒙德的公物这一方面就不那么尽人意了。在可莉的尽情玩闹下，无论是车辆、货棚还是森林和湖泊，都难逃一劫。几乎每周可莉都会惹出类似的事件，然后在骑士们的严厉目光下被送去禁闭室。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>这样的情况总是一次又一次发生，虽然可莉并不是坏孩子，但做事却总是不计后果又慌忙试图弥补，不过几天又把所有规矩抛在脑后。于是，每次她被放出禁闭室，不出两天就又会制造新的爆炸，以至于有时候可莉的破坏能力甚至会让人以为西风骑士只擅长帮倒忙。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>可莉为骑士团和蒙德城招惹了不少乱子，不过一旦她的才能用对地方，也将爆发出可畏的实力。骑士团的讨伐行动中，可莉的爆炸就起到过关键作用——只是她出于一贯不计后果的童心布下了过多炸弹，改变了望风山地的面貌。从那之后，望风山地红衣骑士的传说便流传开来。她的能力使她成为了大名鼎鼎的“火花骑士”，也让骑士们通常都喜欢甚至有些溺爱她（不过即使如此大家都多少对可莉有些敬而远之，否则就容易惹爆炸上身）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>虽然可莉的母亲并不经常陪伴在她身边，但母亲却始终在默默守护着她。时不时地，她会为可莉带来一些意外惊喜，就像有一次扮作“嘟嘟大魔王”邀请旅行者和一众西风骑士前往金苹果群岛冒险一样。小小的可莉早就明白，自己总有一天也会长大并踏上妈妈的道路，总有一天她的作品也会让妈妈为之骄傲。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>位于提瓦特大陆东北部的蒙德，被称为“风与牧歌的城邦”。信奉风神巴巴托斯，是提瓦特大陆上的尘世七国之一，也是游戏中旅行者旅途的起点。群山和广袤的平原间，自由之风携着蒲公英的气息吹拂过果酒湖，为坐落于湖心岛上的蒙德城送去风神巴巴托斯的祝福与恩泽。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在旅行者到达提瓦特大陆的至少3000年前，烈风之魔神迭卡拉庇安就已建立文明。当时蒙德大地均被广袤的冰雪覆盖，人类不得不寻求魔神的庇护。迭卡拉庇安在后来被称为风龙废墟的位置周围建立王都，并在用高耸的风墙环绕。当时的王都的结构整体呈环形，可能分为三层，每层对应的职能不同，正中是一个高大的塔楼，是迭卡拉庇安的宫殿，最外可拓展到后来的风龙废墟南部通路与蒙德-璃月道路的路口。除了南部通路外，西北和东北也有疑似对外通道，说明至少早期旧蒙德与外界有联系。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>迭卡拉庇安为人民设计了生活，似乎所有人民都被事先安排好了各自的位置。他对自己的王城十分满意，在高塔上接受所有追随者的跪拜，浑然不觉在人民的心中他不过是个暴君。直到最后被推翻之前，他都以为众臣爱他，一如他爱他们。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>于是，在旧蒙德成立的400年以后，在风精灵温迪的领导下，吟游诗人、流民、骑士乃至旧统治者的情人以及万千不堪重负的蒙德人们发动起义，处死了迭卡拉庇安和他的统治。温迪成为了成为新的魔神，名为风神“巴巴托斯”。他吹散了蒙德地区的暴风雪，改变了地形使暖流进入，并在果酒湖边建立了新的城市。起义军形成了后来的古恩希尔德家族，和劳伦斯家族等家族共同组成了后来的贵族阶层。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>巴巴托斯成为了尘世七执政之一，同时蒙德的贵族制度也已建立，蒙德地区的魔神战事全部结束。巴巴托斯不愿成为迭卡拉庇安那样的暴君，决定让蒙德成为“自由之地”，教授蒙德人一些生产技能和使用风之翼的飞行能力，将大权交给蒙德民众后离去。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>在巴巴托斯创造的温和气候和蒙德人的开拓下，蒙德快速发展。贵族作为蒙德人心中的榜样受到极大的尊敬和爱戴，在享受人们极高的礼遇时也牢记义务严格自律，贵族与平民的这种和谐塑造了蒙德的文化萌芽。贵族领主与领民一同狩猎，带着猎物归来时贵族将成果与所有领民一同共享，这是领地的重大节日，同时贵族也借此展现力量与慷慨。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>但承平日久，新贵族生活愈发奢靡腐化，贵族基于道德责任的自律也逐渐忘却而视自身为最初即优越于平民的王者，贵族领导下的共治异化为了贵族专制。在贵族内部，劳伦斯家族成为最大家族，是蒙德真正的统治者，其余贵族大多一边效忠劳伦斯家族一边残酷压制平民。尽管仍有部分贵族试图维系着贵族和平民关系的平衡，但腐败的教会和残暴的贵族早已朽烂不堪，最后仍然不可避免地崩塌了。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>贵族统治时代的后期，蒙德的军力早已空虚，内部矛盾重重。在地下组织的活动影响下，越来越多的平民意识到自身的处境，反抗贵族统治之声日起。在角斗士温妮莎十岁那年的羽球节庆典上，巴巴托斯被受压迫蒙德人的祈祷唤醒，他以温迪的名义来到蒙德，对蒙德现状感到震惊。于是，带领着温妮莎，巴巴托斯再次掀起了革命——正如他第一次带领人民发动革命一般。轻车熟路的风神成功将旧贵族驱逐出境。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>贵族统治的时代结束之后，新的组织接替了统治者的位置。为了防止暴政再次出现，温妮莎建立了西风骑士团，并将旧教会重组。象征贵族统治的高塔被推平，重建为风神雕像。人们将革命的功臣尊奉为“四风守护”：东风之龙、南风之狮、北风之狼、西风之鹰。遗憾的是，和平时光再次侵蚀了历史。多年以后，四风守护的信仰逐渐佚失，对应的庙宇也被荒弃。西风骑士团成立后500年，魔龙杜林入侵蒙德，巴巴托斯再次被唤醒并召唤东风之龙特瓦林。在这场大战之中，特瓦林与杜林同归于尽。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>尽管近年来蒙德遭遇了许多事件，也一度陷入困难境地，但在西风骑士团治理蒙德的时光里，风神治下的地区从未屈服于暴政，高唱着自由之歌，欢迎所有远道而来的可敬旅人，以包容的心态面对文化的融合与变迁。蒙德人记录下全国的地情文化、研究丘丘人的语言习俗；酒业的大发展催生了材料各异、种类繁多的酒精以及非酒精饮料；炼金术重新得到了发现，不再仅仅是是拼接物件的把戏；艾莉丝和芭芭拉创立了蒙德的偶像歌手文化，为古典诗琴演奏民谣的蒙德音乐增添独特新旋律。人们在羽球节和风花节开展盛大的庆典，愿蒙德的自由之风吹荡久长。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_FAVONIUS_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>除去侦察骑士等其它下属组织，西风骑士团共有十个小队。其中，第四小队也叫游击小队，由声名显赫的旧贵族后裔“浪花骑士”优菈带领。游击小队经常需要深入蒙德的荒野进行侦察，驻扎在高山深涧中，并紧盯可能出现的敌人或不明的异常现象。无论是应对魔物还是深渊教团，这些斩获过诸多功勋的侦察兵常常是后勤小队或调查小队的情报来源，但也多次作为战斗主力主动进攻，将阴谋扼杀于萌芽状态。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_JUMPY_DUMPTY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>如果有人说可莉是西风骑士团的最强战力，那他一定是见识过蹦蹦炸弹。可莉说蹦蹦炸弹是她带来无限快乐的“好朋友”之一，而它的最大好处自然是会爆炸。毕竟，作为骑士团的火花骑士，可莉绝不是为骑士团拖后腿的见习新人，而是实力可畏的爆破专家……甚至好好“调整”过一番望风山地的地貌。不过也因为经常使用爆炸物闯祸，她常常被关入或自觉进入西风骑士团的禁闭室。也难怪凯亚需要告诫可莉：“放火烧山，可莉完蛋”。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>西风骑士团最初是在1000年前由温妮莎在风神巴巴托斯所创建以推翻当时的贵族专制，之后成为蒙德秩序的制定者和守护者，也同时控制着西风教会。在旅行者来到提瓦特大陆的时代，骑士团的大团长是法尔伽，但他率骑兵队出国远征，长期未归。因此，团内的各项事务便由蒲公英骑士琴代为进行。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>蒙德人对有关于出征在外的骑士团士兵及其驻地的消息知之甚少，但仍能经常见到在蒙德城市内的西风骑士在执行任务。以旧贵族专制时期建立的建筑物（后来的西风骑士团总部）为驻地，留守城内的西风骑士们——特别是第四小队（游击小队）和第六小队（后勤小队）——仍要负责管理并帮助市民以及处理危险情况。</Text>
+		</Row>
+		
+		<!--Nahida time-->
+		<Row Tag="LOC_CIVILIZATION_SUMERU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>须弥帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>须弥的</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME" Language="zh_Hans_CN">
+			<Text>大赤沙海</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_1" Language="zh_Hans_CN">
+			<Text>伊拉杰</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_2" Language="zh_Hans_CN">
+			<Text>拉菲克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_3" Language="zh_Hans_CN">
+			<Text>萨勒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_4" Language="zh_Hans_CN">
+			<Text>沙班达尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_5" Language="zh_Hans_CN">
+			<Text>加扎里</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_6" Language="zh_Hans_CN">
+			<Text>埃尔凡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_7" Language="zh_Hans_CN">
+			<Text>哈坎</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_8" Language="zh_Hans_CN">
+			<Text>马斯鲁尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_9" Language="zh_Hans_CN">
+			<Text>哈勒敦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_10" Language="zh_Hans_CN">
+			<Text>普热瓦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>马姆杜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>拜伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>多加</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>古拉布吉尔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>贾扬特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>凯万</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>阿拉耶什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>罗因贾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>夏姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>扎伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_1" Language="zh_Hans_CN">
+			<Text>妲卡玛忒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_2" Language="zh_Hans_CN">
+			<Text>法尔扎妮</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_3" Language="zh_Hans_CN">
+			<Text>哈尔瓦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_4" Language="zh_Hans_CN">
+			<Text>珀姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_5" Language="zh_Hans_CN">
+			<Text>莲塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_6" Language="zh_Hans_CN">
+			<Text>雅瓦娜尼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_7" Language="zh_Hans_CN">
+			<Text>海娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_8" Language="zh_Hans_CN">
+			<Text>希忒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_9" Language="zh_Hans_CN">
+			<Text>琪娜特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_10" Language="zh_Hans_CN">
+			<Text>卡塔扬</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>艾莉亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>艾拉姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>奇拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>娜泽宁</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>尼卡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>塔拉内</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>莎莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>鲁梅拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>罗莎娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>娜斯米儿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU" Language="zh_Hans_CN">
+			<Text>须弥城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AVIDYA_FOREST" Language="zh_Hans_CN">
+			<Text>道成林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHINVAT_RAVINE" Language="zh_Hans_CN">
+			<Text>离渡谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHA_HILL" Language="zh_Hans_CN">
+			<Text>香醉坡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHARVA" Language="zh_Hans_CN">
+			<Text>化城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAZADAHA_POOL" Language="zh_Hans_CN">
+			<Text>天臂池</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOKAPALA_JUNGLE" Language="zh_Hans_CN">
+			<Text>护世森</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHATRAKAM_CAVE" Language="zh_Hans_CN">
+			<Text>茸蕈窟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAWTIYIMA_FOREST" Language="zh_Hans_CN">
+			<Text>无郁稠林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALCAZARZARAY" Language="zh_Hans_CN">
+			<Text>卡萨扎莱宫</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARDRAVI_VALLEY" Language="zh_Hans_CN">
+			<Text>阿陀河谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEVANTAKA_MOUNTAIN" Language="zh_Hans_CN">
+			<Text>降诸魔山</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_ORMOS" Language="zh_Hans_CN">
+			<Text>奥摩斯港</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIMARA" Language="zh_Hans_CN">
+			<Text>维摩庄</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHAVAN_REALM" Language="zh_Hans_CN">
+			<Text>善见地</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_APAM_WOODS" Language="zh_Hans_CN">
+			<Text>水天丛林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARAVAN_RIBAT" Language="zh_Hans_CN">
+			<Text>喀万驿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARDIS_DHYAI" Language="zh_Hans_CN">
+			<Text>禅那园</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINS_OF_DAHRI" Language="zh_Hans_CN">
+			<Text>荼诃之座</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YASNA_MONUMENT" Language="zh_Hans_CN">
+			<Text>谒颂幽境</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VISSUDHA_FIELD" Language="zh_Hans_CN">
+			<Text>二净甸</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANARANA" Language="zh_Hans_CN">
+			<Text>桓那兰那</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FANE_OF_ASHVATTHA" Language="zh_Hans_CN">
+			<Text>觉王之殿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOST_NURSERY" Language="zh_Hans_CN">
+			<Text>失落苗圃</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOBEK_OASIS" Language="zh_Hans_CN">
+			<Text>丰饶绿洲</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AARU" Language="zh_Hans_CN">
+			<Text>阿如</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABDJU_ROAD" Language="zh_Hans_CN">
+			<Text>舍身步道</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAR_AL_SHIFA" Language="zh_Hans_CN">
+			<Text>活力之家</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYE_OF_THE_SANDS" Language="zh_Hans_CN">
+			<Text>沙之眼</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALLEY_OF_DAHRI" Language="zh_Hans_CN">
+			<Text>荼诃落谷</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_BARRACKS_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兵营提供+15 [ICON_Strength] 战斗力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ARMORY_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兵工厂提供+15 [ICON_Strength] 战斗力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>军事学院提供+15 [ICON_Strength] 战斗力。</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_PROMOTION_RANGER_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_TOOLTIP" Language="zh_Hans_CN">
+			<Text>巡林</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_YIELD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>{1_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_FEATURE_TOOLTIP" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_UNCOOLED_TOOLTIP" Language="zh_Hans_CN">
+			<Text>[NEWLINE]最近已巡林过。在{1_Num}回合以内，无法再次巡林。</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_TECH_UNLOCK_TOOLTIP" Language="zh_Hans_CN">
+			<Text>[NEWLINE]所需科技：{2_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_YIELD_TOOLTIP" Language="zh_Hans_CN">
+			<Text>产出{1_Num} {2_IconStr} {3_Str}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="zh_Hans_CN">
+			<Text>纳西妲，小吉祥草王，森罗万象在您眼中不过是蜃景梦幻，但您之所为必将改变尘世的面貌。您熟知林间生命中蕴藏的力量，您的人民也从中照见了知识和真相。播下心识之种吧，愿世人皆景仰须弥：草木丰茂之地，智慧雄辩之国。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Language="zh_Hans_CN">
+			<Text>智慧之主</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法获得 [ICON_Science] 科技值，喜欢同样专注于 [ICON_Science] 科技的文明。不喜欢 [ICON_SCIENCE] 科技值低的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_SUMERU_LOCATION" Language="zh_Hans_CN">
+			<Text>提瓦特大陆</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_SIZE" Language="zh_Hans_CN">
+			<Text>大约数十平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_POPULATION" Language="zh_Hans_CN">
+			<Text>大约数十万到上百万</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_CAPITAL" Language="zh_Hans_CN">
+			<Text>须弥城</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_SUBTITLE" Language="zh_Hans_CN">
+			<Text>小吉祥草王</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>智慧之神身处幻景宫殿之中，静静解读世界的奥秘。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>须弥人居住在雨林和沙漠之中，以他们无人能敌的 [ICON_Science] 科技值产出为荣。对须弥而言，最重要的是要占据尽量多的雨林单元格，如此他们便可使用巡林员收获大量 [ICON_Production] 生产力和 [ICON_Science] 科技值。教令院更是可以进一步提升他们的科技优势，尤其是在城市人口众多时。使用纳西妲进行游戏时，切记为市中心选择一个合适的位置，以获得额外的产出。有小吉祥草王带领，须弥定能繁荣——并轻取科技胜利。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>纳西妲百科</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>须弥百科</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMERU_FOREST_RANGER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>巡林员百科</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>教令院百科</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_NAHIDA_QUOTE" Language="zh_Hans_CN">
+			<Text>毕竟，我只是“月亮”，而真正的“太阳”早就不在了吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--被谴责 - 来自某位神明的凝视-->
+			<Text>即便是没有月亮的夜晚，一众星光亦足以刺破虚幻与谎言。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家 - 空幻回响的花神诞祭-->
+			<Text>不论你是为了什么目的才这样做，都是无法原谅的。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--初次见面 - -->
+			<!--NOT FINAL RESULT!-->
+			<Text>很高兴与您相见。其实我已观察您有一段时间了。我叫纳西妲。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>很好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<!--NOT FINAL RESULT!-->
+			<Text>那么，我们来交换知识吧？我想知道关于您的首都的情况，而我会告诉您我的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟 - Civ6 generic-->
+			<Text>您想结为盟友吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--NOT FINAL RESULT!-->
+			<Text>令人佩服的求学精神啊，真了不起。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--NOT FINAL RESULT!-->
+			<Text>我们无法预见未来的所有可能，要获得知识就只能依靠笨拙的试错。把这种痛苦视作必要的学费吧。</Text>
+		</Row>
+
+		<!--<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--同意声明友谊--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--拒绝声明友谊--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--请求声明友谊--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--请求声明友谊被接受--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--请求声明友谊被拒绝--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--被宣战 - --><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--主动宣战 - --><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--接受使节派遣 - --><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--拒绝使节派遣 - --><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--请求派遣使节 - --><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--初次见面，提供最近城市位置--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - --><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--要求移开边境军队--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--战败--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--同意交易--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--拒绝交易--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是同意求和，但从未被使用过--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是拒绝求和，但从未被使用过--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是求和，但从未被使用过--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是同意开放边界，但从未被使用过--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是拒绝开放边界，但从未被使用过--><!--
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			--><!--理论上是请求开放边界，但从未被使用过--><!--
+			<Text></Text>
+		</Row>-->
+	</LocalizedText>
+
+</GameData>

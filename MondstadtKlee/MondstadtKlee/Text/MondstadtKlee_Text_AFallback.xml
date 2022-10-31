@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="en_US">
+			<Text>Mondstadt Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="en_US">
+			<Text>Mondstadt</Text>
+		</Row>
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_1" Language="en_US">
+			<Text>Otto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_2" Language="en_US">
+			<Text>Albert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_3" Language="en_US">
+			<Text>Rudolf</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_4" Language="en_US">
+			<Text>Wood</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_5" Language="en_US">
+			<Text>Athos</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_6" Language="en_US">
+			<Text>Payne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_7" Language="en_US">
+			<Text>Jack</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_8" Language="en_US">
+			<Text>Charles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_9" Language="en_US">
+			<Text>Anthony</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_10" Language="en_US">
+			<Text>Miles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_1" Language="en_US">
+			<Text>Aramis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_2" Language="en_US">
+			<Text>Monroe</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_3" Language="en_US">
+			<Text>Wyratt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_4" Language="en_US">
+			<Text>Porthos</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_5" Language="en_US">
+			<Text>Quinn</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_6" Language="en_US">
+			<Text>Nelson</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_7" Language="en_US">
+			<Text>Cyrus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_8" Language="en_US">
+			<Text>Bruce</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_9" Language="en_US">
+			<Text>Huffman</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_10" Language="en_US">
+			<Text>Schulz</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_1" Language="en_US">
+			<Text>Jilliana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_2" Language="en_US">
+			<Text>Vile</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_3" Language="en_US">
+			<Text>Victoria</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_4" Language="en_US">
+			<Text>Nora</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_5" Language="en_US">
+			<Text>Ellin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_6" Language="en_US">
+			<Text>Beatrice</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_7" Language="en_US">
+			<Text>Donna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_8" Language="en_US">
+			<Text>Flora</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_9" Language="en_US">
+			<Text>Hertha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_10" Language="en_US">
+			<Text>Marjorie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_1" Language="en_US">
+			<Text>Grace</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_2" Language="en_US">
+			<Text>Lily</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_3" Language="en_US">
+			<Text>Susie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_4" Language="en_US">
+			<Text>Ella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_5" Language="en_US">
+			<Text>Anna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_6" Language="en_US">
+			<Text>Blanche</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_7" Language="en_US">
+			<Text>Eury</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_8" Language="en_US">
+			<Text>Helen</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_9" Language="en_US">
+			<Text>Margaret</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_10" Language="en_US">
+			<Text>Sara</Text>
+		</Row>
+
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_MONDSTADT" Language="en_US">
+			<Text>Mondstadt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="en_US">
+			<Text>Starfell Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="en_US">
+			<Text>Starsnatch Cliff</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="en_US">
+			<Text>Whispering Woods</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="en_US">
+			<Text>Midsummer Courtyard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="en_US">
+			<Text>Stormbearer Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="en_US">
+			<Text>Thousand Winds Temple</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GALESONG_HILL" Language="en_US">
+			<Text>Galesong Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINDRISE" Language="en_US">
+			<Text>Windrise</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAPE_OATH" Language="en_US">
+			<Text>Cape Oath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="en_US">
+			<Text>Dadaupa Gorge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FALCON_COAST" Language="en_US">
+			<Text>Falcon Coast</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="en_US">
+			<Text>Windwail Highland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAWN" Language="en_US">
+			<Text>Dawn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="en_US">
+			<Text>Valley of Remembrance</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPRINGVALE" Language="en_US">
+			<Text>Springvale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="en_US">
+			<Text>Forsaken Rift</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOLVENDOM" Language="en_US">
+			<Text>Wolvendom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CECILIA" Language="en_US">
+			<Text>Cecilia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="en_US">
+			<Text>Brightcrown Canyon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="en_US">
+			<Text>Stormterror's Lair</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="en_US">
+			<Text>Entombed City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="en_US">
+			<Text>Skyfrost Nail</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="en_US">
+			<Text>Vindagnyr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="en_US">
+			<Text>Snow-Covered Path</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="en_US">
+			<Text>Starglow Cavern</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="en_US">
+			<Text>Wyrmrest Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUSK" Language="en_US">
+			<Text>Musk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="en_US">
+			<Text>Nameless Island</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="en_US">
+			<Text>Dornman Port</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_MONDSTADT_LOCATION" Language="en_US">
+			<Text>Teyvat</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_SIZE" Language="en_US">
+			<Text>Tens of square kilometers</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_POPULATION" Language="en_US">
+			<Text>Tens of thousands to millions or so</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_CAPITAL" Language="en_US">
+			<Text>City of Mondstadt</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_KLEE" Language="en_US">
+			<Text>All your enemies go up in flames when you appear, Klee. Your are the Spark Knight, with explosions and flashes being your best friends and unparalleled treasures. Play the world with your fellow Knights of Favonius, and spread idylls to freedom to the whole world. If you can do so, people will praise you as the strongest of Mondstadt!</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_LAKE_CIDER_LAKE_NAME" Language="en_US">
+			<Text>Cider Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_STARFELL_LAKE_NAME" Language="en_US">
+			<Text>Starfell Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME" Language="en_US">
+			<Text>Brightcrown Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME" Language="en_US">
+			<Text>Stormbearer Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME" Language="en_US">
+			<Text>Dragonspine</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_NAME" Language="en_US">
+			<Text>Fish Blasting Carnival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_SHORT_NAME" Language="en_US">
+			<Text>Fish Blasting Carnival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_DESCRIPTION" Language="en_US">
+			<Text>Adds one Pounding Surprise, a weapon of mass destruction that destroy only buildings and units with a blast radius of 1 and doesn't produce radioactive fallout, to your nation's inventory upon completion. Requires [ICON_Resource_Niter] Niter. Maintenance is 8 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!--Pounding Surprise-->
+		<Row Tag="LOC_WMD_JUMPY_DUMPTY_NAME" Language="en_US">
+			<Text>Pounding Surprise</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_NAME" Language="en_US">
+			<Text>Sparks 'n' Splash</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="en_US">
+			<Text>Favonius Bladework - Edel</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>-100% flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KLEE_QUOTE" Language="en_US">
+			<Text>"Explosion inside city wall, grounded be thy woe," "Explosions can hurt people, Jean can be dreadful," "Mondstadt be bombed, Klee be doomed." Those're the survival rules that the Knights of Favonius gave me.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_NAME" Language="en_US">
+			<Text>Fleeing Sunlight</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_DESCRIPTION" Language="en_US">
+			<Text>Has no hesitation to use nuclear weapons. Respects other civilizations that project strength with nuclear weapons.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Hey, you're not scared of my bombs right? Tee-hee, I knew it! That's why you're my bestest friend ever!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE" Language="en_US">
+			<Text>Klee is pleased you love big explosions</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KLEE_ANY" Language="en_US">
+			<Text>If you ever wanna learn how to make a bomb, I can teach you y'know.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_LOW_NUKE_LOVE" Language="en_US">
+			<Text>Klee is disappointed you dare not to use nuclear weapons</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You're now my friend! Let's stay up to watch the circus' special midnight performance!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>If I accepted your friendship, Jean would make sure Klee never sees the light of day again. That's what Jean said, Kaeya told me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You are the best! Please make friend and come play with me!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Let us play today, pleeeease? I wanna go on an adventure!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Klee is not a baby! Please take me out to play together!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You wanted Klee to come find you, so here Klee comes! Jumpy Dumpties, get ready!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Hmm, I need to bring Jumpy Dumpties, Dodoco, and... myself! I'm gonna catch you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I'm so happy! Thank you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I hate, hate, hate your delegation! I wanna go out and play!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Our delegation brings you a present - barbecued fish, made with my own secret recipe! ...Okay, so the secret recipe is exploding the fish out of the water.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>If you find some bombs near any fires, they're not mine. Definitely. Not. Mine.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You are a very bad, bad, bad guy! (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Spark Knight Klee of the Knights of Favonius! ...There's some more, but uh, I forgot. I'm not so good at remembering...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Do you wanna come to our city nearby and blast some fish with me? I'll get grounded for a whole day, but it's way worth it coz the fish taste sooo goood!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Yea! Let's go on a big adventure!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Mom writes the Teyvat Travel Guide, so all the restaurants and hotels in the whole world care what she thinks about them. But even she has never heard of your capital! So I have to know about it!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Hello, are you here for playtime with Klee?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Klee was a brave girl today! I found some really weird-looking troops at our border! Are they yours?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I wanna go home now...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Yea!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>No fair!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Ah, I just love it when peace comes round!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I will blow you aaaalll up!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You're a good person. Once we make peace, we can go play together again, okay?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You are really nice, so I don't mind waiting until you are finished with your work.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I hate, hate, hate your troops! All of them!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I need to cross through your territory go a certain place! Please please help me!</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_SUBTITLE" Language="en_US">
+			<Text>"Fleeing Sunlight", Spark Knight of the Knights of Favonius</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Beware of Klee's "treasures" - she loves using these bombs to bring troubles to her enemies</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>As a nation of winds and idylls, most cities of Mondstadt are near hills and agricultural resources. They focus on construction of Plantations and Pastures instead of Districts, and let their Settlers fly far away like dandelions. They have discounts when purchasing units and extra [ICON_Faith] Faith to help early-game military operations or religious spreading with Favonius Strongholds. For Mondstadt led by Klee, development does not rely solely on cities they built theirselves - If a city of another player gets in their way, they can send a Pounding Surprise to it!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_FAVONIUS_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_JUMPY_DUMPTY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		
+		<!--Nahida time-->
+		<Row Tag="LOC_CIVILIZATION_SUMERU_DESCRIPTION" Language="en_US">
+			<Text>Sumeru Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_ADJECTIVE" Language="en_US">
+			<Text>Sumeru</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME" Language="en_US">
+			<Text>Great Red Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_1" Language="en_US">
+			<Text>Iradj</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_2" Language="en_US">
+			<Text>Rafiq</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_3" Language="en_US">
+			<Text>Sal</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_4" Language="en_US">
+			<Text>Shahbandar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_5" Language="en_US">
+			<Text>Jazari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_6" Language="en_US">
+			<Text>Erfan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_7" Language="en_US">
+			<Text>Hakan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_8" Language="en_US">
+			<Text>Masrur</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_9" Language="en_US">
+			<Text>Khaldun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_10" Language="en_US">
+			<Text>Przheva</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_1" Language="en_US">
+			<Text>Mamdouh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_2" Language="en_US">
+			<Text>Bhai</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_3" Language="en_US">
+			<Text>Durgar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_4" Language="en_US">
+			<Text>Gulabgir</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_5" Language="en_US">
+			<Text>Jayant</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_6" Language="en_US">
+			<Text>Kayvan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_7" Language="en_US">
+			<Text>Arayesh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_8" Language="en_US">
+			<Text>Royinjan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_9" Language="en_US">
+			<Text>Shyam</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_10" Language="en_US">
+			<Text>Zai</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_1" Language="en_US">
+			<Text>Dwarkanath</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_2" Language="en_US">
+			<Text>Farzaneh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_3" Language="en_US">
+			<Text>Halva</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_4" Language="en_US">
+			<Text>Pam</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_5" Language="en_US">
+			<Text>Lemta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_6" Language="en_US">
+			<Text>Yavanani</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_7" Language="en_US">
+			<Text>Hana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_8" Language="en_US">
+			<Text>Sitt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_9" Language="en_US">
+			<Text>Zinat</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_10" Language="en_US">
+			<Text>Katayoun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_1" Language="en_US">
+			<Text>Arya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_2" Language="en_US">
+			<Text>Elham</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_3" Language="en_US">
+			<Text>Kira</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_4" Language="en_US">
+			<Text>Nazenin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_5" Language="en_US">
+			<Text>Nika</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_6" Language="en_US">
+			<Text>Taraneh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_7" Language="en_US">
+			<Text>Sareh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_8" Language="en_US">
+			<Text>Loumelat</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_9" Language="en_US">
+			<Text>Roshana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_10" Language="en_US">
+			<Text>Nesmil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU" Language="en_US">
+			<Text>Sumeru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AVIDYA_FOREST" Language="en_US">
+			<Text>Avidya Forest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHINVAT_RAVINE" Language="en_US">
+			<Text>Chinvat Ravine</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHA_HILL" Language="en_US">
+			<Text>Gandha Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHARVA" Language="en_US">
+			<Text>Gandharva</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAZADAHA_POOL" Language="en_US">
+			<Text>Yazadaha Pool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOKAPALA_JUNGLE" Language="en_US">
+			<Text>Lokapala Jungle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHATRAKAM_CAVE" Language="en_US">
+			<Text>Chatrakam Cave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAWTIYIMA_FOREST" Language="en_US">
+			<Text>Mawtiyima Forest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALCAZARZARAY" Language="en_US">
+			<Text>Alcazarzaray</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARDRAVI_VALLEY" Language="en_US">
+			<Text>Ardravi Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEVANTAKA_MOUNTAIN" Language="en_US">
+			<Text>Devantaka Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_ORMOS" Language="en_US">
+			<Text>Port Ormos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIMARA" Language="en_US">
+			<Text>Vimara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHAVAN_REALM" Language="en_US">
+			<Text>Ashavan Realm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_APAM_WOODS" Language="en_US">
+			<Text>Apam Woods</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARAVAN_RIBAT" Language="en_US">
+			<Text>Caravan Ribat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARDIS_DHYAI" Language="en_US">
+			<Text>Pardis Dhyai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINS_OF_DAHRI" Language="en_US">
+			<Text>Ruins of Dahri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YASNA_MONUMENT" Language="en_US">
+			<Text>Yasna Monument</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VISSUDHA_FIELD" Language="en_US">
+			<Text>Vissudha Field</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANARANA" Language="en_US">
+			<Text>Vanarana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FANE_OF_ASHVATTHA" Language="en_US">
+			<Text>Fane of Ashvattha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOST_NURSERY" Language="en_US">
+			<Text>Lost Nursery</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOBEK_OASIS" Language="en_US">
+			<Text>Sobek Oasis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AARU" Language="en_US">
+			<Text>Aaru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABDJU_ROAD" Language="en_US">
+			<Text>Abdju Road</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAR_AL_SHIFA" Language="en_US">
+			<Text>Dar al-Shifa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYE_OF_THE_SANDS" Language="en_US">
+			<Text>Eye of the Sands</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALLEY_OF_DAHRI" Language="en_US">
+			<Text>Valley of Dahri</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_BARRACKS_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Barracks.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ARMORY_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Armory.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Military Academy.</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="en_US">
+			<Text>{LOC_PROMOTION_RANGER_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_TOOLTIP" Language="en_US">
+			<Text>Patrol</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_YIELD_TOOLTIP" Language="en_US">
+			<Text>{1_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_FEATURE_TOOLTIP" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_UNCOOLED_TOOLTIP" Language="en_US">
+			<Text>[NEWLINE]Recently patrolled. Cannot be patrolled again for another {1_Num} turns.</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_TECH_UNLOCK_TOOLTIP" Language="en_US">
+			<Text>[NEWLINE]Requires Technology: {2_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_YIELD_TOOLTIP" Language="en_US">
+			<Text>Yields {1_Num} {2_IconStr} {3_Str}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="en_US">
+			<Text>Nahida, Lesser Lord Kusanali, all that dwell under the bowers of trees are naught but a fleeting mirage in your eyes, but your actions will surely change the face of this mortal world. You are familiar with the power inside lives in forests, and your people saw knowledge and truth there. Plant seeds of understanding, and may people around the world admire Sumeru as a land of grasses and woods, a nation of wisdom and eloquence.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Language="en_US">
+			<Text>Sapientia Oromasdis</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION" Language="en_US">
+			<Text>Tries to build up [ICON_Science] Science, and likes civilizations that also focus on [ICON_Science] Science. Dislikes those with low [ICON_SCIENCE] Science.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_SUMERU_LOCATION" Language="en_US">
+			<Text>Teyvat</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_SIZE" Language="en_US">
+			<Text>Tens of square kilometers</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_POPULATION" Language="en_US">
+			<Text>Tens of thousands to millions or so</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_CAPITAL" Language="en_US">
+			<Text>City of Sumeru</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_SUBTITLE" Language="en_US">
+			<Text>Lesser Lord Kusanali</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>The God of Wisdom lives in her palace of illusion, deciphering mysteries of the world in serenity.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Sumeru people reside in rainforests and deserts, being proud of their unparalleled [ICON_Science] Science output. For Sumeru, the first thing of all is to occupy as many Rainforest tiles as possible, so that they can use Forest Rangers to harvest a large amount of [ICON_Production] Production and [ICON_Science] Science. The Akademiya district can push their technological advantages even further, especially when their cities are populous. When playing as Nahida, remember to choose a good location for your city centers to gain additional yields. With the leadership of Lesser Lord Kusanali, Sumeru will surely prosper - and a Science Victory is in their reach.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMERU_FOREST_RANGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_NAHIDA_QUOTE" Language="en_US">
+			<Text>In the end, I'm just the Moon. The real Sun is long gone.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Even in a moonless night, a shower of starlight can still drown out illusions and lies.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>No matter what you're trying to do, this is unforgivable. (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Nice to meet you! Hehe, I've actually been watching you for a long time already. My name's Nahida.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Good.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>So... can we trade knowledge? I want to hear all about your capital, and I will tell mine in return.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NAHIDA_ANY" Language="en_US">
+			<!--NOT FINAL RESULT!-->
+			<Text>What an admirable spirit for learning. Amazing!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>We have no way of seeing all the possibilities that lie ahead in the future, so we have to rely on clumsy trial-and-error to gain knowledge. Just think of pain as the tuition you have to pay.</Text>
+		</Row>
+
+		<!--<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text></Text>
+		</Row>-->
+	</LocalizedText>
+</GameData>

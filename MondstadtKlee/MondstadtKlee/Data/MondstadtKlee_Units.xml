@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--For Forest Ranger-->
+	<GlobalParameters>
+		<Row Name="SUMERU_RANGER_COOLDOWN_TURN" Value="40"/>
+
+	</GlobalParameters>
+	<Types>
+		<Row Type="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MONDSTADT_JUMPY_DUMPTY" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_MONDSTADT_FAVONIUS_KNIGHT" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_SUMERU_FOREST_RANGER" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_MONDSTADT_FAVONIUS_KNIGHT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MONDSTADT_JUMPY_DUMPTY" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SUMERU_FOREST_RANGER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" AiType="UNITTYPE_NUCLEAR"/>
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Tag="CLASS_MONDSTADT_FAVONIUS_KNIGHT"/>
+		<Row Type="UNIT_MONDSTADT_JUMPY_DUMPTY" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_MONDSTADT_JUMPY_DUMPTY" Tag="CLASS_MONDSTADT_JUMPY_DUMPTY"/>
+		<Row Type="ABILITY_MONDSTADT_FAVONIUS_KNIGHT" Tag="CLASS_MONDSTADT_FAVONIUS_KNIGHT"/>
+		<Row Type="ABILITY_BYPASS_WALLS" Tag="CLASS_MONDSTADT_JUMPY_DUMPTY"/>
+		<Row Type="UNIT_SUMERU_FOREST_RANGER" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SUMERU_FOREST_RANGER" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_NIHANG_BARRACKS_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_NIHANG_ARMORY_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_NIHANG_ACADEMY_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MONDSTADT_FAVONIUS_KNIGHT" Name="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_NAME" Description="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY" Name="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_NAME" Description="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
+	</UnitReplaces>
+	<Units>
+		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Cost="160" Maintenance="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="53" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_NAME" Description="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_MONDSTADT_FAVONIUS_KNIGHT" PrereqTech="TECH_APPRENTICESHIP"/>
+		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" Cost="280" Maintenance="4" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_NAME" Description="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_DESCRIPTION" TraitType="TRAIT_LEADER_UNIT_MONDSTADT_JUMPY_DUMPTY" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_GUNPOWDER" WMDCapable="true" StrategicResource="RESOURCE_NITER" />
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" Cost="150" Combat="25" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_SUMERU_FOREST_RANGER_NAME" Description="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="15" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_FOREST_RANGER"/>
+	</Units>
+	<Units_MODE>
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER"	ActionCharges="5"/>
+	</Units_MODE>
+	<TypeProperties>
+		<Row Type="UNIT_SUMERU_FOREST_RANGER"	Name="CAN_TELEPORT_TO_CITY" Value="true"/>
+	</TypeProperties>
+	<UnitUpgrades>
+		<Row Unit="UNIT_MONDSTADT_FAVONIUS_KNIGHT" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_MONDSTADT_FAVONIUS_KNIGHT</UnitAbilityType>
+			<ModifierId>FAVONIUS_KNIGHT_LESS_FLANKING_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</UnitAbilityType>
+			<ModifierId>RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>FAVONIUS_KNIGHT_LESS_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>FAVONIUS_KNIGHT_LESS_FLANKING_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>-100</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ModifierStrings>
+	</ModifierStrings>
+
+	<BuildingModifiers>
+		<InsertOrIgnore BuildingType="BUILDING_BARRACKS" ModifierId="LAHORE_NIHANG_BARRACKS_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_ARMORY" ModifierId="LAHORE_NIHANG_ARMORY_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_MILITARY_ACADEMY" ModifierId="LAHORE_NIHANG_ACADEMY_ABILITY"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>LAHORE_NIHANG_BARRACKS_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>LAHORE_NIHANG_ARMORY_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>LAHORE_NIHANG_ACADEMY_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>LAHORE_NIHANG_BARRACKS_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_NIHANG_BARRACKS_STRENGTH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>LAHORE_NIHANG_ARMORY_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_NIHANG_ARMORY_STRENGTH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>LAHORE_NIHANG_ACADEMY_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_NIHANG_ACADEMY_STRENGTH</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+	<Types>
+		<InsertOrIgnore Type="ABILITY_NIHANG_BARRACKS_STRENGTH" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="ABILITY_NIHANG_ARMORY_STRENGTH" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="ABILITY_NIHANG_ACADEMY_STRENGTH" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<InsertOrIgnore UnitAbilityType="ABILITY_NIHANG_BARRACKS_STRENGTH" Name="LOC_ABILITY_NIHANG_BARRACKS_STRENGTH_NAME" Description="LOC_ABILITY_NIHANG_BARRACKS_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_NIHANG_ARMORY_STRENGTH" Name="LOC_ABILITY_NIHANG_ARMORY_STRENGTH_NAME" Description="LOC_ABILITY_NIHANG_ARMORY_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_NIHANG_ACADEMY_STRENGTH" Name="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_NAME" Description="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_NIHANG_BARRACKS_STRENGTH</UnitAbilityType>
+			<ModifierId>NIHANG_BARRACKS_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_NIHANG_ARMORY_STRENGTH</UnitAbilityType>
+			<ModifierId>NIHANG_ARMORY_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_NIHANG_ACADEMY_STRENGTH</UnitAbilityType>
+			<ModifierId>NIHANG_ACADEMY_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>NIHANG_BARRACKS_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>NIHANG_ARMORY_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>NIHANG_ACADEMY_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>NIHANG_BARRACKS_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>NIHANG_ARMORY_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>NIHANG_ACADEMY_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+
+
+</GameData>

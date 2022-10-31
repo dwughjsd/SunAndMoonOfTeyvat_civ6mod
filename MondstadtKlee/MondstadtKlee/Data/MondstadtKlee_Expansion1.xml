@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_FAVONIUS_STRONGHOLD" Texture="Moment_Infrastructure_Mondstadt"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Texture="Moment_UniqueUnit_Mondstadt_FavoniusKnight"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MONDSTADT_JUMPY_DUMPTY" Texture="Moment_UniqueUnit_Mondstadt_JumptyDumpty"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_AKADEMIYA" Texture="Moment_Infrastructure_Sumeru"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SUMERU_FOREST_RANGER" Texture="Moment_UniqueUnit_Sumeru_ForestRanger"/>
+	</MomentIllustrations>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldChangeId="Government_Faith"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Government_Science"/>
+	</District_Adjacencies>
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

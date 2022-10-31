@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d7b995ea-e5f6-4dd5-bc4b-2d1da05075c2" version="1">
+  <Properties>
+    <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
+    <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
+    <Created>1667214223</Created>
+    <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
+    <Authors>Shimamura et al.</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_KLEE_MONDSTADT_MOD_TITLE">
+      <en_US>Sun and Moon of Teyvat Pack</en_US>
+      <zh_Hans_CN>提瓦特的日月包</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_KLEE_MONDSTADT_MOD_TEASER">
+      <en_US>New Civilization and Leader - Klee of Mondstadt and Nahida of Sumeru</en_US>
+      <zh_Hans_CN>新文明和领袖——蒙德的可莉和须弥的纳西妲</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_KLEE_MONDSTADT_MOD_DESCRIPTION">
+      <en_US>Contains two new civilizations and leaders.</en_US>
+      <zh_Hans_CN>包含2个新文明和领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="MondstadtKlee">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_KLEE,StandardPlayers::LEADER_KLEE,Players:Expansion1_Players::LEADER_KLEE,Players:Expansion2_Players::LEADER_KLEE,Players:StandardPlayers::LEADER_NAHIDA,StandardPlayers::LEADER_NAHIDA,Players:Expansion1_Players::LEADER_NAHIDA,Players:Expansion2_Players::LEADER_NAHIDA</LeaderPlayable>
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="MondstadtKlee_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_KLEE,Players:Expansion1_Players::LEADER_NAHIDA</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="MondstadtKlee_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_KLEE,Players:Expansion2_Players::LEADER_NAHIDA</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="SecretSocieties">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="GameplayConfig">
+      <File>Data/MondstadtKlee_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="TextConfig">
+      <File>Text/MondstadtKlee_ConfigText_Translation.xml</File>
+      <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
+    </UpdateText>
+    <UpdateIcons id="IconsConfig">
+      <File>Data/MondstadtKlee_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateColors id="ColorsConfig">
+      <File>Data/MondstadtKlee_Colors.xml</File>
+    </UpdateColors>
+    <UpdateArt id="ArtConfig">
+      <File>MondstadtKlee.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>Data/MondstadtKlee_Leaders.xml</File>
+      <File>Data/MondstadtKlee_Civilizations.xml</File>
+      <File>Data/MondstadtKlee_Districts.xml</File>
+      <File>Data/MondstadtKlee_Units.xml</File>
+      <File>Data/MondstadtKlee_Projects.xml</File>
+      <File>Data/MondstadtKlee_WMDs.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>Text/MondstadtKlee_ConfigText_Translation.xml</File>
+      <File>Text/MondstadtKlee_Text_Translation.xml</File>
+      <File>Text/MondstadtKlee_Text_AFallback.xml</File>
+      <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
+    </UpdateText>
+    <UpdateArt id="Art">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>MondstadtKlee.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Colors">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>Data/MondstadtKlee_Colors.xml</File>
+    </UpdateColors>
+    <UpdateIcons id="Icons">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>Data/MondstadtKlee_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="Expansion2">
+      <Criteria>MondstadtKlee_Expansion2</Criteria>
+      <File>Data/MondstadtKlee_Expansion2.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_SecretSocieties">
+      <Criteria>SecretSocieties</Criteria>
+      <File>Data/MondstadtKlee_Ethiopia.xml</File>
+    </UpdateDatabase>
+    <AddUserInterfaces id="UI">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <Criteria>MondstadtKlee</Criteria>
+      <File>UI/Addition/TopPanelJumpyDumpty.xml</File>
+      <File>UI/Addition/MondstadtKlee_RangerUI.xml</File>
+    </AddUserInterfaces>
+    <UpdateAudio id="Audio">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>Platforms/Windows/Audio/KleeBanks.ini</File>
+    </UpdateAudio>
+    <AddGameplayScripts id="Scripts">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>Scripts/MondstadtKlee_RangerGameplay.lua</File>
+    </AddGameplayScripts>
+    <ReplaceUIScript id="ReplaceUI_SelectedUnit">
+      <Properties>
+        <LuaContext>SelectedUnit</LuaContext>
+        <LuaReplace>UI/Replacements/SelectedUnit_MondstadtKlee.lua</LuaReplace>
+        <LoadOrder>150001</LoadOrder>
+      </Properties>
+    </ReplaceUIScript>
+    <ImportFiles id="ImportFiles_SelectedUnit">
+      <Properties>
+        <LoadOrder>150001</LoadOrder>
+      </Properties>
+      <File>UI/Replacements/SelectedUnit_MondstadtKlee.lua</File>
+    </ImportFiles>
+    <UpdateDatabase id="Expansion1">
+      <Criteria>MondstadtKlee_Expansion1</Criteria>
+      <File>Data/MondstadtKlee_Expansion1.xml</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/MondstadtKlee_Civilizations.xml</File>
+    <File>Data/MondstadtKlee_Colors.xml</File>
+    <File>Data/MondstadtKlee_Config.xml</File>
+    <File>Data/MondstadtKlee_Districts.xml</File>
+    <File>Data/MondstadtKlee_Ethiopia.xml</File>
+    <File>Data/MondstadtKlee_Expansion1.xml</File>
+    <File>Data/MondstadtKlee_Expansion2.xml</File>
+    <File>Data/MondstadtKlee_Icons.xml</File>
+    <File>Data/MondstadtKlee_Leaders.xml</File>
+    <File>Data/MondstadtKlee_Projects.xml</File>
+    <File>Data/MondstadtKlee_Units.xml</File>
+    <File>Data/MondstadtKlee_WMDs.xml</File>
+    <File>MondstadtKlee.dep</File>
+    <File>Platforms/Windows/Audio/147373166.wem</File>
+    <File>Platforms/Windows/Audio/222400468.wem</File>
+    <File>Platforms/Windows/Audio/23177848.wem</File>
+    <File>Platforms/Windows/Audio/244580365.wem</File>
+    <File>Platforms/Windows/Audio/440185306.wem</File>
+    <File>Platforms/Windows/Audio/637053650.wem</File>
+    <File>Platforms/Windows/Audio/729003882.wem</File>
+    <File>Platforms/Windows/Audio/853640003.wem</File>
+    <File>Platforms/Windows/Audio/862482301.wem</File>
+    <File>Platforms/Windows/Audio/86738637.wem</File>
+    <File>Platforms/Windows/Audio/965003625.wem</File>
+    <File>Platforms/Windows/Audio/KleeBanks.ini</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.txt</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Music_Bank.xml</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Speech.bnk</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Speech.txt</File>
+    <File>Platforms/Windows/Audio/Mondstadt_Speech.xml</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Mondstadt</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Sumeru</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Mondstadt</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Sumeru</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
+    <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+    <File>Scripts/MondstadtKlee_RangerGameplay.lua</File>
+    <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
+    <File>Text/MondstadtKlee_ConfigText_Translation.xml</File>
+    <File>Text/MondstadtKlee_Text_AFallback.xml</File>
+    <File>Text/MondstadtKlee_Text_Translation.xml</File>
+    <File>UI/Addition/MondstadtKlee_RangerUI.lua</File>
+    <File>UI/Addition/MondstadtKlee_RangerUI.xml</File>
+    <File>UI/Addition/TopPanelJumpyDumpty.lua</File>
+    <File>UI/Addition/TopPanelJumpyDumpty.xml</File>
+    <File>UI/Replacements/SelectedUnit_MondstadtKlee.lua</File>
+  </Files>
+</Mod>

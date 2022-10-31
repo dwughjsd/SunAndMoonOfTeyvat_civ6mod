@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="LeaderKlee32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_KLEE"/>
+		<Row Filename="LeaderKlee256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_KLEE"/>
+
+		<Row Filename="LeaderNahida32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_NAHIDA"/>
+		<Row Filename="LeaderNahida256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_NAHIDA"/>
+
+		<Row Filename="Mondstadt256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_MONDSTADT"/>
+		<Row Filename="Mondstadt22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_MONDSTADT"/>
+
+		<Row Filename="Sumeru256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_SUMERU"/>
+		<Row Filename="Sumeru22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_SUMERU"/>
+
+		<Row Filename="Favonius256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_FAVONIUS_KNIGHT"/>
+		<Row Filename="Favonius80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_FAVONIUS_KNIGHT"/>
+		<Row Filename="Favonius50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_FAVONIUS_KNIGHT"/>
+		<Row Filename="Favonius38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_FAVONIUS_KNIGHT"/>
+		<Row Filename="Favonius32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_FAVONIUS_KNIGHT"/>
+		<Row Filename="Favonius22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_FAVONIUS_KNIGHT"/>
+
+		<Row Filename="JumpyDumpty256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_JUMPY_DUMPTY"/>
+		<Row Filename="JumpyDumpty80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_JUMPY_DUMPTY"/>
+		<Row Filename="JumpyDumpty50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_JUMPY_DUMPTY"/>
+		<Row Filename="JumpyDumpty38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_JUMPY_DUMPTY"/>
+		<Row Filename="JumpyDumpty32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_JUMPY_DUMPTY"/>
+		<Row Filename="JumpyDumpty22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_JUMPY_DUMPTY"/>
+
+		<Row Filename="FavoniusPortrait256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT"/>
+		<Row Filename="FavoniusPortrait200" IconsPerColumn="1" IconsPerRow="1" IconSize="200" Name="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT"/>
+		<Row Filename="FavoniusPortrait95" IconsPerColumn="1" IconsPerRow="1" IconSize="95" Name="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT"/>
+		<Row Filename="FavoniusPortrait70" IconsPerColumn="1" IconsPerRow="1" IconSize="70" Name="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT"/>
+		<Row Filename="FavoniusPortrait50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT"/>
+		<Row Filename="FavoniusPortrait38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT"/>
+		
+		<Row Filename="JumpyDumptyPortrait256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT"/>
+		<Row Filename="JumpyDumptyPortrait200" IconsPerColumn="1" IconsPerRow="1" IconSize="200" Name="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT"/>
+		<Row Filename="JumpyDumptyPortrait95" IconsPerColumn="1" IconsPerRow="1" IconSize="95" Name="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT"/>
+		<Row Filename="JumpyDumptyPortrait70" IconsPerColumn="1" IconsPerRow="1" IconSize="70" Name="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT"/>
+		<Row Filename="JumpyDumptyPortrait50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT"/>
+		<Row Filename="JumpyDumptyPortrait38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT"/>
+
+		<Row Filename="ForestRanger256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_FOREST_RANGER"/>
+		<Row Filename="ForestRanger80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_FOREST_RANGER"/>
+		<Row Filename="ForestRanger50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_FOREST_RANGER"/>
+		<Row Filename="ForestRanger38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_FOREST_RANGER"/>
+		<Row Filename="ForestRanger32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_FOREST_RANGER"/>
+		<Row Filename="ForestRanger22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_FOREST_RANGER"/>
+		<Row Filename="ForestRangerPortrait256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_FOREST_RANGER_PORTRAIT"/>
+		<Row Filename="ForestRangerPortrait200" IconsPerColumn="1" IconsPerRow="1" IconSize="200" Name="ICON_ATLAS_FOREST_RANGER_PORTRAIT"/>
+		<Row Filename="ForestRangerPortrait95" IconsPerColumn="1" IconsPerRow="1" IconSize="95" Name="ICON_ATLAS_FOREST_RANGER_PORTRAIT"/>
+		<Row Filename="ForestRangerPortrait70" IconsPerColumn="1" IconsPerRow="1" IconSize="70" Name="ICON_ATLAS_FOREST_RANGER_PORTRAIT"/>
+		<Row Filename="ForestRangerPortrait50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_FOREST_RANGER_PORTRAIT"/>
+		<Row Filename="ForestRangerPortrait38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_FOREST_RANGER_PORTRAIT"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_MONDSTADT" Atlas="ICON_ATLAS_MONDSTADT" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_SUMERU" Atlas="ICON_ATLAS_SUMERU" Index="0"/>
+		<Row Name="ICON_LEADER_KLEE" Atlas="ICON_ATLAS_KLEE" Index="0"/>
+		<Row Name="ICON_LEADER_NAHIDA" Atlas="ICON_ATLAS_NAHIDA" Index="0"/>
+		<Row Name="ICON_DISTRICT_FAVONIUS_STRONGHOLD" Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
+		<Row Name="ICON_DISTRICT_FAVONIUS_STRONGHOLD_FOW"   Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="3"/>
+		<Row Name="ICON_UNIT_MONDSTADT_FAVONIUS_KNIGHT" Atlas="ICON_ATLAS_FAVONIUS_KNIGHT" Index="0"/>
+		<Row Name="ICON_UNIT_MONDSTADT_JUMPY_DUMPTY"   Atlas="ICON_ATLAS_JUMPY_DUMPTY" Index="0"/>
+		<Row Name="ICON_UNIT_MONDSTADT_FAVONIUS_KNIGHT_FOW" Atlas="ICON_ATLAS_FAVONIUS_KNIGHT" Index="0"/>
+		<Row Name="ICON_UNIT_MONDSTADT_JUMPY_DUMPTY_FOW"   Atlas="ICON_ATLAS_JUMPY_DUMPTY" Index="0"/>
+		<Row Name="ICON_UNIT_MONDSTADT_FAVONIUS_KNIGHT_PORTRAIT" Atlas="ICON_ATLAS_FAVONIUS_KNIGHT_PORTRAIT" Index="0"/>
+		<Row Name="ICON_UNIT_MONDSTADT_JUMPY_DUMPTY_PORTRAIT" Atlas="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT" Index="0"/>
+		<Row Name="DISTRICT_FAVONIUS_STRONGHOLD" Index="179" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4"/>
+		<Row Name="ICON_PROJECT_FISH_BLASTING"                          Atlas="ICON_ATLAS_PROJECTS" Index="7"/>
+		<!--Use this for now. Pending to change.-->
+		<Row Name="ICON_UNIT_SUMERU_FOREST_RANGER"                          Atlas="ICON_ATLAS_FOREST_RANGER" Index="0"/>
+		<Row Name="ICON_UNIT_SUMERU_FOREST_RANGER_PORTRAIT"                   Atlas="ICON_ATLAS_FOREST_RANGER_PORTRAIT"   Index="0"/>
+		<Row Name="ICON_DISTRICT_AKADEMIYA" Atlas="ICON_ATLAS_DISTRICTS" Index="2"/>
+		<Row Name="ICON_DISTRICT_AKADEMIYA_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="2"/>
+	</IconDefinitions>
+	</GameData>

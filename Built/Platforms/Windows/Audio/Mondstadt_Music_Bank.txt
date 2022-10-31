@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2119738516	Play_Leader_Music_MONDSTADT			\Default Work Unit\Music\Play_Leader_Music_MONDSTADT	
+	2232809910	Start_Music_MONDSTADT			\Default Work Unit\Music\Start_Music_MONDSTADT	
+	2507400426	Stop_Leader_Music_MONDSTADT			\Default Work Unit\Music\Stop_Leader_Music_MONDSTADT	
+	2842568752	Stop_Music_MONDSTADT			\Default Work Unit\Music\Stop_Music_MONDSTADT	
+	3332991233	Resume_Music_MONDSTADT			\Default Work Unit\Music\Resume_Music_MONDSTADT	
+	3571911464	Pause_Music_MONDSTADT			\Default Work Unit\Music\Pause_Music_MONDSTADT	
+	4144237934	Play_Music_MONDSTADT			\Default Work Unit\Music\Play_Music_MONDSTADT	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	23177848	WayfarersPeace	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\WayfarersPeace_D959AED8.wem	23177848.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\WayfarersPeace\WayfarersPeace	
+	86738637	WhenceTheFlowCometh	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\WhenceTheFlowCometh_D959AED8.wem	86738637.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\WhenceTheFlowCometh\WhenceTheFlowCometh	
+	147373166	Mondstadt_Medieval_44100	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\Mondstadt_Medieval_44100_D959AED8.wem	147373166.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Industrial\Mondstadt_Medieval_44100\Mondstadt_Medieval_44100	
+	222400468	MondstadtStarlit	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MondstadtStarlit_D959AED8.wem	222400468.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\MondstadtStarlit\MondstadtStarlit	
+	244580365	Mondstadt_Industrial	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\Mondstadt_Industrial_D959AED8.wem	244580365.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Industrial\Mondstadt_Industrial\Mondstadt_Industrial	
+	440185306	EternalAnamnesis	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\EternalAnamnesis_D959AED8.wem	440185306.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\EternalAnamnesis\EternalAnamnesis	
+	637053650	DuskInMondstadt	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\DuskInMondstadt_D959AED8.wem	637053650.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\DuskInMondstadt\DuskInMondstadt	
+	729003882	ANewDayWithHope	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\ANewDayWithHope_D959AED8.wem	729003882.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\ANewDayWithHope\ANewDayWithHope	
+	853640003	PureSky_44100	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\PureSky_44100_D959AED8.wem	853640003.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\PureSky_44100\PureSky_44100	
+	862482301	Mondstadt_Ancient	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\Mondstadt_Ancient_D959AED8.wem	862482301.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\Mondstadt_Ancient\Mondstadt_Ancient	
+	965003625	DawnWinery_44100	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\DawnWinery_44100_D959AED8.wem	965003625.wem	\Interactive Music Hierarchy\MondstadtBackgroundMusic\CivilizationMusic_Mondstadt\MondstadtCiv_Ancient\DawnWinery_44100\DawnWinery_44100	
+

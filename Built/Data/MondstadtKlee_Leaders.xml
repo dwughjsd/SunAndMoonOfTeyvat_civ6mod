@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_KLEE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_EXQUISITE_COMPOUND" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_FLEEING_SUNLIGHT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_MONDSTADT_JUMPY_DUMPTY" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_BONUS_ATTACK_KLEE" Kind="KIND_ABILITY"/>
+		<Row Type="MODIFIER_PLAYER_ALLOW_PROJECT_KLEE" Kind="KIND_MODIFIER"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" Kind="KIND_MODIFIER"/>
+		<Row Type="LEADER_NAHIDA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_ILLUSORY_HEART" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_SAPIENTIA_OROMASDIS" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="ABILITY_BONUS_ATTACK_KLEE" Tag="CLASS_SIEGE"/>
+	</TypeTags>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_KLEE</LeaderType>
+			<Name>LOC_LEADER_KLEE_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_NAHIDA</LeaderType>
+			<Name>LOC_LEADER_NAHIDA_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+			<Sex>Female</Sex>
+		</Row>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_KLEE" TraitType="TRAIT_LEADER_EXQUISITE_COMPOUND"/>
+		<Row LeaderType="LEADER_KLEE" TraitType="TRAIT_LEADER_UNIT_MONDSTADT_JUMPY_DUMPTY"/>
+		<Row LeaderType="LEADER_NAHIDA" TraitType="TRAIT_LEADER_ILLUSORY_HEART"/>
+		<Row LeaderType="LEADER_NAHIDA" TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_EXQUISITE_COMPOUND" Name="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_NAME" Description="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_FLEEING_SUNLIGHT"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_MONDSTADT_JUMPY_DUMPTY"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" Name="LOC_TRAIT_LEADER_ILLUSORY_HEART_NAME" Description="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_SAPIENTIA_OROMASDIS"/>
+	</Traits>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_BONUS_ATTACK_KLEE" Name="LOC_ABILITY_BONUS_ATTACK_KLEE_NAME" Description="LOC_ABILITY_BONUS_ATTACK_KLEE_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_BONUS_ATTACK_KLEE</UnitAbilityType>
+			<ModifierId>ELITE_GUARD_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_EXQUISITE_COMPOUND" ModifierId="TRAIT_LEADER_KLEE_REVEAL_NITER"/>
+		<Row TraitType="TRAIT_LEADER_EXQUISITE_COMPOUND" ModifierId="TRAIT_LEADER_KLEE_SIEGE_ADDITIONAL_ATTACK"/>
+		<Row TraitType="TRAIT_LEADER_EXQUISITE_COMPOUND" ModifierId="TRAIT_LEADER_PROJECT_JUMPY_DUMPTY"/>
+		<Row TraitType="TRAIT_AGENDA_FLEEING_SUNLIGHT" ModifierId="AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE"/>
+		<Row TraitType="TRAIT_AGENDA_FLEEING_SUNLIGHT" ModifierId="AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE"/>
+
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION"/>
+		<!--
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE_ADDITIONAL"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_ADDITIONAL"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION_ADDITIONAL"/>
+		-->
+		<Row TraitType="TRAIT_AGENDA_SAPIENTIA_OROMASDIS" ModifierId="AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE"/>
+		<Row TraitType="TRAIT_AGENDA_SAPIENTIA_OROMASDIS" ModifierId="AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE"/>
+	</TraitModifiers>
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<ModifierId>TRAIT_KLEE_GUNPOWDER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_KLEE_REVEAL_NITER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_PROJECT_JUMPY_DUMPTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_KLEE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KLEE_GUNPOWDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_KLEE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_KLEE_SIEGE_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_NUCLEAR_FISSION_REQUIREMENT</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_NUKE_LOVE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_NUCLEAR_FISSION_REQUIREMENT</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_NUKE_LOVE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_SCIENCE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_SCIENCE</SubjectRequirementSetId>
+		</Row>
+		<!--
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE_ADDITIONAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_ADDITIONAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION_ADDITIONAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		-->
+	</Modifiers>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_KLEE</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</Row>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_GRANT_PLAYER_SPECIFIC_TECHNOLOGY</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_KLEE_REVEAL_NITER</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_PROJECT_JUMPY_DUMPTY</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_FISH_BLASTING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KLEE_GUNPOWDER</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_GUNPOWDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_KLEE_SIEGE_ADDITIONAL_ATTACK</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_BONUS_ATTACK_KLEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_KLEE_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE</ModifierId>
+			<Name>HiddenAgenda</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_KLEE_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_LOW_NUKE_LOVE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE</ModifierId>
+			<Name>HiddenAgenda</Name>
+			<Value>false</Value>
+		</Row>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE" Name="Amount" Value="1"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD" Name="Amount" Value="1"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION" Name="Amount" Value="1"/>
+		<!--
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE_ADDITIONAL" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_CULTURE_ADDITIONAL" Name="Amount" Value="1"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_ADDITIONAL" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_ADDITIONAL" Name="Amount" Value="1"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION_ADDITIONAL" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_HILLS_PRODUCTION_ADDITIONAL" Name="Amount" Value="1"/>
+		-->
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_NAHIDA_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_HIGH_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_NAHIDA_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_LOW_SCIENCE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+
+
+	<AiListTypes>
+		<Row ListType="KleeTechs"/>
+		<Row ListType="KleeCivics"/>
+		<Row ListType="KleeWonders"/>
+		<Row ListType="FleeingSunlightNukePreference"/>
+		<Row ListType="FleeingSunlightUseNukePreference"/>
+		<Row ListType="NahidaTechs"/>
+		<Row ListType="NahidaCivics"/>
+		<Row ListType="NahidaWonders"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="KleeTechs" LeaderType="TRAIT_LEADER_EXQUISITE_COMPOUND" System="Technologies"/>
+		<Row ListType="KleeWonders" LeaderType="TRAIT_LEADER_EXQUISITE_COMPOUND" System="Buildings"/>
+		<Row ListType="KleeCivics" LeaderType="TRAIT_LEADER_EXQUISITE_COMPOUND" System="Civics"/>
+		<Row ListType="FleeingSunlightNukePreference" AgendaType="TRAIT_AGENDA_FLEEING_SUNLIGHT" System="PseudoYields"/>
+		<Row ListType="FleeingSunlightUseNukePreference" AgendaType="TRAIT_AGENDA_FLEEING_SUNLIGHT" System="DiplomaticActions"/>
+		<Row ListType="NahidaTechs" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Technologies"/>
+		<Row ListType="NahidaWonders" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Buildings"/>
+		<Row ListType="NahidaCivics" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Civics"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="KleeTechs" Item="TECH_CHEMISTRY" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_COMBUSTION" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_GUIDANCE_SYSTEMS" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_GUNPOWDER" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_NUCLEAR_FISSION" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_NUCLEAR_FUSION" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_ROCKETRY" Favored="true"/>
+		<Row ListType="KleeTechs" Item="TECH_SIEGE_TACTICS" Favored="true"/>		
+		<Row ListType="KleeCivics" Item="CIVIC_SCORCHED_EARTH" Favored="true"/>
+		<Row ListType="KleeCivics" Item="CIVIC_NUCLEAR_PROGRAM" Favored="true"/>
+		<Row ListType="KleeCivics" Item="CIVIC_COLD_WAR" Favored="true"/>
+		<Row ListType="FleeingSunlightNukePreference" Item="PSEUDOYIELD_NUCLEAR_WEAPON" Value="20"/>
+		<Row ListType="FleeingSunlightUseNukePreference" Item="DIPLOACTION_USE_NUCLEAR_WEAPON" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_ASTROLOGY" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_EDUCATION" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_ASTRONOMY" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_SCIENTIFIC_THEORY" Favored="true"/>
+		<Row ListType="NahidaTechs" Item="TECH_SATELLITES" Favored="true"/>
+		<Row ListType="NahidaWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="NahidaWonders" Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/>
+		<InsertOrIgnore ListType="NahidaWonders" Item="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" Favored="true"/>
+		<InsertOrIgnore ListType="NahidaWonders" Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/>
+		<Row ListType="NahidaCivics" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/>
+		<Row ListType="NahidaCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="NahidaCivics" Item="CIVIC_RECORDED_HISTORY" Favored="true"/>
+	</AiFavoredItems>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_FLEEING_SUNLIGHT" Name="LOC_AGENDA_FLEEING_SUNLIGHT_NAME" Description="LOC_AGENDA_FLEEING_SUNLIGHT_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SAPIENTIA_OROMASDIS" Name="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Description="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_KLEE" AgendaType="AGENDA_FLEEING_SUNLIGHT"/>
+		<Row LeaderType="LEADER_NAHIDA" AgendaType="AGENDA_SAPIENTIA_OROMASDIS"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_FLEEING_SUNLIGHT" TraitType="TRAIT_AGENDA_FLEEING_SUNLIGHT"/>
+		<Row AgendaType="AGENDA_SAPIENTIA_OROMASDIS" TraitType="TRAIT_AGENDA_SAPIENTIA_OROMASDIS"/>
+
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_FLEEING_SUNLIGHT" AgendaTwo="AGENDA_NUKE_LOVER"/>
+		<Row AgendaOne="AGENDA_SAPIENTIA_OROMASDIS" AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_KLEE" Quote="LOC_LEADER_KLEE_QUOTE" QuoteAudio="MOST_KL_MISC_PEP_TALK_A"/>
+		<Row LeaderType="LEADER_NAHIDA" Quote="LOC_LEADER_NAHIDA_QUOTE"/>
+	</LeaderQuotes>
+
+	<RequirementSets>
+		<Row RequirementSetId="PLAYER_IS_KLEE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<!--
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		-->
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLAYER_IS_KLEE" RequirementId="REQUIRES_LEADER_IS_KLEE"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FOREST_REQUIREMENT"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_JUNGLE_REQUIREMENT"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_MARSH_REQUIREMENT"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_HAS_FLOODPLAINS"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_FULFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_FULFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_HILLS_REQUIREMENT"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<!--
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_FULFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FOREST_OR_JUNGLE_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLAYER_HAS_EARLY_EMPIRE_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_FULFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLAYER_HAS_EARLY_EMPIRE_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_HILLS_REQUIREMENT"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_HILLS_ADJACENT_TO_CITY_CENTER_ADDITIONAL_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLAYER_HAS_EARLY_EMPIRE_NAHIDA"/>
+		-->
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQUIRES_LEADER_IS_KLEE" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<Row RequirementId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_FULFILLED_NAHIDA" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
+		<Row RequirementId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_FULFILLED_NAHIDA" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_EARLY_EMPIRE_NAHIDA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVIC"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_LEADER_IS_KLEE" Name="LeaderType" Value="LEADER_KLEE"/>
+		<Row RequirementId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_FULFILLED_NAHIDA" Name="RequirementSetId" Value="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_NAHIDA"/>
+		<Row RequirementId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_FULFILLED_NAHIDA" Name="RequirementSetId" Value="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_NAHIDA"/>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_EARLY_EMPIRE_NAHIDA" Name="CivicType" Value="CIVIC_EARLY_EMPIRE"/>
+	</RequirementArguments>
+
+	<Requirements>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</InsertOrIgnore>
+	</Requirements>
+	<RequirementArguments>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</InsertOrIgnore>
+	</RequirementArguments>
+</GameData>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="23177848" Language="SFX">
+			<ShortName>WayfarersPeace.wav</ShortName>
+			<Path>SFX\WayfarersPeace_D959AED8.wem</Path>
+		</File>
+		<File Id="86738637" Language="SFX">
+			<ShortName>WhenceTheFlowCometh.wav</ShortName>
+			<Path>SFX\WhenceTheFlowCometh_D959AED8.wem</Path>
+		</File>
+		<File Id="147373166" Language="SFX">
+			<ShortName>Mondstadt_Medieval_44100.wav</ShortName>
+			<Path>SFX\Mondstadt_Medieval_44100_D959AED8.wem</Path>
+		</File>
+		<File Id="222400468" Language="SFX">
+			<ShortName>MondstadtStarlit.wav</ShortName>
+			<Path>SFX\MondstadtStarlit_D959AED8.wem</Path>
+		</File>
+		<File Id="244580365" Language="SFX">
+			<ShortName>Mondstadt_Industrial.wav</ShortName>
+			<Path>SFX\Mondstadt_Industrial_D959AED8.wem</Path>
+		</File>
+		<File Id="440185306" Language="SFX">
+			<ShortName>EternalAnamnesis.wav</ShortName>
+			<Path>SFX\EternalAnamnesis_D959AED8.wem</Path>
+		</File>
+		<File Id="637053650" Language="SFX">
+			<ShortName>DuskInMondstadt.wav</ShortName>
+			<Path>SFX\DuskInMondstadt_D959AED8.wem</Path>
+		</File>
+		<File Id="729003882" Language="SFX">
+			<ShortName>ANewDayWithHope.wav</ShortName>
+			<Path>SFX\ANewDayWithHope_D959AED8.wem</Path>
+		</File>
+		<File Id="853640003" Language="SFX">
+			<ShortName>PureSky_44100.wav</ShortName>
+			<Path>SFX\PureSky_44100_D959AED8.wem</Path>
+		</File>
+		<File Id="862482301" Language="SFX">
+			<ShortName>Mondstadt_Ancient.wav</ShortName>
+			<Path>SFX\Mondstadt_Ancient_D959AED8.wem</Path>
+		</File>
+		<File Id="965003625" Language="SFX">
+			<ShortName>DawnWinery_44100.wav</ShortName>
+			<Path>SFX\DawnWinery_44100_D959AED8.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="2159547912" Language="SFX">
+			<ShortName>Mondstadt_Music_Bank</ShortName>
+			<Path>Mondstadt_Music_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3571911464" Name="Pause_Music_MONDSTADT"/>
+				<Event Id="2119738516" Name="Play_Leader_Music_MONDSTADT"/>
+				<Event Id="4144237934" Name="Play_Music_MONDSTADT"/>
+				<Event Id="3332991233" Name="Resume_Music_MONDSTADT"/>
+				<Event Id="2232809910" Name="Start_Music_MONDSTADT"/>
+				<Event Id="2507400426" Name="Stop_Leader_Music_MONDSTADT"/>
+				<Event Id="2842568752" Name="Stop_Music_MONDSTADT"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="23177848"/>
+				<File Id="86738637"/>
+				<File Id="147373166"/>
+				<File Id="222400468"/>
+				<File Id="244580365"/>
+				<File Id="440185306"/>
+				<File Id="637053650"/>
+				<File Id="729003882"/>
+				<File Id="853640003"/>
+				<File Id="862482301"/>
+				<File Id="965003625"/>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

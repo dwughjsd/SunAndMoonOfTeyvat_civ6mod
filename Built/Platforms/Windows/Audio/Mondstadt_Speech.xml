@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="2597020060" Language="SFX">
+			<ShortName>Mondstadt_Speech</ShortName>
+			<Path>Mondstadt_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="633285454" Name="MOST_KL_DECLARE_WAR_A"/>
+				<Event Id="1200427030" Name="MOST_KL_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="3265900748" Name="MOST_KL_DEFEAT_A"/>
+				<Event Id="3455163849" Name="MOST_KL_FIRST_MEET_A"/>
+				<Event Id="3543864745" Name="MOST_KL_KUDOS"/>
+				<Event Id="2202664540" Name="MOST_KL_MISC_PEP_TALK_A"/>
+				<Event Id="1969782231" Name="MOST_KL_WARNING_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="120180067" Language="SFX">
+					<ShortName>MOST_KL_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\MOST_KL_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
+				<File Id="268881426" Language="SFX">
+					<ShortName>MOST_KL_WARNING_A.wav</ShortName>
+					<Path>SFX\MOST_KL_WARNING_A_B93921CF.wem</Path>
+				</File>
+				<File Id="292861037" Language="SFX">
+					<ShortName>MOST_KL_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\MOST_KL_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="393436800" Language="SFX">
+					<ShortName>MOST_KL_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\MOST_KL_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="430932878" Language="SFX">
+					<ShortName>MOST_KL_KUDOS.wav</ShortName>
+					<Path>SFX\MOST_KL_KUDOS_B93921CF.wem</Path>
+				</File>
+				<File Id="712189090" Language="SFX">
+					<ShortName>MOST_KL_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\MOST_KL_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="950869858" Language="SFX">
+					<ShortName>MOST_KL_DEFEAT_A.wav</ShortName>
+					<Path>SFX\MOST_KL_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
