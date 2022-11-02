@@ -13,18 +13,18 @@
 		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION" Language="en_US">
 			<Text>Reveals [ICON_RESOURCE_Niter] Niter without technology requirement. When the first Armory is constructed the Gunpowder technology is unlocked. +1 additional attack per turn for all siege units. May initiate the Fish Blasting Carnival project in any city with a Encampment district. Gain the Jumpy Dumpty unique unit with Gunpowder.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_NAME" Language="en_US">
 			<Text>City of Winds and Idylls</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION_SHARED" Language="en_US">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_SHARED" Language="en_US">
 			<Text>+1 [ICON_Faith] Faith from improved Hills. Additional +1 [ICON_Production] Production and +2 [ICON_Gold] Gold with Banking. Pastures and Plantations provide a standard and a major adjacency bonus for all districts respectively. Plantations trigger a Culture Bomb, and +2 [ICON_Culture] Culture if on a Luxury resource. Specialty districts do not receive a minor adjacency for being adjacent to another district. -20% [ICON_Production] Production toward Districts.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION" Language="en_US">
-			<Text>{LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION_SHARED}</Text>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_SHARED}</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION_XP2" Language="en_US">
-			<Text>{LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION_SHARED} Offshore Wind Farms and Wind Farms receive +4 [ICON_POWER] Power.</Text>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_XP2" Language="en_US">
+			<Text>{LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_SHARED} Offshore Wind Farms and Wind Farms receive +4 [ICON_POWER] Power.</Text>
 		</Row>
 		
 		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_NAME" Language="en_US">

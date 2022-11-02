@@ -9,8 +9,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_MONDSTADT</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KLEE_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KLEE</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_MONDSTADT</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION</LeaderAbilityDescription>
@@ -26,8 +26,8 @@
 			<CivilizationIcon>ICON_CIVILIZATION_MONDSTADT</CivilizationIcon>
 			<LeaderName>LOC_LEADER_KLEE_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_KLEE</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_DESCRIPTION_XP2</CivilizationAbilityDescription>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_XP2</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_MONDSTADT</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION</LeaderAbilityDescription>
