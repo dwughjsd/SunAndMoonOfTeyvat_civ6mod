@@ -869,8 +869,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
 			<!--初次见面 - -->
-			<!--NOT FINAL RESULT!-->
-			<Text>很高兴与您相见。其实我已观察您有一段时间了。我叫纳西妲。</Text>
+			<Text>初次见面，我已经关注你很久了。我叫纳西妲。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
@@ -880,8 +879,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
 			<!--初次见面，请求交换首都位置-->
-			<!--NOT FINAL RESULT!-->
-			<Text>那么，我们来交换知识吧？我想知道关于您的首都的情况，而我会告诉您我的。</Text>
+			<Text>所以，我可以用我首都的情况，换取你那儿的吗？</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
@@ -890,124 +888,122 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			<!--NOT FINAL RESULT!-->
-			<Text>令人佩服的求学精神啊，真了不起。</Text>
+			<Text>我以智慧之神的名义为你赐福，从今往后不再会有困惑阻碍你的旅途。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			<!--NOT FINAL RESULT!-->
-			<Text>我们无法预见未来的所有可能，要获得知识就只能依靠笨拙的试错。把这种痛苦视作必要的学费吧。</Text>
+			<Text>我们无法观测未来的所有可能性，只能靠略显笨拙的试错获取知识。痛苦只是学费而已，再正常不过啦。</Text>
 		</Row>
 
-		<!--<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--同意声明友谊--><!--
-			<Text></Text>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>呵呵，走吧，接下来的旅途也请你引路了。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--拒绝声明友谊--><!--
-			<Text></Text>
+			<!--拒绝声明友谊-->
+			<Text>我完全不了解你。要我接受你的友谊，就好像要我咽下一团脏兮兮的乌云一样。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--请求声明友谊--><!--
-			<Text></Text>
+			<!--请求声明友谊-->
+			<Text>你冒险经验这么丰富，当我的朋友好不好啊？你之后所有的故事，我都想亲身感受。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--请求声明友谊被接受--><!--
-			<Text></Text>
+			<!--请求声明友谊被接受-->
+			<Text>这种感觉，就像月莲找到了莲叶，珊瑚真珠找到了贝壳。</Text>
 		</Row>
-
+	
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--请求声明友谊被拒绝--><!--
-			<Text></Text>
+			<!--请求声明友谊被拒绝-->
+			<Text>这世上有太多的东西都是过时不候的呢。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--被宣战 - --><!--
-			<Text></Text>
+			<!--被宣战 - 识藏日-->
+			<Text>是我的妄自菲薄与迁就才促成了现在的局面，添了这么多麻烦。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--主动宣战 - --><!--
-			<Text></Text>
+			<!--主动宣战 - 坠落之梦-->
+			<Text>可惜，你触犯了教令院六宗罪之一，还对这彻头彻尾的恶行毫无自知。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--接受使节派遣 - --><!--
-			<Text></Text>
+			<!--接受使节派遣 -->
+			<Text>你的代表团到了。呵呵，感谢你们的礼物，我非常喜欢。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--拒绝使节派遣 - --><!--
-			<Text></Text>
+			<!--拒绝使节派遣 - -->
+			<Text>你要先做好你自己。就像如果做不好毛虫，还怎么做好蝴蝶呢？</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--请求派遣使节 - --><!--
-			<Text></Text>
+			<!--请求派遣使节 - -->	
+			<Text>我派出了一支带着礼物的代表团。有你喜欢的东西吗？</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--初次见面，提供最近城市位置--><!--
-			<Text></Text>
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们附近有一座城市。不知道干什么的话，要不要我带你去转转呀？</Text>
 		</Row>
-
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - --><!--
-			<Text></Text>
-		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--要求移开边境军队--><!--
-			<Text></Text>
+			<!--要求移开边境军队 - 坠落之梦-->
+			<Text>如果你把我们边境的军队用在正途上，也许能成为更加贤明的新一代领袖。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--战败--><!--
-			<Text></Text>
+			<!--战败-->
+			<Text>生命……终有尽时……</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--同意交易--><!--
-			<Text></Text>
+			<!--同意交易-->
+			<Text>谢谢，太感谢了。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--拒绝交易--><!--
-			<Text></Text>
+			<!--拒绝交易-->
+			<Text>这样不太明智……</Text>
 		</Row>
-
+		
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">	
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - -->
+			<Text>知识，与你分享。</Text>
+		</Row>
+		
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是同意求和，但从未被使用过--><!--
-			<Text></Text>
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>重建任何事物都需要时间，但不论是文化、友谊、信任…我们都会重新得到的。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是拒绝求和，但从未被使用过--><!--
-			<Text></Text>
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>你智慧之名所做的一切愚行，我都会以神明的名义……好好报复的！</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是求和，但从未被使用过--><!--
-			<Text></Text>
+			<!--理论上是求和，但从未被使用过-->
+			<Text>充分认识到战争的虚无之后，应该重温和平的意义了。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是同意开放边界，但从未被使用过--><!--
-			<Text></Text>
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>欢迎来须弥做客。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是拒绝开放边界，但从未被使用过--><!--
-			<Text></Text>
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>你还是换个策略吧。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hans_CN">
-			--><!--理论上是请求开放边界，但从未被使用过--><!--
-			<Text></Text>
-		</Row>-->
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>我的国民需要暂时穿越您的领地。请不要怪我，藤蔓也会靠着墙壁去到更接近天穹的地方嘛。</Text>
+		</Row>
 	</LocalizedText>
 
 </GameData>
