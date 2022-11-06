@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_MONDSTADT_NAME" Language="zh_Hans_CN">
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_NAME" Language="zh_Hans_CN">
 			<Text>蒙德</Text>
-		</Row>
-		<Row Tag="LOC_LEADER_KLEE_NAME" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_LEADER_KLEE_NAME" Language="zh_Hans_CN">
 			<Text>可莉</Text>
-		</Row>
+		</InsertOrIgnore>
 		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_NAME" Language="zh_Hans_CN">
 			<Text>可莉特调</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>忽略科技要求显示 [ICON_RESOURCE_Niter] 硝石资源。首次建造兵工厂后获得“火药”科技。攻城单位每回合+1额外攻击次数。可在拥有西风骑士团驻地区域的任意城市中开展“炸鱼狂欢节”项目。解锁“火药”科技后获得特色单位“蹦蹦炸弹”。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_NAME" Language="zh_Hans_CN">
 			<Text>风与牧歌之城</Text>
 		</Row>
 
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED" Language="zh_Hans_CN">
 			<Text>已改良的丘陵 +1 [ICON_Faith] 信仰值，“银行业”额外+1 [ICON_Production] 生产力和+2 [ICON_Gold] 金钱。牧场、种植园分别为区域提供标准和大量相邻加成。种植园可触发文化炸弹，位于奢侈品资源上 +2 [ICON_Culture] 文化值。区域与其他区域相邻时不会获得少量相邻加成。建造区域时-20% [ICON_Production] 生产力。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_SHARED}</Text>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED}</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_XP2" Language="zh_Hans_CN">
-			<Text>{LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_SHARED}风力发电厂和离岸风力发电厂+4 [ICON_Power] 电力。</Text>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED}风力发电厂和离岸风力发电厂+4 [ICON_Power] 电力。</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_NAME" Language="zh_Hans_CN">

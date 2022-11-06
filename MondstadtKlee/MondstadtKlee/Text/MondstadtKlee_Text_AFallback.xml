@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="en_US">
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="en_US">
 			<Text>Mondstadt Empire</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="en_US">
 			<Text>Mondstadt</Text>
-		</Row>
+		</InsertOrIgnore>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_1" Language="en_US">
 			<Text>Otto</Text>
@@ -131,96 +131,96 @@
 
 
 		<!-- Civilization City Names-->
-		<Row Tag="LOC_CITY_NAME_MONDSTADT" Language="en_US">
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MONDSTADT" Language="en_US">
 			<Text>Mondstadt</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="en_US">
 			<Text>Starfell Valley</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="en_US">
 			<Text>Starsnatch Cliff</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="en_US">
 			<Text>Whispering Woods</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="en_US">
 			<Text>Midsummer Courtyard</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="en_US">
 			<Text>Stormbearer Point</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="en_US">
 			<Text>Thousand Winds Temple</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_GALESONG_HILL" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_GALESONG_HILL" Language="en_US">
 			<Text>Galesong Hill</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WINDRISE" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDRISE" Language="en_US">
 			<Text>Windrise</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CAPE_OATH" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_OATH" Language="en_US">
 			<Text>Cape Oath</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="en_US">
 			<Text>Dadaupa Gorge</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_FALCON_COAST" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FALCON_COAST" Language="en_US">
 			<Text>Falcon Coast</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="en_US">
 			<Text>Windwail Highland</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DAWN" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DAWN" Language="en_US">
 			<Text>Dawn</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="en_US">
 			<Text>Valley of Remembrance</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SPRINGVALE" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SPRINGVALE" Language="en_US">
 			<Text>Springvale</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="en_US">
 			<Text>Forsaken Rift</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WOLVENDOM" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WOLVENDOM" Language="en_US">
 			<Text>Wolvendom</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CECILIA" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CECILIA" Language="en_US">
 			<Text>Cecilia</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="en_US">
-			<Text>Brightcrown Canyon</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCInsertOrIgnoreN_CANYON" Language="en_US">
+			<Text>BrightcInsertOrIgnoren Canyon</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="en_US">
 			<Text>Stormterror's Lair</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="en_US">
 			<Text>Entombed City</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="en_US">
 			<Text>Skyfrost Nail</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="en_US">
 			<Text>Vindagnyr</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="en_US">
 			<Text>Snow-Covered Path</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="en_US">
 			<Text>Starglow Cavern</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="en_US">
 			<Text>Wyrmrest Valley</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MUSK" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MUSK" Language="en_US">
 			<Text>Musk</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="en_US">
 			<Text>Nameless Island</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="en_US">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="en_US">
 			<Text>Dornman Port</Text>
-		</Row>
+		</InsertOrIgnore>
 
 		<Row Tag="LOC_CIVINFO_MONDSTADT_LOCATION" Language="en_US">
 			<Text>Teyvat</Text>

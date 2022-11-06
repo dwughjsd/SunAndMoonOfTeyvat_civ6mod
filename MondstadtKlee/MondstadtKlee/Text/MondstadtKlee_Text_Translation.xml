@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="zh_Hans_CN">
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>蒙德帝国</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="zh_Hans_CN">
 			<Text>蒙德的</Text>
-		</Row>
+		</InsertOrIgnore>
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_1" Language="zh_Hans_CN">
 			<Text>奥特</Text>
@@ -131,96 +131,96 @@
 
 
 		<!-- Civilization City Names-->
-		<Row Tag="LOC_CITY_NAME_MONDSTADT" Language="zh_Hans_CN">
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MONDSTADT" Language="zh_Hans_CN">
 			<Text>蒙德城</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="zh_Hans_CN">
 			<Text>坠星山谷</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="zh_Hans_CN">
 			<Text>摘星崖</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="zh_Hans_CN">
 			<Text>低语森林</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="zh_Hans_CN">
 			<Text>仲夏庭园</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="zh_Hans_CN">
 			<Text>望风角</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="zh_Hans_CN">
 			<Text>千风神殿</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_GALESONG_HILL" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_GALESONG_HILL" Language="zh_Hans_CN">
 			<Text>风啸山坡</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WINDRISE" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDRISE" Language="zh_Hans_CN">
 			<Text>风起地</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CAPE_OATH" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_OATH" Language="zh_Hans_CN">
 			<Text>誓言岬</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="zh_Hans_CN">
 			<Text>达达乌帕谷</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_FALCON_COAST" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FALCON_COAST" Language="zh_Hans_CN">
 			<Text>鹰翔海滩</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="zh_Hans_CN">
 			<Text>苍风高地</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DAWN" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DAWN" Language="zh_Hans_CN">
 			<Text>晨曦</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="zh_Hans_CN">
 			<Text>铭记之谷</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SPRINGVALE" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SPRINGVALE" Language="zh_Hans_CN">
 			<Text>清泉镇</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="zh_Hans_CN">
 			<Text>忘却之峡</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WOLVENDOM" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WOLVENDOM" Language="zh_Hans_CN">
 			<Text>奔狼领</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CECILIA" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CECILIA" Language="zh_Hans_CN">
 			<Text>塞西莉亚</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCInsertOrIgnoreN_CANYON" Language="zh_Hans_CN">
 			<Text>明冠峡</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="zh_Hans_CN">
 			<Text>风龙废墟</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="zh_Hans_CN">
 			<Text>雪葬之都</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="zh_Hans_CN">
 			<Text>寒天之钉</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="zh_Hans_CN">
 			<Text>芬德尼尔</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="zh_Hans_CN">
 			<Text>覆雪之路</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="zh_Hans_CN">
 			<Text>星荧洞窟</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="zh_Hans_CN">
 			<Text>眠龙谷</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_MUSK" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MUSK" Language="zh_Hans_CN">
 			<Text>马斯克</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="zh_Hans_CN">
 			<Text>无名小岛</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="zh_Hans_CN">
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="zh_Hans_CN">
 			<Text>荆夫港</Text>
-		</Row>
+		</InsertOrIgnore>
 
 		<Row Tag="LOC_CIVINFO_MONDSTADT_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特大陆</Text>

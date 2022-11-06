@@ -22,8 +22,8 @@
 
 	<Traits>
 		<Update>
-			<Where Description="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION"/>
-			<Set Description="LOC_TRAIT_CIVILIZATION_CITY_OF_WIND_AND_IDYLL_KLEE_DESCRIPTION_XP2"/>
+			<Where Description="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_XP2"/>
 		</Update>
 		<Update>
 			<Where Description="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION"/>
@@ -126,33 +126,33 @@
 	</ModifierArguments>
 
 	<NamedLakes>
-		<Row NamedLakeType="NAMED_LAKE_CIDER_LAKE" Name="LOC_NAMED_LAKE_CIDER_LAKE_NAME"/>
-		<Row NamedLakeType="NAMED_LAKE_STARFELL_LAKE" Name="LOC_NAMED_LAKE_STARFELL_LAKE_NAME"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_CIDER_LAKE" Name="LOC_NAMED_LAKE_CIDER_LAKE_NAME"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_STARFELL_LAKE" Name="LOC_NAMED_LAKE_STARFELL_LAKE_NAME"/>
 	</NamedLakes>
-		<NamedMountains>
-		<Row NamedMountainType="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME"/>
-		<Row NamedMountainType="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME"/>
-		<Row NamedMountainType="NAMED_MOUNTAIN_DRAGONSPINE" Name="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME"/>
+	<NamedMountains>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_DRAGONSPINE" Name="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME"/>
 	</NamedMountains>
 	<NamedDeserts>
-		<Row NamedDesertType="NAMED_DESERT_GREAT_RED_SAND" Name="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME"/>
+		<InsertOrIgnore NamedDesertType="NAMED_DESERT_GREAT_RED_SAND" Name="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME"/>
 	</NamedDeserts>
 
 	<NamedLakeCivilizations>
-		<Row NamedLakeType="NAMED_LAKE_CIDER_LAKE" CivilizationType="CIVILIZATION_MONDSTADT"/>
-		<Row NamedLakeType="NAMED_LAKE_STARFELL_LAKE" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_CIDER_LAKE" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_STARFELL_LAKE" CivilizationType="CIVILIZATION_MONDSTADT"/>
 	</NamedLakeCivilizations>
 	<NamedMountainCivilizations>
-		<Row NamedMountainType="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" CivilizationType="CIVILIZATION_MONDSTADT"/>
-		<Row NamedMountainType="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" CivilizationType="CIVILIZATION_MONDSTADT"/>
-		<Row NamedMountainType="NAMED_MOUNTAIN_DRAGONSPINE" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_DRAGONSPINE" CivilizationType="CIVILIZATION_MONDSTADT"/>
 	</NamedMountainCivilizations>
 	<NamedDesertCivilizations>
-		<Row NamedDesertType="NAMED_DESERT_GREAT_RED_SAND" CivilizationType="CIVILIZATION_SUMERU"/>
+		<InsertOrIgnore NamedDesertType="NAMED_DESERT_GREAT_RED_SAND" CivilizationType="CIVILIZATION_SUMERU"/>
 	</NamedDesertCivilizations>
 	
 	<Project_ResourceCosts>
-		<Row ProjectType="PROJECT_FISH_BLASTING" ResourceType="RESOURCE_NITER" StartProductionCost="10"/>
+		<InsertOrIgnore ProjectType="PROJECT_FISH_BLASTING" ResourceType="RESOURCE_NITER" StartProductionCost="10"/>
 	</Project_ResourceCosts>
 
 	<Units>
