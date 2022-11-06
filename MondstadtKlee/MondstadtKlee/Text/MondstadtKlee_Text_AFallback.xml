@@ -188,8 +188,8 @@
 		<InsertOrIgnore Tag="LOC_CITY_NAME_CECILIA" Language="en_US">
 			<Text>Cecilia</Text>
 		</InsertOrIgnore>
-		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCInsertOrIgnoreN_CANYON" Language="en_US">
-			<Text>BrightcInsertOrIgnoren Canyon</Text>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="en_US">
+			<Text>Brightcrown Canyon</Text>
 		</InsertOrIgnore>
 		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="en_US">
 			<Text>Stormterror's Lair</Text>

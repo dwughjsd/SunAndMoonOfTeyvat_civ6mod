@@ -188,7 +188,7 @@
 		<InsertOrIgnore Tag="LOC_CITY_NAME_CECILIA" Language="zh_Hans_CN">
 			<Text>塞西莉亚</Text>
 		</InsertOrIgnore>
-		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCInsertOrIgnoreN_CANYON" Language="zh_Hans_CN">
+		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="zh_Hans_CN">
 			<Text>明冠峡</Text>
 		</InsertOrIgnore>
 		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="zh_Hans_CN">
