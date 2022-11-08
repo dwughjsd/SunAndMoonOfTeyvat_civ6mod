@@ -52,7 +52,7 @@
       <File>Data/MondstadtKlee_Config.xml</File>
     </UpdateDatabase>
     <UpdateText id="TextConfig">
-      <File>Text/MondstadtKlee_ConfigText_Translation.xml</File>
+      <File>Text/MondstadtKlee_ConfigText_Translations.xml</File>
       <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
     </UpdateText>
     <UpdateIcons id="IconsConfig">
@@ -77,8 +77,8 @@
     </UpdateDatabase>
     <UpdateText id="Text">
       <Criteria>MondstadtKlee</Criteria>
-      <File>Text/MondstadtKlee_ConfigText_Translation.xml</File>
-      <File>Text/MondstadtKlee_Text_Translation.xml</File>
+      <File>Text/MondstadtKlee_ConfigText_Translations.xml</File>
+      <File>Text/MondstadtKlee_Text_Translations.xml</File>
       <File>Text/MondstadtKlee_Text_AFallback.xml</File>
       <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
     </UpdateText>
@@ -189,9 +189,9 @@
     <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
     <File>Scripts/MondstadtKlee_RangerGameplay.lua</File>
     <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
-    <File>Text/MondstadtKlee_ConfigText_Translation.xml</File>
+    <File>Text/MondstadtKlee_ConfigText_Translations.xml</File>
     <File>Text/MondstadtKlee_Text_AFallback.xml</File>
-    <File>Text/MondstadtKlee_Text_Translation.xml</File>
+    <File>Text/MondstadtKlee_Text_Translations.xml</File>
     <File>UI/Addition/MondstadtKlee_RangerUI.lua</File>
     <File>UI/Addition/MondstadtKlee_RangerUI.xml</File>
     <File>UI/Addition/TopPanelJumpyDumpty.lua</File>
