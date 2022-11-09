@@ -21,6 +21,13 @@
 				<Event Id="3543864745" Name="MOST_KL_KUDOS"/>
 				<Event Id="2202664540" Name="MOST_KL_MISC_PEP_TALK_A"/>
 				<Event Id="1969782231" Name="MOST_KL_WARNING_A"/>
+				<Event Id="832176504" Name="SUME_NH_DECLARE_WAR_A"/>
+				<Event Id="279258292" Name="SUME_NH_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="1603943402" Name="SUME_NH_DEFEAT_A"/>
+				<Event Id="758138243" Name="SUME_NH_FIRST_MEET_A"/>
+				<Event Id="2794935543" Name="SUME_NH_KUDOS"/>
+				<Event Id="2515395478" Name="SUME_NH_MISC_PEP_TALK_A"/>
+				<Event Id="1012845833" Name="SUME_NH_WARNING_A"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="120180067" Language="SFX">
@@ -31,6 +38,10 @@
 					<ShortName>MOST_KL_WARNING_A.wav</ShortName>
 					<Path>SFX\MOST_KL_WARNING_A_B93921CF.wem</Path>
 				</File>
+				<File Id="271710091" Language="SFX">
+					<ShortName>SUME_NH_DEFEAT_A.wav</ShortName>
+					<Path>SFX\SUME_NH_DEFEAT_A_B93921CF.wem</Path>
+				</File>
 				<File Id="292861037" Language="SFX">
 					<ShortName>MOST_KL_DECLARE_WAR_A.wav</ShortName>
 					<Path>SFX\MOST_KL_DECLARE_WAR_A_B93921CF.wem</Path>
@@ -39,13 +50,37 @@
 					<ShortName>MOST_KL_MISC_PEP_TALK_A.wav</ShortName>
 					<Path>SFX\MOST_KL_MISC_PEP_TALK_A_B93921CF.wem</Path>
 				</File>
+				<File Id="407820225" Language="SFX">
+					<ShortName>SUME_NH_KUDOS_A.wav</ShortName>
+					<Path>SFX\SUME_NH_KUDOS_A_B93921CF.wem</Path>
+				</File>
 				<File Id="430932878" Language="SFX">
 					<ShortName>MOST_KL_KUDOS.wav</ShortName>
 					<Path>SFX\MOST_KL_KUDOS_B93921CF.wem</Path>
 				</File>
+				<File Id="439659415" Language="SFX">
+					<ShortName>SUME_NH_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\SUME_NH_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="455768291" Language="SFX">
+					<ShortName>SUME_NH_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\SUME_NH_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="561971486" Language="SFX">
+					<ShortName>SUME_NH_WARNING_A.wav</ShortName>
+					<Path>SFX\SUME_NH_WARNING_A_B93921CF.wem</Path>
+				</File>
 				<File Id="712189090" Language="SFX">
 					<ShortName>MOST_KL_FIRST_MEET_A.wav</ShortName>
 					<Path>SFX\MOST_KL_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="753144682" Language="SFX">
+					<ShortName>SUME_NH_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\SUME_NH_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
+				<File Id="829468639" Language="SFX">
+					<ShortName>SUME_NH_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\SUME_NH_DECLARE_WAR_A_B93921CF.wem</Path>
 				</File>
 				<File Id="950869858" Language="SFX">
 					<ShortName>MOST_KL_DEFEAT_A.wav</ShortName>

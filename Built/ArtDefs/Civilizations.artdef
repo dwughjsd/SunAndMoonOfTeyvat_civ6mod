@@ -49,7 +49,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="India"/>
+										<m_Value text=""/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>

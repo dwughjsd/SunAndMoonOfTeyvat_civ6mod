@@ -3,7 +3,7 @@
   <Properties>
     <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
     <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
-    <Created>1667214223</Created>
+    <Created>1667975404</Created>
     <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -30,6 +30,10 @@
     <Criteria id="MondstadtKlee">
       <LeaderPlayable>Players:StandardPlayers::LEADER_KLEE,StandardPlayers::LEADER_KLEE,Players:Expansion1_Players::LEADER_KLEE,Players:Expansion2_Players::LEADER_KLEE,Players:StandardPlayers::LEADER_NAHIDA,StandardPlayers::LEADER_NAHIDA,Players:Expansion1_Players::LEADER_NAHIDA,Players:Expansion2_Players::LEADER_NAHIDA</LeaderPlayable>
       <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="MondstadtKlee_Babylon">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_KLEE,StandardPlayers::LEADER_KLEE,Players:Expansion1_Players::LEADER_KLEE,Players:Expansion2_Players::LEADER_KLEE,Players:StandardPlayers::LEADER_NAHIDA,StandardPlayers::LEADER_NAHIDA,Players:Expansion1_Players::LEADER_NAHIDA,Players:Expansion2_Players::LEADER_NAHIDA</LeaderPlayable>
+      <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
     </Criteria>
     <Criteria id="MondstadtKlee_Expansion1">
       <LeaderPlayable>Players:Expansion1_Players::LEADER_KLEE,Players:Expansion1_Players::LEADER_NAHIDA</LeaderPlayable>
@@ -135,6 +139,10 @@
       <Criteria>MondstadtKlee_Expansion1</Criteria>
       <File>Data/MondstadtKlee_Expansion1.xml</File>
     </UpdateDatabase>
+    <UpdateDatabase id="GamePlay_Babylon">
+      <Criteria>MondstadtKlee_Babylon</Criteria>
+      <File>Data/MondstadtKlee_Babylon.xml</File>
+    </UpdateDatabase>
   </InGameActions>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
@@ -144,6 +152,7 @@
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
     <File>ArtDefs/Units.artdef</File>
+    <File>Data/MondstadtKlee_Babylon.xml</File>
     <File>Data/MondstadtKlee_Civilizations.xml</File>
     <File>Data/MondstadtKlee_Colors.xml</File>
     <File>Data/MondstadtKlee_Config.xml</File>
@@ -157,13 +166,24 @@
     <File>Data/MondstadtKlee_Units.xml</File>
     <File>Data/MondstadtKlee_WMDs.xml</File>
     <File>MondstadtKlee.dep</File>
+    <File>Platforms/Windows/Audio/104212721.wem</File>
+    <File>Platforms/Windows/Audio/1066490038.wem</File>
+    <File>Platforms/Windows/Audio/1072442912.wem</File>
+    <File>Platforms/Windows/Audio/146419728.wem</File>
     <File>Platforms/Windows/Audio/147373166.wem</File>
     <File>Platforms/Windows/Audio/222400468.wem</File>
     <File>Platforms/Windows/Audio/23177848.wem</File>
     <File>Platforms/Windows/Audio/244580365.wem</File>
+    <File>Platforms/Windows/Audio/251541185.wem</File>
+    <File>Platforms/Windows/Audio/309251908.wem</File>
     <File>Platforms/Windows/Audio/440185306.wem</File>
+    <File>Platforms/Windows/Audio/621775752.wem</File>
     <File>Platforms/Windows/Audio/637053650.wem</File>
+    <File>Platforms/Windows/Audio/655585261.wem</File>
+    <File>Platforms/Windows/Audio/705917819.wem</File>
     <File>Platforms/Windows/Audio/729003882.wem</File>
+    <File>Platforms/Windows/Audio/801781241.wem</File>
+    <File>Platforms/Windows/Audio/847263493.wem</File>
     <File>Platforms/Windows/Audio/853640003.wem</File>
     <File>Platforms/Windows/Audio/862482301.wem</File>
     <File>Platforms/Windows/Audio/86738637.wem</File>

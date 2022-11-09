@@ -366,7 +366,7 @@
 
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_KLEE" Quote="LOC_LEADER_KLEE_QUOTE" QuoteAudio="MOST_KL_MISC_PEP_TALK_A"/>
-		<Row LeaderType="LEADER_NAHIDA" Quote="LOC_LEADER_NAHIDA_QUOTE"/>
+		<Row LeaderType="LEADER_NAHIDA" Quote="LOC_LEADER_NAHIDA_QUOTE" QuoteAudio="SUME_NH_MISC_PEP_TALK_A"/>
 	</LeaderQuotes>
 
 	<RequirementSets>

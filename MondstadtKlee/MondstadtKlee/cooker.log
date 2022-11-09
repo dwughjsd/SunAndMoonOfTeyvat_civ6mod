@@ -1,8 +1,0 @@
-Starting AssetCooker...
-Argument '--shaders' has been deprecated and is no longer used.
-XLP cook starting...
-D:\Documents\GitHub\Uzuki_civ6_mods\Civilization VI\MondstadtKlee\MondstadtKlee\XLPs\UI_PrideMoments.xlp
-XLP 'D:\Documents\GitHub\Uzuki_civ6_mods\Civilization VI\MondstadtKlee\MondstadtKlee\XLPs\UI_PrideMoments.xlp' will not be cooked because it is not set to cook for platform: 'MacOS'
-Could not load digest key: ''.  Using mod key to sign BLP.
-XLP cook completed with success.
-Cook completed in 0.008 seconds

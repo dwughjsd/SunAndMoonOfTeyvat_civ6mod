@@ -11,47 +11,91 @@
 	<StreamedFiles>
 		<File Id="23177848" Language="SFX">
 			<ShortName>WayfarersPeace.wav</ShortName>
-			<Path>SFX\WayfarersPeace_D959AED8.wem</Path>
+			<Path>SFX\WayfarersPeace_17C11484.wem</Path>
 		</File>
 		<File Id="86738637" Language="SFX">
 			<ShortName>WhenceTheFlowCometh.wav</ShortName>
-			<Path>SFX\WhenceTheFlowCometh_D959AED8.wem</Path>
+			<Path>SFX\WhenceTheFlowCometh_17C11484.wem</Path>
+		</File>
+		<File Id="104212721" Language="SFX">
+			<ShortName>Sumeru_Medieval.wav</ShortName>
+			<Path>SFX\Sumeru_Medieval_17C11484.wem</Path>
+		</File>
+		<File Id="146419728" Language="SFX">
+			<ShortName>EvergreenWish.wav</ShortName>
+			<Path>SFX\EvergreenWish_17C11484.wem</Path>
 		</File>
 		<File Id="147373166" Language="SFX">
 			<ShortName>Mondstadt_Medieval_44100.wav</ShortName>
-			<Path>SFX\Mondstadt_Medieval_44100_D959AED8.wem</Path>
+			<Path>SFX\Mondstadt_Medieval_44100_17C11484.wem</Path>
 		</File>
 		<File Id="222400468" Language="SFX">
 			<ShortName>MondstadtStarlit.wav</ShortName>
-			<Path>SFX\MondstadtStarlit_D959AED8.wem</Path>
+			<Path>SFX\MondstadtStarlit_17C11484.wem</Path>
 		</File>
 		<File Id="244580365" Language="SFX">
 			<ShortName>Mondstadt_Industrial.wav</ShortName>
-			<Path>SFX\Mondstadt_Industrial_D959AED8.wem</Path>
+			<Path>SFX\Mondstadt_Industrial_17C11484.wem</Path>
+		</File>
+		<File Id="251541185" Language="SFX">
+			<ShortName>MelodyOfBrightNewBuds.wav</ShortName>
+			<Path>SFX\MelodyOfBrightNewBuds_17C11484.wem</Path>
+		</File>
+		<File Id="309251908" Language="SFX">
+			<ShortName>Sumeru_Ancient.wav</ShortName>
+			<Path>SFX\Sumeru_Ancient_17C11484.wem</Path>
 		</File>
 		<File Id="440185306" Language="SFX">
 			<ShortName>EternalAnamnesis.wav</ShortName>
-			<Path>SFX\EternalAnamnesis_D959AED8.wem</Path>
+			<Path>SFX\EternalAnamnesis_17C11484.wem</Path>
+		</File>
+		<File Id="621775752" Language="SFX">
+			<ShortName>VillageSurroundedByGreen.wav</ShortName>
+			<Path>SFX\VillageSurroundedByGreen_17C11484.wem</Path>
 		</File>
 		<File Id="637053650" Language="SFX">
 			<ShortName>DuskInMondstadt.wav</ShortName>
-			<Path>SFX\DuskInMondstadt_D959AED8.wem</Path>
+			<Path>SFX\DuskInMondstadt_17C11484.wem</Path>
+		</File>
+		<File Id="655585261" Language="SFX">
+			<ShortName>LanguidAndQuietMoment.wav</ShortName>
+			<Path>SFX\LanguidAndQuietMoment_17C11484.wem</Path>
+		</File>
+		<File Id="705917819" Language="SFX">
+			<ShortName>FlickeringShadowsOfTrees.wav</ShortName>
+			<Path>SFX\FlickeringShadowsOfTrees_17C11484.wem</Path>
 		</File>
 		<File Id="729003882" Language="SFX">
 			<ShortName>ANewDayWithHope.wav</ShortName>
-			<Path>SFX\ANewDayWithHope_D959AED8.wem</Path>
+			<Path>SFX\ANewDayWithHope_17C11484.wem</Path>
+		</File>
+		<File Id="801781241" Language="SFX">
+			<ShortName>HustleAndBustleOfOrmos.wav</ShortName>
+			<Path>SFX\HustleAndBustleOfOrmos_17C11484.wem</Path>
+		</File>
+		<File Id="847263493" Language="SFX">
+			<ShortName>ChasingTheReflection.wav</ShortName>
+			<Path>SFX\ChasingTheReflection_17C11484.wem</Path>
 		</File>
 		<File Id="853640003" Language="SFX">
 			<ShortName>PureSky_44100.wav</ShortName>
-			<Path>SFX\PureSky_44100_D959AED8.wem</Path>
+			<Path>SFX\PureSky_44100_17C11484.wem</Path>
 		</File>
 		<File Id="862482301" Language="SFX">
 			<ShortName>Mondstadt_Ancient.wav</ShortName>
-			<Path>SFX\Mondstadt_Ancient_D959AED8.wem</Path>
+			<Path>SFX\Mondstadt_Ancient_17C11484.wem</Path>
 		</File>
 		<File Id="965003625" Language="SFX">
 			<ShortName>DawnWinery_44100.wav</ShortName>
-			<Path>SFX\DawnWinery_44100_D959AED8.wem</Path>
+			<Path>SFX\DawnWinery_44100_17C11484.wem</Path>
+		</File>
+		<File Id="1066490038" Language="SFX">
+			<ShortName>Sumeru_Industrial.wav</ShortName>
+			<Path>SFX\Sumeru_Industrial_17C11484.wem</Path>
+		</File>
+		<File Id="1072442912" Language="SFX">
+			<ShortName>ReturnToTrueness.wav</ShortName>
+			<Path>SFX\ReturnToTrueness_17C11484.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -61,25 +105,43 @@
 			<Path>Mondstadt_Music_Bank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3571911464" Name="Pause_Music_MONDSTADT"/>
+				<Event Id="777202665" Name="Pause_Music_SUMERU"/>
 				<Event Id="2119738516" Name="Play_Leader_Music_MONDSTADT"/>
+				<Event Id="3009328725" Name="Play_Leader_Music_SUMERU"/>
 				<Event Id="4144237934" Name="Play_Music_MONDSTADT"/>
+				<Event Id="3226990615" Name="Play_Music_SUMERU"/>
 				<Event Id="3332991233" Name="Resume_Music_MONDSTADT"/>
+				<Event Id="2580344858" Name="Resume_Music_SUMERU"/>
 				<Event Id="2232809910" Name="Start_Music_MONDSTADT"/>
+				<Event Id="671719535" Name="Start_Music_SUMERU"/>
 				<Event Id="2507400426" Name="Stop_Leader_Music_MONDSTADT"/>
+				<Event Id="2451045491" Name="Stop_Leader_Music_SUMERU"/>
 				<Event Id="2842568752" Name="Stop_Music_MONDSTADT"/>
+				<Event Id="1304689153" Name="Stop_Music_SUMERU"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="23177848"/>
 				<File Id="86738637"/>
+				<File Id="104212721"/>
+				<File Id="146419728"/>
 				<File Id="147373166"/>
 				<File Id="222400468"/>
 				<File Id="244580365"/>
+				<File Id="251541185"/>
+				<File Id="309251908"/>
 				<File Id="440185306"/>
+				<File Id="621775752"/>
 				<File Id="637053650"/>
+				<File Id="655585261"/>
+				<File Id="705917819"/>
 				<File Id="729003882"/>
+				<File Id="801781241"/>
+				<File Id="847263493"/>
 				<File Id="853640003"/>
 				<File Id="862482301"/>
 				<File Id="965003625"/>
+				<File Id="1066490038"/>
+				<File Id="1072442912"/>
 			</ReferencedStreamedFiles>
 		</SoundBank>
 	</SoundBanks>

@@ -1,18 +1,32 @@
 Event	ID	Name			Wwise Object Path	Notes
+	279258292	SUME_NH_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\SUME_NH_DECLARE_WAR_FROM_AI_A	
 	633285454	MOST_KL_DECLARE_WAR_A			\Default Work Unit\Speech\MOST_KL_DECLARE_WAR_A	
+	758138243	SUME_NH_FIRST_MEET_A			\Default Work Unit\Speech\SUME_NH_FIRST_MEET_A	
+	832176504	SUME_NH_DECLARE_WAR_A			\Default Work Unit\Speech\SUME_NH_DECLARE_WAR_A	
+	1012845833	SUME_NH_WARNING_A			\Default Work Unit\Speech\SUME_NH_WARNING_A	
 	1200427030	MOST_KL_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\MOST_KL_DECLARE_WAR_FROM_AI_A	
+	1603943402	SUME_NH_DEFEAT_A			\Default Work Unit\Speech\SUME_NH_DEFEAT_A	
 	1969782231	MOST_KL_WARNING_A			\Default Work Unit\Speech\MOST_KL_WARNING_A	
 	2202664540	MOST_KL_MISC_PEP_TALK_A			\Default Work Unit\Speech\MOST_KL_MISC_PEP_TALK_A	
+	2515395478	SUME_NH_MISC_PEP_TALK_A			\Default Work Unit\Speech\SUME_NH_MISC_PEP_TALK_A	
+	2794935543	SUME_NH_KUDOS			\Default Work Unit\Speech\SUME_NH_KUDOS	
 	3265900748	MOST_KL_DEFEAT_A			\Default Work Unit\Speech\MOST_KL_DEFEAT_A	
 	3455163849	MOST_KL_FIRST_MEET_A			\Default Work Unit\Speech\MOST_KL_FIRST_MEET_A	
 	3543864745	MOST_KL_KUDOS			\Default Work Unit\Speech\MOST_KL_KUDOS	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	120180067	MOST_KL_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_DECLARE_WAR_FROM_AI_A		273232
-	268881426	MOST_KL_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_WARNING_A		112204
-	292861037	MOST_KL_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_DECLARE_WAR_A		150544
-	393436800	MOST_KL_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_MISC_PEP_TALK_A		449848
-	430932878	MOST_KL_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_KUDOS_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_KUDOS_A		211492
-	712189090	MOST_KL_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_FIRST_MEET_A		236872
-	950869858	MOST_KL_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeiSpeech\MOST_KL_DEFEAT_A		53128
+	120180067	MOST_KL_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_DECLARE_WAR_FROM_AI_A		273232
+	268881426	MOST_KL_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_WARNING_A		112204
+	271710091	SUME_NH_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_DEFEAT_A		80524
+	292861037	MOST_KL_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_DECLARE_WAR_A		150544
+	393436800	MOST_KL_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_MISC_PEP_TALK_A		449848
+	407820225	SUME_NH_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_KUDOS_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_KUDOS_A		284968
+	430932878	MOST_KL_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_KUDOS_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_KUDOS_A		211492
+	439659415	SUME_NH_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_MISC_PEP_TALK_A		166924
+	455768291	SUME_NH_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_FIRST_MEET_A		216064
+	561971486	SUME_NH_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_WARNING_A		311752
+	712189090	MOST_KL_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_FIRST_MEET_A		236872
+	753144682	SUME_NH_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_DECLARE_WAR_FROM_AI_A		283168
+	829468639	SUME_NH_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\SUME_NH_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\SUME_NH_DECLARE_WAR_A		110728
+	950869858	MOST_KL_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Mondstadt\.cache\Windows\SFX\MOST_KL_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Mondstadt\id88602518\id854467727\id424381547\KleeSpeech\MOST_KL_DEFEAT_A		53128
 
