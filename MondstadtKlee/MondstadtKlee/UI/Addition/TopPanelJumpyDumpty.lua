@@ -1,4 +1,4 @@
--- By Handsome Kai (PiPiKai)
+-- Written by Handsome Kai (PiPiKai), edited by UzukiShimamura
 --------------------------------------------------------------
 isAttached = false;
 function kleeOnWMDUpdate(owner, WMDtype)

@@ -777,7 +777,7 @@
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="en_US">
-			<Text>Nahida, Lesser Lord Kusanali, all that dwell under the bowers of trees are naught but a fleeting mirage in your eyes, but your actions will surely change the face of this mortal world. You are familiar with the power inside lives in forests, and your people saw knowledge and truth there. Plant seeds of understanding, and may people around the world admire Sumeru as a land of grasses and woods, a nation of wisdom and eloquence.</Text>
+			<Text>Nahida, the Dendro Archon, all that dwell under the bowers of trees are naught but a fleeting mirage in your eyes, but your actions will surely change the face of this mortal world. You are familiar with the power inside lives in forests, and your people saw knowledge and truth there. Plant seeds of understanding, and may people around the world admire Sumeru as a land of grasses and woods, a nation of wisdom and eloquence.</Text>
 		</Row>
 
 		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Language="en_US">
@@ -801,25 +801,75 @@
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_SUBTITLE" Language="en_US">
-			<Text>Lesser Lord Kusanali</Text>
+			<Text>Lesser Lord Kusanali, Mahakusaladhamma, Archon Buer</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>The God of Wisdom lives in her palace of illusion, deciphering mysteries of the world in serenity.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Sumeru people reside in rainforests and deserts, being proud of their unparalleled [ICON_Science] Science output. For Sumeru, the first thing of all is to occupy as many Rainforest tiles as possible, so that they can use Forest Rangers to harvest a large amount of [ICON_Production] Production and [ICON_Science] Science. The Akademiya district can push their technological advantages even further, especially when their cities are populous. When playing as Nahida, remember to choose a good location for your city centers to gain additional yields. With the leadership of Lesser Lord Kusanali, Sumeru will surely prosper - and a Science Victory is in their reach.</Text>
+			<Text>Sumeru people reside in rainforests and deserts, being proud of their unparalleled [ICON_Science] Science output. For Sumeru, the first thing of all is to occupy as many Rainforest tiles as possible, so that they can use Forest Rangers to harvest a large amount of [ICON_Production] Production and [ICON_Science] Science. The Akademiya district can push their technological advantages even further, especially when their cities are populous. When playing as Nahida, remember to choose a good location for your city centers to gain additional yields. With the leadership of Mahakusaladhamma, Sumeru will surely prosper - and a Science Victory is in their reach.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMERU_FOREST_RANGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilopedia articles are not translated yet.</Text>
 		</Row>
 

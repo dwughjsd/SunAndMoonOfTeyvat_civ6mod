@@ -807,7 +807,7 @@
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="zh_Hans_CN">
-			<Text>纳西妲，小吉祥草王，森罗万象在您眼中不过是蜃景梦幻，但您之所为必将改变尘世的面貌。您熟知林间生命中蕴藏的力量，您的人民也从中照见了知识和真相。播下心识之种吧，愿世人皆景仰须弥：草木丰茂之地，智慧雄辩之国。</Text>
+			<Text>草神纳西妲，森罗万象在您眼中不过是蜃景梦幻，但您之所为必将改变尘世的面貌。您熟知林间生命中蕴藏的力量，您的人民也从中照见了知识和真相。播下心识之种吧，愿世人皆景仰须弥：草木丰茂之地，智慧雄辩之国。</Text>
 		</Row>
 
 		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Language="zh_Hans_CN">
@@ -831,26 +831,77 @@
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_SUBTITLE" Language="zh_Hans_CN">
-			<Text>小吉祥草王</Text>
+			<Text>小吉祥草王、摩诃善法大吉祥智慧主、魔神布耶尔</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
 			<Text>智慧之神身处幻景宫殿之中，静静解读世界的奥秘。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>须弥人居住在雨林和沙漠之中，以他们无人能敌的 [ICON_Science] 科技值产出为荣。对须弥而言，最重要的是要占据尽量多的雨林单元格，如此他们便可使用巡林员收获大量 [ICON_Production] 生产力和 [ICON_Science] 科技值。教令院更是可以进一步提升他们的科技优势，尤其是在城市人口众多时。使用纳西妲进行游戏时，切记为市中心选择一个合适的位置，以获得额外的产出。有小吉祥草王带领，须弥定能繁荣——并轻取科技胜利。</Text>
+			<Text>须弥人居住在雨林和沙漠之中，以他们无人能敌的 [ICON_Science] 科技值产出为傲。对须弥而言，最重要的是要占据尽量多的雨林单元格，如此他们便可使用巡林员收获大量 [ICON_Production] 生产力和 [ICON_Science] 科技值。教令院更是可以进一步提升他们的科技优势，尤其是在城市人口众多时。使用纳西妲进行游戏时，切记为市中心选择一个合适的位置以获得额外的产出。在摩诃善法大吉祥智慧主的带领下，须弥定能繁荣——并轻取科技胜利。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>纳西妲百科</Text>
+			<Text>在旅行者来到须弥的五百年前，前任草神大慈树王在尝试从世界树中消除禁忌知识的过程中逝去了。与世界树相连的大慈树王在治理世界树的同时也被禁忌知识所污染，只有当这个存在本身被彻底遗忘时，禁忌知识才会被彻底清除。因此，她折下世界树最纯净的枝杈，作为自己的轮回转世。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>经由大慈树王之手诞生的便是小吉祥草王纳西妲。那时，禁忌知识的污染仍未完全消除，但作为新生的神明，小吉祥草王却无法应对世界树的污染。因此，贤者在找到了新生的小吉祥草王，将其接回须弥城以后，迅速对其感到失望。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>贤者遂改造了大慈树王留在净善宫的冥想装置，让它无法从内部开启，将小吉祥草王囚禁于其中。小吉祥草王的神之心则被用于虚空终端——大慈树王所造的，统合人类智慧的装置——的运转。虚空成为了新诞神明的耳与目。她利用虚空遍历人们的喜怒哀乐，当然也知晓他们对旧神的崇拜与新神的失望，与诸如“智慧之神已经不复存在”的评价。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>纳西妲深知自己必须不断学习，尽快成长，才能面对来自世界最深处的威胁，这是她无法回避的使命。因此，即便得不到理解和重视，她也没有半分意见。但于此同时，教令院的大贤者阿扎尔则另有计划。在他看来，如果小吉祥草王没有能力拯救世界树，就应该创造有能力的神明。他们使用雷神之心，以散兵的身体为基础，建造了新神明的躯体。为了造神，教令院还利用虚空收集须弥人的梦境。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>教令院的所作所为很快被旅行者所知。旅行者前往沙漠，与赛诺、艾尔海森、迪希雅、拉赫曼等人结成同盟，商定了救出小吉祥草王的计划并最终成功。随后，大贤者被逮捕，基本成型的新神“正机之神”被击败，神之心也被夺取。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>利用草神和雷神之心，小吉祥草王解读出了大慈树王最后的话语。大慈树王在净化禁忌知识的过程后，其包括回忆与知识的相关内容也记录在了世界树中。为了彻底净化世界树，只能将世界树中其一切的相关信息抹除。虽然无比悲痛，但纳西妲不得不亲手从世界树中抹去大慈树王的一切。此后，所有提瓦特原住民再无关于大慈树王的记忆。森林无法记住一切，只有来自另一个世界的访客（包括旅行者）还保留着对真相的记忆。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>在后来的提瓦特人的记忆中，世界上从来只有一个草神，那就是小吉祥草王，从未更迭。但实际上只是新上任的纳西妲明白，有很多事正等待她去做。她流放了涉及造神计划的贤者，关闭了虚空终端，取消了对须弥沙漠地区的歧视政策。用她的说法，她希望重新让人们的求知欲和好奇心支配学术领域。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>曾经大贤者们盗取了须弥人的梦境，制造了“须弥人不会做梦”的传言并将其解释为智慧和理性的象征，但长久以来，草神都认为梦境是人类智慧的结晶。随着虚空终端的关闭，梦境回到了须弥人的生活中。也只有在虚空完成它的使命，禁忌知识被完全消除之后，纳西妲才能放眼须弥的未来，真正去展望独属于这片国度的美好图景。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>发现了消除禁忌知识的方法，如同大慈树王所言，作为智者，应该为探寻到答案而高兴。但令纳西妲遗憾的是，她终究没有时间解答：一个即将走向未来的国度是否能记得一个不复存在的名字？最终，她放下过去而坚强起来，因为她比任何人都明白——在须弥，她将是所有人的寄托与依靠。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>须弥百科</Text>
+			<Text>尽管具体的时间尚不明确，须弥的历史最早始于花神、赤王和大慈树王的合作。三位魔神共同建造了阿伊·哈努姆（意为“月女城”），也被称作“圆形剧场之城”。在如今已埋入黄沙的古老文献中，花神也被称作梦的女主人。她与另外两位魔神曾是好友，并以不同的方式分别追求着智慧。直到旅行者来到须弥时，花神的生日仍在为须弥人所庆祝（尽管如今他们用以庆祝的是草神的生日）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>三位魔神本打算将阿伊·哈努姆建设为一处“应许之地”……但好景不长，由于尚不明确的原因，花神突然陨落，连带的她所创造的紫红色帕蒂莎兰也就此消失。按照民间传说的记载，花神死于“烈日与黄沙的恶意”，但也有说法认为，“死亡正是花之主人从最开始便尽力追寻的终结，为失去的欢乐增添苦涩的风味”——换句话说，是花神自己策划了自己的死。在她离世后，赤王与大慈树王离开了月女城。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>之后，有多个沙漠中的藩王兴起，这些小王国均由失去神明领导的凡人统治。此时被称为“镀金藩王的割据时代”，最终结束于赤王和大慈树王的回归并重建“绿洲乐园”。藩王奥尔玛兹领导的居尔城便存在于这个时代，其历史被记载于后世的民间传说之中。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>两位神明以自己的方式重建了沙漠之国，曾经荒废的城市很可能在此时也再次兴起。不过在后来，大慈树王决定离开沙漠，只留赤王与他的黄沙子嗣。赤王独自统治沙漠之国期间，大慈树王前往沙海东方，制造了法留纳神机并将一片沙漠变为雨林。在沙漠和雨林的交界处，防沙壁被建立起来。她和信仰她的生论派学者创立了教令院，在圣树之上建立了须弥城，同时让教令院贤者们帮助树王管理国家事务。大慈树王还创造了兰那罗，一种操纵梦境的小生物。魔神战争打响，而大慈树王取得胜利，成为了尘世七执政之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>而独自统治沙漠王国的赤王却陷入了灾祸。他经受不住禁忌知识的诱惑。尽管他事后后悔地将其称作“毒药”，但后悔也已经太晚了。禁忌知识给须弥降下了灾难：“自从赤王将‘禁忌的知识’带到这个世界，便如同瘟疫一般散播开来。脑海充斥着疯狂的呓语，灰黑色的鳞片爬满了背脊，大地也似乎被夺去了生命，只剩绝望的死寂……”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>赤王随即寻求大慈树王的帮助，期望他的旧友能够救他于水火。草神召集祭司修建起数座神庙，制止灾祸蔓延并建立了阿如村，赤王文明的最后残存。大慈树王耗尽了她的力量，身躯退回了孩童模样，但即便如此仍然不够。最终，赤王决定牺牲自己，试图为灾难画上句号，将禁忌知识封印。此后，赤王的文明就此分崩离析，分散为一群小型城邦。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>这样的状态仅仅持续了500年。之后，坎瑞亚灾变发生了。除大慈树王以外的七神都被召集前往名为坎瑞亚的国度，而大慈树王有一项更为重要的任务——保护世界树，根植于深渊之中，连接着全世界的地脉的草元素力量之源，全提瓦特人的知识和记忆的储库。本该被封印的禁忌知识，伴随着波及整个提瓦特大陆的灾难而污染了世界树。大慈树王知道单靠自己的力量，根本无法将禁忌知识驱逐。于是她创造了统合人类智慧的装置，命名为“虚空”。借助虚空，她借走了人们的梦境，将禁忌知识几乎从世界树中完全清除。但她本身也被禁忌知识所污染……最终，要彻底清除禁忌知识，她必须让自己被世界彻底遗忘。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>虽然大慈树王几乎清除了禁忌知识，但她终究无法清除被污染的自身的存在。于是，她折下世界树最纯净的枝杈，作为她的轮回转世，也就是新生的小吉祥草王，以使自身能够最终被完全从世界树中清除，随后便牺牲了自己。在这个期间，禁忌知识仍继续毒害须弥，制造疯狂、死域和魔鳞病，教令院的学者们无论如何努力也无力回天。而新生的小吉祥草王也并没有掌握清除世界树污染的方法，因此她仅仅成为了大慈树王已死的象征，被绝望而陷入疯狂的教令院贤者囚禁。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>仅仅囚禁新草神并不能解决任何问题。在五百年的挣扎中，慌不择路的教令院听信了愚人众的“博士”的说辞，决定尝试自己制造新的神明，以取代并未显示出神明的智慧的小吉祥草王。为了完成这一目标，他们不惜夺走须弥人的梦境来激发雷神的神之心的力量，借以催生新神。不过，这项计划最终被旅行者成功制止。旅行者救出了小吉祥草王，并夺取了草神和雷神的神之心。用两颗神之心的力量，小吉祥草王最终解读出了处理禁忌知识的最终解决方案：净化世界树，彻底抹去大慈树王。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>在万分悲痛中，小吉祥草王拯救了世界树，消除了禁忌知识引发的灾难。但从那以后，提瓦特的原住民再也不记得大慈树王，而是相信草神从未更迭，就是现在的小吉祥草王。她开始真正执掌须弥，关闭了虚空终端，并专注于规划须弥的未来。</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMERU_FOREST_RANGER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>巡林员百科</Text>
+			<Text>巡林员是巡护须弥森林的公务人员，主要活跃在道成林中，尤其是其总部化城郭附近。他们的主要工作包括帮助路过的旅行者，以及维护森林的生态平衡（包括检查道路状况、维护林间设施、排除火灾隐患，以及治理死域——世界树的疾病的体现，使生命逐渐枯萎的异常现象）。他们定期向位于禅那园的学者报告森林情况，并根据学者的意见和支持物资维护森林。在旅行者来到须弥时，巡林队的领导者是大巡林官提纳里。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>教令院百科</Text>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>教令院由大慈树王创立，是须弥的主要行政机构，也是全提瓦特最富盛名的研究院所，尤其以其秘术和历史记录的文献集而闻名于世。教令院总部位于须弥城的树干之中，学术机构共有六大学派：生论派（生命科学）、明论派（天文学）、素论派（炼金术和地理学）、知论派（语言学与逻辑学）、因论派（历史与社会学）以及妙论派（工程学）。每个学派均依托于一所学院，由一位贤者领导。同时，在六学派的六贤者之中，会推举出一位大贤者，作为统辖教令院的顶点。在教令院要取得学位需要经过漫长而痛苦的过程，甚少有人在30岁前获得学位，而巨大的压力使得学者们往往早早白头。在小吉祥草王诞生之后，教令院将新生的神明囚禁，直到旅行者将她救出，让她夺回了这个机构的领导权并流放了时任大贤者阿扎尔。</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NAHIDA_QUOTE" Language="zh_Hans_CN">

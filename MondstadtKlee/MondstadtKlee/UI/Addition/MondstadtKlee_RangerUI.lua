@@ -1,4 +1,4 @@
--- Written by Konomi
+-- Written by Konomi, edited by UzukiShimamura
 
 -- ===========================================================================
 --	CONSTANTS

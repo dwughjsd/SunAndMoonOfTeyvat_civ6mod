@@ -3,7 +3,7 @@
   <Properties>
     <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
     <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
-    <Created>1667975404</Created>
+    <Created>1668515619</Created>
     <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -128,11 +128,13 @@
         <LuaReplace>UI/Replacements/SelectedUnit_MondstadtKlee.lua</LuaReplace>
         <LoadOrder>150001</LoadOrder>
       </Properties>
+      <Criteria>MondstadtKlee</Criteria>
     </ReplaceUIScript>
     <ImportFiles id="ImportFiles_SelectedUnit">
       <Properties>
         <LoadOrder>150001</LoadOrder>
       </Properties>
+      <Criteria>MondstadtKlee</Criteria>
       <File>UI/Replacements/SelectedUnit_MondstadtKlee.lua</File>
     </ImportFiles>
     <UpdateDatabase id="Expansion1">
@@ -143,6 +145,17 @@
       <Criteria>MondstadtKlee_Babylon</Criteria>
       <File>Data/MondstadtKlee_Babylon.xml</File>
     </UpdateDatabase>
+    <ReplaceUIScript id="ReplaceUI_UnitPanel">
+      <Properties>
+        <LuaContext>UnitPanel</LuaContext>
+        <LuaReplace>UI/Replacements/UnitPanel_Klee.lua</LuaReplace>
+      </Properties>
+      <Criteria>MondstadtKlee</Criteria>
+    </ReplaceUIScript>
+    <ImportFiles id="ImportFiles_UnitPanel">
+      <Criteria>MondstadtKlee</Criteria>
+      <File>UI/Replacements/UnitPanel_Klee.lua</File>
+    </ImportFiles>
   </InGameActions>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
@@ -217,5 +230,6 @@
     <File>UI/Addition/TopPanelJumpyDumpty.lua</File>
     <File>UI/Addition/TopPanelJumpyDumpty.xml</File>
     <File>UI/Replacements/SelectedUnit_MondstadtKlee.lua</File>
+    <File>UI/Replacements/UnitPanel_Klee.lua</File>
   </Files>
 </Mod>
