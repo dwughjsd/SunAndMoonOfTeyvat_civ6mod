@@ -783,6 +783,15 @@
 		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>军事学院提供+15 [ICON_Strength] 战斗力。</Text>
 		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>1级政体建筑提供+15 [ICON_Strength] 战斗力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>2级政体建筑提供+15 [ICON_Strength] 战斗力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>3级政体建筑提供+15 [ICON_Strength] 战斗力。</Text>
+		</InsertOrIgnore>
 		<Row Tag="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_PROMOTION_RANGER_DESCRIPTION}</Text>
 		</Row>

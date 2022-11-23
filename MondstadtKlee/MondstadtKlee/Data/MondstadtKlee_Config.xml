@@ -137,7 +137,7 @@
 			<LeaderType>LEADER_NAHIDA</LeaderType>
 			<Type>UNIT_SUMERU_FOREST_RANGER</Type>
 			<Name>LOC_UNIT_SUMERU_FOREST_RANGER_NAME</Name>
-			<Description>LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION</Description>
+			<Description>LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1</Description>
 			<Icon>ICON_UNIT_SUMERU_FOREST_RANGER</Icon>
 			<SortIndex>9</SortIndex>
 		</Row>
@@ -157,7 +157,7 @@
 			<LeaderType>LEADER_NAHIDA</LeaderType>
 			<Type>UNIT_SUMERU_FOREST_RANGER</Type>
 			<Name>LOC_UNIT_SUMERU_FOREST_RANGER_NAME</Name>
-			<Description>LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION</Description>
+			<Description>LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1</Description>
 			<Icon>ICON_UNIT_SUMERU_FOREST_RANGER</Icon>
 			<SortIndex>9</SortIndex>
 		</Row>

@@ -753,6 +753,15 @@
 		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Language="en_US">
 			<Text>+15 [ICON_Strength] Combat Strength from Military Academy.</Text>
 		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Tier 1 Government building.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Tier 2 Government building.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Tier 3 Government building.</Text>
+		</InsertOrIgnore>	
 		<Row Tag="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="en_US">
 			<Text>{LOC_PROMOTION_RANGER_DESCRIPTION}</Text>
 		</Row>

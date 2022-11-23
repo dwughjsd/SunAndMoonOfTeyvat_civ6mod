@@ -18,7 +18,7 @@
 		</InsertOrIgnore>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED" Language="en_US">
-			<Text>+1 [ICON_Faith] Faith from improved Hills. Additional +1 [ICON_Production] Production and +2 [ICON_Gold] Gold with Banking. Pastures and Plantations provide a standard and a major adjacency bonus for all districts respectively. Plantations trigger a Culture Bomb, and +2 [ICON_Culture] Culture if on a Luxury resource. Specialty districts do not receive a minor adjacency for being adjacent to another district. -20% [ICON_Production] Production toward Districts.</Text>
+			<Text>+1 [ICON_Faith] Faith from improved Hills. Additional +1 [ICON_Production] Production and +2 [ICON_Gold] Gold with Banking. Pastures and Plantations provide a standard adjacency bonus for all districts. Plantations trigger a Culture Bomb, and +2 [ICON_Culture] Culture if on a Luxury resource. Specialty districts do not receive a minor adjacency for being adjacent to another district. -30% [ICON_Production] Production toward Districts.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION" Language="en_US">
 			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED}</Text>
@@ -72,13 +72,16 @@
 			<Text>Forest Ranger</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" Language="en_US">
-			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and another additional yield. A Woods or Rainforest tile can be patrolled once every 40 turns.</Text>
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1" Language="en_US">
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when government buildings are constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_NAME" Language="en_US">
 			<Text>Akademiya</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Sumeru for scientific endeavors. Replaces the Campus district. Can only be constructed in Rainforest or Woods.[NEWLINE][NEWLINE]+1 [ICON_Science] Science bonus for each adjacent district. +1 [ICON_Science] Science bonus for each adjacent district. +1 [ICON_Science] Science bonus for each adjacent Rainforest tile. +0.5 [ICON_SCIENCE] Science per turn for each [ICON_Citizen] Citizen when the city has a Library. Additional +0.5 with Scientific Theory.</Text>
+			<Text>A district unique to Sumeru for scientific endeavors. Replaces the Campus district. Can only be constructed in Rainforest or Woods.[NEWLINE][NEWLINE]+1 [ICON_Science] Science bonus for each adjacent Rainforest tile. +0.5 [ICON_SCIENCE] Science per turn for each [ICON_Citizen] Citizen when the city has a University. Additional +0.5 with Scientific Theory.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

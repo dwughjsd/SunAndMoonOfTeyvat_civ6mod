@@ -28,14 +28,13 @@
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science4"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science5"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Jungle_Science_Akademiya"/>
-		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="District_Science_Akademiya"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="District_Science"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="GBR_Science"/>
 	</District_Adjacencies>
 
 	<Adjacency_YieldChanges>
 		<Row ID="Favonius_HolySite_Faith" Description="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="Jungle_Science_Akademiya" Description="LOC_DISTRICT_JUNGLE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE"/>
-		<Row ID="District_Science_Akademiya" Description="LOC_DISTRICT_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
 	</Adjacency_YieldChanges>
 
 	<District_GreatPersonPoints>
@@ -80,12 +79,12 @@
 		<Row>
 			<ModifierId>AKADEMIYA_SCIENCE_PER_POP</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
-			<SubjectRequirementSetId>BUILDING_IS_LIBRARY</SubjectRequirementSetId>
+			<SubjectRequirementSetId>SUMERU_BUILDING_IS_UNIVERSITY</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>AKADEMIYA_SCIENCE_PER_POP_SCIENTIFIC_THEORY</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
-			<SubjectRequirementSetId>SUMERU_LIBRARY_SCIENTIFIC_THEORY_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 
 	</Modifiers>
@@ -132,7 +131,11 @@
 			<RequirementSetId>REQUIREMENTS_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<Row RequirementSetId="SUMERU_LIBRARY_SCIENTIFIC_THEORY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row>
+			<RequirementSetId>SUMERU_BUILDING_IS_UNIVERSITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 
 	<RequirementSetRequirements>
@@ -141,12 +144,16 @@
 			<RequirementId>REQUIRES_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>SUMERU_LIBRARY_SCIENTIFIC_THEORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLAYER_HAS_SCIENTIFIC_THEORY_SUMERU</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>SUMERU_LIBRARY_SCIENTIFIC_THEORY_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_CITY_HAS_LIBRARY</RequirementId>
+			<RequirementSetId>SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SUMERU_BUILDING_IS_UNIVERSITY</RequirementSetId>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 
@@ -155,12 +162,21 @@
 			<RequirementId>REQUIRES_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
 		</Row>
+		<Row>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_FAVONIUS_STRONGHOLD</Value>
+		</Row>
+		<Row>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

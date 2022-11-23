@@ -55,4 +55,120 @@
 			<Value>FEATURE_JUNGLE</Value>
 		</Row>
 	</ModifierArguments>
+
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SUMERU_FOREST_RANGER"/>
+			<Set>
+				<Description>LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1</Description>
+			</Set>
+		</Update>
+	</Units>
+
+	<TypeTags>
+		<Row Type="ABILITY_FOREST_RANGER_GOV1_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_FOREST_RANGER_GOV2_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_FOREST_RANGER_GOV3_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Delete Type="ABILITY_NIHANG_BARRACKS_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Delete Type="ABILITY_NIHANG_ARMORY_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Delete Type="ABILITY_NIHANG_ACADEMY_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+	</TypeTags>
+
+	<BuildingModifiers>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_TALL" ModifierId="SUMERU_FOREST_RANGER_GOV1_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_WIDE" ModifierId="SUMERU_FOREST_RANGER_GOV1_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_CONQUEST" ModifierId="SUMERU_FOREST_RANGER_GOV1_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="SUMERU_FOREST_RANGER_GOV2_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_SPIES" ModifierId="SUMERU_FOREST_RANGER_GOV2_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_FAITH" ModifierId="SUMERU_FOREST_RANGER_GOV2_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_MILITARY" ModifierId="SUMERU_FOREST_RANGER_GOV3_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_CULTURE" ModifierId="SUMERU_FOREST_RANGER_GOV3_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_SCIENCE" ModifierId="SUMERU_FOREST_RANGER_GOV3_ABILITY"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV1_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV2_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV3_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV1_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FOREST_RANGER_GOV1_STRENGTH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV2_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FOREST_RANGER_GOV2_STRENGTH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV3_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FOREST_RANGER_GOV3_STRENGTH</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+	<Types>
+		<InsertOrIgnore Type="ABILITY_FOREST_RANGER_GOV1_STRENGTH" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="ABILITY_FOREST_RANGER_GOV2_STRENGTH" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="ABILITY_FOREST_RANGER_GOV3_STRENGTH" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<InsertOrIgnore UnitAbilityType="ABILITY_FOREST_RANGER_GOV1_STRENGTH" Name="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_NAME" Description="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_FOREST_RANGER_GOV2_STRENGTH" Name="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_NAME" Description="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_FOREST_RANGER_GOV3_STRENGTH" Name="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_NAME" Description="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_GOV1_STRENGTH</UnitAbilityType>
+			<ModifierId>FOREST_RANGER_GOV1_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_GOV2_STRENGTH</UnitAbilityType>
+			<ModifierId>FOREST_RANGER_GOV2_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_GOV3_STRENGTH</UnitAbilityType>
+			<ModifierId>FOREST_RANGER_GOV3_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV1_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV2_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV3_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV1_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV2_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV3_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
 </GameData>
