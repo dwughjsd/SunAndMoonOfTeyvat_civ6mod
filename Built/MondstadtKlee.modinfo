@@ -3,7 +3,7 @@
   <Properties>
     <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
     <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
-    <Created>1668515619</Created>
+    <Created>1669542595</Created>
     <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -162,6 +162,7 @@
     <File>ArtDefs/Cultures.artdef</File>
     <File>ArtDefs/Districts.artdef</File>
     <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
     <File>ArtDefs/Units.artdef</File>
@@ -209,6 +210,9 @@
     <File>Platforms/Windows/Audio/Mondstadt_Speech.txt</File>
     <File>Platforms/Windows/Audio/Mondstadt_Speech.xml</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_klee.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_nahida.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/light_rigs.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Mondstadt</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Sumeru</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Mondstadt</File>

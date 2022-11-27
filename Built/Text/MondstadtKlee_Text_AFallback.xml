@@ -795,6 +795,12 @@
 		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION" Language="en_US">
 			<Text>Tries to build up [ICON_Science] Science, and likes civilizations that also focus on [ICON_Science] Science. Dislikes those with low [ICON_SCIENCE] Science.</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_HIGH_SCIENCE" Language="en_US">
+			<Text>Nahida is pleased with your efforts in Science</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_LOW_SCIENCE" Language="en_US">
+			<Text>Nahida is disappointed that you ignore Science</Text>
+		</Row>
 
 		<Row Tag="LOC_CIVINFO_SUMERU_LOCATION" Language="en_US">
 			<Text>Teyvat</Text>

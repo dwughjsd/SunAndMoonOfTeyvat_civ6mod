@@ -298,6 +298,7 @@
 			<ArtDefDependencyPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
+				<Element text="Leaders.artdef"/>
 				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -305,7 +306,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="LeaderLighting"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Leaders.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
@@ -314,7 +317,9 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Leaders"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Leaders.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -446,6 +451,10 @@
 			<ArtDefDependencyPaths/>
 		</Element>
 		<Element>
+			<ArtDefPath text="Leaders.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
 			<ArtDefPath text="FallbackLeaders.artdef"/>
 			<ArtDefDependencyPaths/>
 		</Element>
@@ -481,7 +490,10 @@
 		</Element>
 		<Element>
 			<LibraryName text="Leader"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="/leaders/leader_klee.blp"/>
+				<Element text="/leaders/leader_nahida.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="LeaderFallback"/>
@@ -491,7 +503,9 @@
 		</Element>
 		<Element>
 			<LibraryName text="LeaderLighting"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="leaders/light_rigs.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="Light"/>

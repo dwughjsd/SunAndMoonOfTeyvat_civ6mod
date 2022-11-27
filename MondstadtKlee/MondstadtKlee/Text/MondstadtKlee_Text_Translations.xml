@@ -825,6 +825,12 @@
 		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>设法获得 [ICON_Science] 科技值，喜欢同样专注于 [ICON_Science] 科技的文明。不喜欢 [ICON_SCIENCE] 科技值低的文明。</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_HIGH_SCIENCE" Language="zh_Hans_CN">
+			<Text>您在科技上付出的努力让纳西妲十分欣喜</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_LOW_SCIENCE" Language="zh_Hans_CN">
+			<Text>您忽视科技发展，纳西妲颇为失望</Text>
+		</Row>
 
 		<Row Tag="LOC_CIVINFO_SUMERU_LOCATION" Language="zh_Hans_CN">
 			<Text>提瓦特大陆</Text>
