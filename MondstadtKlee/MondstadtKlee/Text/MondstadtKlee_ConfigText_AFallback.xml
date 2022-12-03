@@ -75,7 +75,7 @@
 			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1" Language="en_US">
-			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when government buildings are constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns.</Text>
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when government buildings are constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns (on Standard Speed).</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_NAME" Language="en_US">
 			<Text>Akademiya</Text>

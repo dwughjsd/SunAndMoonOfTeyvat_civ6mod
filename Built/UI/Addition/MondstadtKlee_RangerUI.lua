@@ -5,9 +5,9 @@
 -- ===========================================================================
 GameEvents = ExposedMembers.GameEvents;
 
-local COOLDOWN_TURN = GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN or 40
 local GAME_SPEED = GameConfiguration.GetGameSpeedType()
 local GAME_SPEED_MULTIPLIER = GameInfo.GameSpeeds[GAME_SPEED] and GameInfo.GameSpeeds[GAME_SPEED].CostMultiplier / 100 or 1
+local COOLDOWN_TURN = math.floor(GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN * GAME_SPEED_MULTIPLIER)
 -- ===========================================================================
 --	VARIABLES
 -- ===========================================================================
