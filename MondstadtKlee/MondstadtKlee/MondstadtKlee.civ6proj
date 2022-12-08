@@ -102,6 +102,9 @@
     <Content Include="Platforms\Windows\Audio\309251908.wem">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\Windows\Audio\330731594.wem">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\Audio\440185306.wem">
       <SubType>Content</SubType>
     </Content>
