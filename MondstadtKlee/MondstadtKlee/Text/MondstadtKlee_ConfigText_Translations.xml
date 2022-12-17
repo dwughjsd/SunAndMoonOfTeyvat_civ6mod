@@ -45,8 +45,6 @@
 		<Row Tag="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可莉作为领袖时的蒙德特色文艺复兴时期攻城单位。只能进行近战攻击。当靠近一座城市时，可让近战单位忽略城墙，直接攻击该城。可发射砰砰礼物和原子武器。</Text>
 		</Row>
-
-		<!--Nahida-->
 		<Row Tag="LOC_CIVILIZATION_SUMERU_NAME" Language="zh_Hans_CN">
 			<Text>须弥</Text>
 		</Row>

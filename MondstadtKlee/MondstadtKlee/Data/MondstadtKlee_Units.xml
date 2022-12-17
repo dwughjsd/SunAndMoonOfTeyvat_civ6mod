@@ -3,7 +3,6 @@
 	<!--For Forest Ranger-->
 	<GlobalParameters>
 		<Row Name="SUMERU_RANGER_COOLDOWN_TURN" Value="40"/>
-
 	</GlobalParameters>
 	<Types>
 		<Row Type="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Kind="KIND_UNIT"/>

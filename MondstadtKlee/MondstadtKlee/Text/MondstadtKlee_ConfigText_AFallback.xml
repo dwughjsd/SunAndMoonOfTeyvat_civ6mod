@@ -45,8 +45,6 @@
 		<Row Tag="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_DESCRIPTION" Language="en_US">
 			<Text>Mondstadt unique Renaissance era siege unit when Klee is their leader. Has only melee attack. When adjacent to a city, attacking melee units ignore Walls and immediately assault the city. Can be armed with Pounding Surprises and nuclear weapons.</Text>
 		</Row>
-
-		<!--Nahida-->
 		<Row Tag="LOC_CIVILIZATION_SUMERU_NAME" Language="en_US">
 			<Text>Sumeru</Text>
 		</Row>

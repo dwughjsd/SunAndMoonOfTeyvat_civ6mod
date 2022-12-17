@@ -101,7 +101,6 @@
 		<Row Name="ICON_UNIT_MONDSTADT_JUMPY_DUMPTY_PORTRAIT" Atlas="ICON_ATLAS_JUMPY_DUMPTY_PORTRAIT" Index="0"/>
 		<Row Name="DISTRICT_FAVONIUS_STRONGHOLD" Index="179" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4"/>
 		<Row Name="ICON_PROJECT_FISH_BLASTING"                          Atlas="ICON_ATLAS_PROJECTS" Index="7"/>
-		<!--Use this for now. Pending to change.-->
 		<Row Name="ICON_UNIT_SUMERU_FOREST_RANGER"                          Atlas="ICON_ATLAS_FOREST_RANGER" Index="0"/>
 		<Row Name="ICON_UNIT_SUMERU_FOREST_RANGER_PORTRAIT"                   Atlas="ICON_ATLAS_FOREST_RANGER_PORTRAIT"   Index="0"/>
 		<Row Name="ICON_DISTRICT_AKADEMIYA" Atlas="ICON_ATLAS_DISTRICTS" Index="2"/>
