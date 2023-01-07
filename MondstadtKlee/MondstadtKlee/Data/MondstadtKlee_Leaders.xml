@@ -254,6 +254,8 @@
 	</ModifierArguments>
 
 	<ModifierStrings>
+		<Row ModifierId="AGENDA_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_FLEEING_SUNLIGHT_LOW_NUKE_LOVE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_SAPIENTIA_OROMASDIS_HIGH_SCIENCE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_SAPIENTIA_OROMASDIS_LOW_SCIENCE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
@@ -325,7 +327,6 @@
 	<AgendaTraits>
 		<Row AgendaType="AGENDA_FLEEING_SUNLIGHT" TraitType="TRAIT_AGENDA_FLEEING_SUNLIGHT"/>
 		<Row AgendaType="AGENDA_SAPIENTIA_OROMASDIS" TraitType="TRAIT_AGENDA_SAPIENTIA_OROMASDIS"/>
-
 	</AgendaTraits>
 
 	<ExclusiveAgendas>
