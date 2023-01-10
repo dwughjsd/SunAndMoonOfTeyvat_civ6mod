@@ -3,7 +3,7 @@
   <Properties>
     <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
     <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
-    <Created>1672319202</Created>
+    <Created>1673359387</Created>
     <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -14,7 +14,7 @@
       <zh_Hans_CN>提瓦特的日月包</zh_Hans_CN>
     </Text>
       <Text id="LOC_KLEE_MONDSTADT_MOD_TEASER">
-      <en_US>New Civilization and Leader - Klee of Mondstadt and Nahida of Sumeru</en_US>
+      <en_US>New Civilizations and Leaders - Klee of Mondstadt and Nahida of Sumeru</en_US>
       <zh_Hans_CN>新文明和领袖——蒙德的可莉和须弥的纳西妲</zh_Hans_CN>
     </Text>
       <Text id="LOC_KLEE_MONDSTADT_MOD_DESCRIPTION">
@@ -52,25 +52,25 @@
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
-    <UpdateDatabase id="MondstadtKlee_Config">
+    <UpdateDatabase id="MondstadtSettings">
       <File>Data/MondstadtKlee_Config.xml</File>
     </UpdateDatabase>
-    <UpdateText id="MondstadtKlee_TextConfig">
+    <UpdateText id="MondstadtSettingsText">
       <File>Text/MondstadtKlee_ConfigText_Translations.xml</File>
       <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
     </UpdateText>
-    <UpdateIcons id="MondstadtKlee_IconsConfig">
+    <UpdateIcons id="MondstadtSettingsIcons">
       <File>Data/MondstadtKlee_Icons.xml</File>
     </UpdateIcons>
-    <UpdateColors id="MondstadtKlee_ColorsConfig">
+    <UpdateColors id="MondstadtSettingsColors">
       <File>Data/MondstadtKlee_Colors.xml</File>
     </UpdateColors>
-    <UpdateArt id="MondstadtKlee_ArtConfig">
+    <UpdateArt id="MondstadtSettingsArt">
       <File>MondstadtKlee.dep</File>
     </UpdateArt>
   </FrontEndActions>
   <InGameActions>
-    <UpdateDatabase id="MondstadtKlee_Gameplay">
+    <UpdateDatabase id="MondstadtGameplay">
       <Criteria>MondstadtKlee</Criteria>
       <File>Data/MondstadtKlee_Leaders.xml</File>
       <File>Data/MondstadtKlee_Civilizations.xml</File>
@@ -79,34 +79,34 @@
       <File>Data/MondstadtKlee_Projects.xml</File>
       <File>Data/MondstadtKlee_WMDs.xml</File>
     </UpdateDatabase>
-    <UpdateText id="MondstadtKlee_Text">
+    <UpdateText id="MondstadtText">
       <Criteria>MondstadtKlee</Criteria>
       <File>Text/MondstadtKlee_ConfigText_Translations.xml</File>
       <File>Text/MondstadtKlee_Text_Translations.xml</File>
       <File>Text/MondstadtKlee_Text_AFallback.xml</File>
       <File>Text/MondstadtKlee_ConfigText_AFallback.xml</File>
     </UpdateText>
-    <UpdateArt id="MondstadtKlee_Art">
+    <UpdateArt id="MondstadtArt">
       <Criteria>MondstadtKlee</Criteria>
       <File>MondstadtKlee.dep</File>
     </UpdateArt>
-    <UpdateColors id="MondstadtKlee_Colors">
+    <UpdateColors id="MondstadtColors">
       <Criteria>MondstadtKlee</Criteria>
       <File>Data/MondstadtKlee_Colors.xml</File>
     </UpdateColors>
-    <UpdateIcons id="MondstadtKlee_Icons">
+    <UpdateIcons id="MondstadtIcons">
       <Criteria>MondstadtKlee</Criteria>
       <File>Data/MondstadtKlee_Icons.xml</File>
     </UpdateIcons>
-    <UpdateDatabase id="MondstadtKlee_Expansion2">
+    <UpdateDatabase id="MondstadtExpansion2">
       <Criteria>MondstadtKlee_Expansion2</Criteria>
       <File>Data/MondstadtKlee_Expansion2.xml</File>
     </UpdateDatabase>
-    <UpdateDatabase id="MondstadtKlee_Gameplay_SecretSocieties">
+    <UpdateDatabase id="Mondstadt_SecretSocieties_Mode">
       <Criteria>SecretSocieties</Criteria>
       <File>Data/MondstadtKlee_Ethiopia.xml</File>
     </UpdateDatabase>
-    <AddUserInterfaces id="MondstadtKlee_UI">
+    <AddUserInterfaces id="MondstadtInGameUI">
       <Properties>
         <Context>InGame</Context>
       </Properties>
@@ -114,15 +114,15 @@
       <File>UI/Addition/TopPanelJumpyDumpty.xml</File>
       <File>UI/Addition/MondstadtKlee_RangerUI.xml</File>
     </AddUserInterfaces>
-    <UpdateAudio id="MondstadtKlee_Audio">
+    <UpdateAudio id="MondstadtAudio">
       <Criteria>MondstadtKlee</Criteria>
       <File>Platforms/Windows/Audio/KleeBanks.ini</File>
     </UpdateAudio>
-    <AddGameplayScripts id="MondstadtKlee_Scripts">
+    <AddGameplayScripts id="MondstadtScripts">
       <Criteria>MondstadtKlee</Criteria>
       <File>Scripts/MondstadtKlee_RangerGameplay.lua</File>
     </AddGameplayScripts>
-    <ReplaceUIScript id="MondstadtKlee_ReplaceUI_SelectedUnit">
+    <ReplaceUIScript id="Mondstadt_SelectedUnit">
       <Properties>
         <LuaContext>SelectedUnit</LuaContext>
         <LuaReplace>UI/Replacements/SelectedUnit_MondstadtKlee.lua</LuaReplace>
@@ -130,33 +130,33 @@
       </Properties>
       <Criteria>MondstadtKlee</Criteria>
     </ReplaceUIScript>
-    <ImportFiles id="MondstadtKlee_ImportFiles_SelectedUnit">
+    <ImportFiles id="MondstadtFiles_SelectedUnit">
       <Properties>
         <LoadOrder>150001</LoadOrder>
       </Properties>
       <Criteria>MondstadtKlee</Criteria>
       <File>UI/Replacements/SelectedUnit_MondstadtKlee.lua</File>
     </ImportFiles>
-    <UpdateDatabase id="MondstadtKlee_Expansion1">
+    <UpdateDatabase id="MondstadtExpansion1">
       <Criteria>MondstadtKlee_Expansion1</Criteria>
       <File>Data/MondstadtKlee_Expansion1.xml</File>
     </UpdateDatabase>
-    <UpdateDatabase id="MondstadtKlee_GamePlay_Babylon">
+    <UpdateDatabase id="Mondstadt_Babylon">
       <Criteria>MondstadtKlee_Babylon</Criteria>
       <File>Data/MondstadtKlee_Babylon.xml</File>
     </UpdateDatabase>
-    <ReplaceUIScript id="MondstadtKlee_ReplaceUI_UnitPanel">
+    <ReplaceUIScript id="Mondstadt_UnitPanel">
       <Properties>
         <LuaContext>UnitPanel</LuaContext>
         <LuaReplace>UI/Replacements/UnitPanel_Klee.lua</LuaReplace>
       </Properties>
       <Criteria>MondstadtKlee</Criteria>
     </ReplaceUIScript>
-    <ImportFiles id="MondstadtKlee_ImportFiles_UnitPanel">
+    <ImportFiles id="MondstadtFiles_UnitPanel">
       <Criteria>MondstadtKlee</Criteria>
       <File>UI/Replacements/UnitPanel_Klee.lua</File>
     </ImportFiles>
-    <UpdateDatabase id="MondstadtKlee_LogitechARX">
+    <UpdateDatabase id="MondstadtARX">
       <Criteria>MondstadtKlee</Criteria>
       <File>Data/ARX/Civ_LEADER_KLEE.png</File>
       <File>Data/ARX/Civ_LEADER_NAHIDA.png</File>
