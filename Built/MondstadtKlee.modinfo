@@ -156,11 +156,11 @@
       <Criteria>MondstadtKlee</Criteria>
       <File>UI/Replacements/UnitPanel_Klee.lua</File>
     </ImportFiles>
-    <UpdateDatabase id="MondstadtARX">
+    <UpdateLogitechARX id="MondstadtARX">
       <Criteria>MondstadtKlee</Criteria>
       <File>Data/ARX/Civ_LEADER_KLEE.png</File>
       <File>Data/ARX/Civ_LEADER_NAHIDA.png</File>
-    </UpdateDatabase>
+    </UpdateLogitechARX>
   </InGameActions>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
