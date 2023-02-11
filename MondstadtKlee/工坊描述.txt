@@ -1,0 +1,136 @@
+[h1]↑好评是工坊最有用的赞誉，轻点一下就能给出。给我们的作品点好评就能激励我们继续努力，谢谢♪
+
+欢迎加入“圣特蕾莎文明mod学园”QQ群（519747236）寻访关于我们的作品的最新动态。[/h1]
+
+此mod需要迭起兴衰或风云变幻资料片的其中之一才能运行。平衡性以风云变幻资料片中的数值为准。
+
+[h1]支持语言：简体中文、英语[/h1]
+
+[h1]可莉领导的蒙德与纳西妲领导的须弥：先睹为快[/h1]
+
+逃跑的太阳与须弥的月亮——在本文明包中包含了两位风格互补的来自《原神》游戏中的人气角色，她们一个活泼淘气，一个沉稳内敛，分别适合战争与和平的游戏风格。
+
+[b]蒙德[/b]的特色区域是[b]西风骑士团驻地[/b]，可以建设在市中心旁。它可以让城市购买陆地单位和平民单位的成本减少并从圣地中获得额外的信仰产出。特色单位[b]西风游击小队[/b]是一种替代披甲战士的近战单位，它更快也更加强力，但夹击加成-100%。
+
+文明特性是[b]“风与牧歌之城”[/b]。在丘陵上建设改良设施可以获得额外的信仰值，在研究银行业后还提供生产力和金钱。他们从牧场和种植园中获得额外的相邻加成，种植园甚至可以触发文化炸弹并从奢侈品资源获得额外的文化值。不过，他们在建设区域时较慢，也无法从相邻区域获得少量相邻加成。
+
+作为游戏内的爆破专家，[b]可莉[/b]的特色能力是[b]“可莉特调”[/b]。游戏开始时他们便可以发现世界上的硝石资源，攻城单位也可额外攻击一次。不要忽视在西风骑士团驻地开展“炸鱼狂欢节”项目，完成后可以获得一枚砰砰礼物——专属于可莉的，可以使用领袖特色单位[b]蹦蹦炸弹[/b]发射，摧毁建筑和单位而不会留下核辐射的大规模杀伤性武器！
+
+[b]须弥[/b]的特色区域是[b]教令院[/b]，替代学院区域。必须建造在树林或雨林中。它从相邻雨林中获得标准而不是少量科技值相邻加成，若建有大学还会使每位公民产出额外的科技值。须弥人不砍伐森林和雨林，而是使用特色单位[b]“巡林员”[/b]巡护它们并获得收益。除了从森林和雨林中获得生产力、科技值和文化值，他们也是很好的防御单位，且不受森林和雨林的移动力惩罚。
+
+伴随雨林而生的须弥获得的文明特性是[b]“智妙明论之林”[/b]。他们可以在森林和雨林中建设区域而不移除地貌，而且还能从雨林中获得科技值。研究科学理论科技后，额外的科技值还会获得提升。
+
+领袖特色能力[b]“心景幻成”[/b]使得须弥的市中心周围成为了[b]纳西妲[/b]的幻景宫殿。当与市中心相邻时，不同类型的地貌以及丘陵地形为纳西妲提供额外的食物、生产力或者文化。
+
+您更喜欢自由的蒙德还是智慧的须弥？您将会如何带领他们建立起经得起时间考验的文明？
+
+[b]能力详情请参阅讨论贴。[/b]
+
+[h1]模组特性：[/h1]
+
+[b]强力而不超模。[/b]每位领袖的能力均鼓励一种独特的游玩方式，并在设计时充分考虑了领袖的能力强度，使其拥有充分的竞争力但并不显著过强。
+
+[b]忠于原作。[/b]本作品在制作过程中进行了精细的考证，包括人名、地名、城市名称和外交用语，以尽最大可能表现原作的风土人情和领袖性格特征。
+
+[b]和谐风格。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各个界面正确显示且整洁清爽。
+
+[b]背景音乐与领袖语音。[/b]蒙德以及须弥的领袖均有属于他们的音乐和语音。
+
+[h1]已知问题：[/h1]
+
+【不是bug】启用此mod后，如果您没有某种核武器，发射这种核武器的单位动作会被隐藏。
+
+【官方背锅】音乐播放有时会存在问题，具体表现与官方的越南和葡萄牙文明相同。
+
+[h1]需要帮助：[/h1]
+
+（1）领袖动画
+（2）重新编曲的音乐
+（3）更多语言的本地化
+（4）图标和时代得分美术
+
+[h1]向大家介绍 Shimamura et al.[/h1]
+
+Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是 UzukiShimamura卯月 与小伙伴们的合作团队——我们由一群富有经验的文明6mod制作者组成，致力于设计富有特色而与原版游戏相协调的领袖mod。当然，如果你能做得更好，我们也需要你的帮助！
+
+[b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]：制作了巡林员的巡林操作。
+[b][url=steamcommunity.com/profiles/76561199176603410/]皮皮凯[/url][/b]：为顶部面板增加了砰砰礼物计数器，并使砰砰礼物发射按钮只在需要时显示。
+[b][url=steamcommunity.com/profiles/76561199087650404]KOTOMI[/url][/b]：制作了蹦蹦炸弹的图标。
+[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]：为设计方案提供平衡性调整。
+[b][url=steamcommunity.com/profiles/76561198348087348]夕墨岚[/url][/b]：制作了时代得分绘画的蒙版。
+[b][url=steamcommunity.com/profiles/76561198866640383]UFO300[/url][/b]和[b][url=steamcommunity.com/id/Shiro404/]白菌[/url][/b]：提供了音乐的原始素材。
+[b][url=steamcommunity.com/profiles/76561198181931490]月海之沙[/url]以及支持我的朋友们[/b]：推动本作品登上工坊！
+
+本模组使用了来自跨平台游戏《原神》的素材。模组作者并不拥有素材的所有权。
+
+需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入QQ群“圣特蕾莎文明mod学园”（519747236）联系我。
+
+在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上可以查看我所有作品的工程文件。给我Star或者提出Pull Request就更好了！
+
+
+[h1]↑ Positive rates are the most useful awards in the Workshop and can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better![/h1]
+
+You need either Rise and Fall or Gathering Storm to use this mod. All gameplay balancing is set to fit Gathering Storm ruleset.
+
+[h1]Supported language: Simplified Chinese, English[/h1]
+
+[h1]Klee leads Mondstadt and Nahida leads Sumeru: First Look[/h1]
+
+The Fleeing Sunlight and the Moon of Sumeru - this civilization pack includes 2 popular characters with complementary characteristics from the game Genshin Impact. One of them is active and naughty while another one is calm and introverted, and they fits conquest and peaceful development respectively.
+
+The Unique District of [b]Mondstadt[/b] is [b]Favonius Stronghold[/b] which can be built adjacent to a City Center. It can lower the price of land combat or civilian units and earn additional Faith from each adjacent Holy Site. Their unique unit is [b]Reconnaissance Company[/b], a melee unit that replaces the Man-At-Arms. It's faster and stronger, but receives -100% flanking bonus.
+
+Mondstadt's Unique Ability is [b]City of Winds and Idylls[/b]. Constructing Improvement on Hills to earn extra Faith, and additional Production and Gold with Banking. They get additional adjacency bonuses from Pastures and Plantations, and Plantations can even trigger Culture Bombs and earn Culture bonuses from Luxury resources. Howeven they are slower to build districts, and cannot receive the minor adjacency bonuses from adjacent districts.
+
+As an expert of explosion, [b]Klee[/b]'s Leader Ability is [b]Exquisite Compound[/b]. They can reveal Niter when the game starts, and their siege units can attack twice in a turn. Don't forget to initiate the Fish Blasting Carnival project in cities with a Favonius Stronghold - which grants a Pounding Surprise, a Weapon of Mass Destruction which can be launched by a [b]Jumpy Dumpty[/b] and destroys buildings and units without leaving any Fallout, upon completion!
+
+The Unique District of Sumeru is [b]Akademiya[/b] which replaces the Campus district. It can only be constructed in Rainforest or Woods, and receive standard adjacency bonuses from adjacent rainforests instead of minor one. It also grants additional Science for each Citizen if the city has a University. Sumeru people do not chop Rainforests or Woods, and use their Unique Unit [b]Forest Ranger[/b] to Patrol them to earn yields. It is good at earning Production, Science and Culture from Rainforests and Woods, and is also a good defending unit which ignores Movement penalty of Woods and Rainforests.
+
+The Unique Ability of rainforest-dwelling [b]Sumeru[/b] is [b]Forest of Jnana and Vidya[/b]. They can build districts in Woods and Rainforests without removing them, and receive Science from Rainforests. The extra Science from Rainforests is further enhanced with Scientific Theory technology.
+
+The Leader Ability [b]Illusory Heart[/b] of [b]Nahida[/b] makes tiles adjacent to Sumeru cities become her palace of illusion. They provide extra Food, Production or Culture based on features or Hills terrain they have.
+
+Which one do you prefer, free Mondstadt or wise Sumeru? How would you lead them to build a civilization that stand the test of time?
+
+[b]For detailed ability description, see discussions.[/b]
+
+[h1]Mod Highlights:[/h1]
+
+[b]"Powered" without "Over"[/b]: Each leader has several abilities that promote a unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
+
+[b]Lore-Loyalty[/b]: This mod is made with a fine research of the original game, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
+
+[b]Harmonized Mix[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly.
+
+[b]Background Music and Leader Speeches[/b]: All Mondstadt and Sumeru leaders have their own music and leader speech audio.
+
+[h1]Known issues:[/h1]
+
+[NOT A BUG] When this mod is enabled, the unit action buttons to launch a type of Weapon of Massive Destruction (Nuclear Devices, Thermonuclear Devices and Pounding Surprises) will be hidden if you don't have any of it.
+
+[FIRAXIS-SIDE ISSUE] Music playback can be sometimes glitchy, with the same issues of some official civilizations like Vietnam and Portugal.
+
+[h1]Help needed:[/h1]
+
+(1)Leader animations
+(2)Recomposed music
+(3)More localization (text)
+(4)Icons and historical moment assets
+
+[h1]Introducing Shimamura et al.[/h1]
+
+Shimamura et al. (literally means "Shimamura and other people") is the team of UzukiShimamura and his friends, a group of experienced modders trying their best to design some leader mods that are unique while keeping harmony with vanilla game. And of course, WE NEED YOUR SUPPORT if you can do better than us!
+
+[b][url=steamcommunity.com/profiles/76561198286338454]Konomi[/url][/b]: Implemented Patrol action of Forest Ranger unit.
+[b][url=steamcommunity.com/profiles/76561199176603410/]Handsome Kai[/url][/b]: Added a counter for Pounding Surprise on top panel, and made the Launch a Pounding Surprise button be shown only when availiable.
+[b][url=steamcommunity.com/profiles/76561199087650404]KOTOMI[/url][/b]: Made icon of Jumpy Dumpty.
+[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]: Made balancing adjustments for the design.
+[b][url=steamcommunity.com/profiles/76561198348087348]Xi Mo Lan[/url][/b]: Made templates for Historical Moments illustration.
+[b][url=steamcommunity.com/profiles/76561198866640383]UFO300[/url][/b] and [b][url=steamcommunity.com/id/Shiro404/]Shiro[/url][/b]: Provided raw assets of music of Mondstadt.
+[b][url=steamcommunity.com/profiles/76561198181931490]Lao Sha[/url] and all friends that support me[/b]: Advocated this mod to be released on Workshop!
+
+This mod uses assets from the cross-platform game Genshin Impact. The author of this mod DOES NOT own these assets.
+
+Need modding support, or found some issues? PM me on Steam or join QQ group 519747236 to contact me.
+
+View project files of all my work on [url=github.com/dwughjsd]GitHub[/url]. It would be much appreciated if you can be my Stargazer or come up with some Pull Requests!
