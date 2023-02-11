@@ -31,7 +31,7 @@
 			<Text>Favonius Stronghold</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Mondstadt which replaces the Encampment. Cheaper to build and can be built adjacent to the City Center. Land combat or civilian units are 30% cheaper to purchase in this city. +2 [ICON_Faith] Faith for each adjacent Holy Site.</Text>
+			<Text>A district unique to Mondstadt which replaces the Encampment. Cheaper to build and can be built adjacent to the City Center. Land combat or civilian units are 30% cheaper to purchase in this city.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="en_US">
 			<Text>Reconnaissance Company</Text>
@@ -55,25 +55,28 @@
 			<Text>Illusory Heart</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles, +1 [ICON_Production] Production to Hills tiles and +1 [ICON_Culture] Culture to Woods and Rainforests tiles if they are adjacent to a City Center.</Text>
+			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles and +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater if they are adjacent to a City Center.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_XP2" Language="en_US">
-			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles, +1 [ICON_Production] Production to Volcanic Soil, Geothermal Fissure and Hills tiles and +1 [ICON_Culture] Culture to Woods and Rainforests tiles if they are adjacent to a City Center.</Text>
+			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles, +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater and +2 [ICON_Culture] Culture to Volcanic Soil and Geothermal Fissure tiles if they are adjacent to a City Center. These numbers are doubled in [ICON_Power] Powered cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_NAME" Language="en_US">
 			<Text>Forest of Jnana and Vidya</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION" Language="en_US">
-			<Text>Units cannot chop Woods and Rainforests. All districts can be built on Woods and Rainforest tiles. +1 [ICON_Science] Science to all Rainforest tiles. Additional +1 with Science Theory.</Text>
+			<Text>All districts can be built on Woods and Rainforest tiles. +1 [ICON_Science] Science to all Rainforest tiles. Additional +1 with Science Theory.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_XP2" Language="en_US">
+			<Text>Units cannot chop Woods and Rainforests. {LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_NAME" Language="en_US">
 			<Text>Forest Ranger</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" Language="en_US">
-			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns.</Text>
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 50 turns (on Standard Speed).</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1" Language="en_US">
-			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when government buildings are constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 40 turns (on Standard Speed).</Text>
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when government buildings are constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 50 turns (on Standard Speed).</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_NAME" Language="en_US">
 			<Text>Akademiya</Text>

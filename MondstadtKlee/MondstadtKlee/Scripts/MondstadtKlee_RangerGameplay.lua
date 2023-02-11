@@ -5,6 +5,13 @@
 -- ===========================================================================
 ExposedMembers.GameEvents = GameEvents
 
+GameEvents.MondstadtSetCityPlotProperty.Add(function(playerID, cityID, key, value)
+    local pCity = CityManager.GetCity(playerID, cityID)
+		for _, pPlot in pairs(pCity:GetOwnedPlots()) do
+		pPlot:SetProperty(key, value)
+		end	
+end)
+
 local KEY_SUMERU_RANGER = 'KEY_SUMERU_RANGER'
 local YIELD_COLORS = {
 	YIELD_SCIENCE = '[COLOR_FLOAT_SCIENCE]',

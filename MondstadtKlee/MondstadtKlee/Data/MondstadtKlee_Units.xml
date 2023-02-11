@@ -2,7 +2,7 @@
 <GameData>
 	<!--For Forest Ranger-->
 	<GlobalParameters>
-		<Row Name="SUMERU_RANGER_COOLDOWN_TURN" Value="40"/>
+		<Row Name="SUMERU_RANGER_COOLDOWN_TURN" Value="50"/>
 	</GlobalParameters>
 	<Types>
 		<Row Type="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Kind="KIND_UNIT"/>
@@ -54,7 +54,7 @@
 	<Units>
 		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Cost="160" Maintenance="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="53" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_NAME" Description="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_MONDSTADT_FAVONIUS_KNIGHT" PrereqTech="TECH_APPRENTICESHIP"/>
 		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" Cost="280" Maintenance="4" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_NAME" Description="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_DESCRIPTION" TraitType="TRAIT_LEADER_UNIT_MONDSTADT_JUMPY_DUMPTY" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_GUNPOWDER" WMDCapable="true" StrategicResource="RESOURCE_NITER" />
-		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" Cost="150" Combat="25" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_SUMERU_FOREST_RANGER_NAME" Description="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="15" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_FOREST_RANGER"/>
+		<Row UnitType="UNIT_SUMERU_FOREST_RANGER" Cost="100" Combat="25" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_SUMERU_FOREST_RANGER_NAME" Description="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="20" PurchaseYield="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERU_FOREST_RANGER"/>
 	</Units>
 	<Units_MODE>
 		<Row UnitType="UNIT_SUMERU_FOREST_RANGER"	ActionCharges="5"/>

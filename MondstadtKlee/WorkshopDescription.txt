@@ -1,4 +1,4 @@
-[h1]↑好评是工坊最有用的赞誉，轻点一下就能给出。给我们的作品点好评就能激励我们继续努力，谢谢♪
+[h1]↑轻点一下就能给出好评，激励我们继续努力，谢谢♪当然社区奖励我们也很欢迎～
 
 欢迎加入“圣特蕾莎文明mod学园”QQ群（519747236）寻访关于我们的作品的最新动态。[/h1]
 
@@ -10,17 +10,17 @@
 
 逃跑的太阳与须弥的月亮——在本文明包中包含了两位风格互补的来自《原神》游戏中的人气角色，她们一个活泼淘气，一个沉稳内敛，分别适合战争与和平的游戏风格。
 
-[b]蒙德[/b]的特色区域是[b]西风骑士团驻地[/b]，可以建设在市中心旁。它可以让城市购买陆地单位和平民单位的成本减少并从圣地中获得额外的信仰产出。特色单位[b]西风游击小队[/b]是一种替代披甲战士的近战单位，它更快也更加强力，但夹击加成-100%。
+[b]蒙德[/b]的特色区域是[b]西风骑士团驻地[/b]，它可以建设在市中心旁并让城市购买陆地单位和平民单位的成本减少。特色单位[b]西风游击小队[/b]是一种替代披甲战士的近战单位，更快也更加强力，但夹击加成-100%。
 
 文明特性是[b]“风与牧歌之城”[/b]。在丘陵上建设改良设施可以获得额外的信仰值，在研究银行业后还提供生产力和金钱。他们从牧场和种植园中获得额外的相邻加成，种植园甚至可以触发文化炸弹并从奢侈品资源获得额外的文化值。不过，他们在建设区域时较慢，也无法从相邻区域获得少量相邻加成。
 
 作为游戏内的爆破专家，[b]可莉[/b]的特色能力是[b]“可莉特调”[/b]。游戏开始时他们便可以发现世界上的硝石资源，攻城单位也可额外攻击一次。不要忽视在西风骑士团驻地开展“炸鱼狂欢节”项目，完成后可以获得一枚砰砰礼物——专属于可莉的，可以使用领袖特色单位[b]蹦蹦炸弹[/b]发射，摧毁建筑和单位而不会留下核辐射的大规模杀伤性武器！
 
-[b]须弥[/b]的特色区域是[b]教令院[/b]，替代学院区域。必须建造在树林或雨林中。它从相邻雨林中获得标准而不是少量科技值相邻加成，若建有大学还会使每位公民产出额外的科技值。须弥人不砍伐森林和雨林，而是使用特色单位[b]“巡林员”[/b]巡护它们并获得收益。除了从森林和雨林中获得生产力、科技值和文化值，他们也是很好的防御单位，且不受森林和雨林的移动力惩罚。
+[b]须弥[/b]的特色区域是[b]教令院[/b]，替代学院区域。必须建造在树林或雨林中。它从相邻雨林中获得标准科技值相邻加成，若建有大学还会使每位公民产出额外的科技值。须弥人使用特色单位[b]“巡林员”[/b]巡护它们并获得收益。除了从森林和雨林中获得生产力、科技值和文化值，他们也是很好的防御单位，且不受森林和雨林的移动力惩罚。
 
-伴随雨林而生的须弥获得的文明特性是[b]“智妙明论之林”[/b]。他们可以在森林和雨林中建设区域而不移除地貌，而且还能从雨林中获得科技值。研究科学理论科技后，额外的科技值还会获得提升。
+伴随雨林而生的须弥获得的文明特性是[b]“智妙明论之林”[/b]。他们可以在森林和雨林中建设区域而不移除地貌，而且还能从雨林中获得科技值。额外的科技值在研究科学理论科技后还会获得提升。
 
-领袖特色能力[b]“心景幻成”[/b]使得须弥的市中心周围成为了[b]纳西妲[/b]的幻景宫殿。当与市中心相邻时，不同类型的地貌以及丘陵地形为纳西妲提供额外的食物、生产力或者文化。
+领袖特色能力[b]“心景幻成”[/b]使得须弥的市中心周围成为了[b]纳西妲[/b]的幻景宫殿，展现出草元素的元素反应特性。在市中心的1单元格范围内，沼泽和泛滥平原为纳西妲的城市提供食物，有淡水供应的森林和雨林则提供生产力。如果邻接火山土和地热裂缝，则可以取得额外的文化。当城市获得充足电力时，这些加成还将翻倍。
 
 您更喜欢自由的蒙德还是智慧的须弥？您将会如何带领他们建立起经得起时间考验的文明？
 
@@ -68,7 +68,7 @@ Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是
 在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上可以查看我所有作品的工程文件。给我Star或者提出Pull Request就更好了！
 
 
-[h1]↑ Positive rates are the most useful awards in the Workshop and can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better![/h1]
+[h1]↑ Positive rates can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better! Community Awards are also welcome~[/h1]
 
 You need either Rise and Fall or Gathering Storm to use this mod. All gameplay balancing is set to fit Gathering Storm ruleset.
 
@@ -78,17 +78,17 @@ You need either Rise and Fall or Gathering Storm to use this mod. All gameplay b
 
 The Fleeing Sunlight and the Moon of Sumeru - this civilization pack includes 2 popular characters with complementary characteristics from the game Genshin Impact. One of them is active and naughty while another one is calm and introverted, and they fits conquest and peaceful development respectively.
 
-The Unique District of [b]Mondstadt[/b] is [b]Favonius Stronghold[/b] which can be built adjacent to a City Center. It can lower the price of land combat or civilian units and earn additional Faith from each adjacent Holy Site. Their unique unit is [b]Reconnaissance Company[/b], a melee unit that replaces the Man-At-Arms. It's faster and stronger, but receives -100% flanking bonus.
+The Unique District of [b]Mondstadt[/b] is [b]Favonius Stronghold[/b] which can be built adjacent to a City Center and lower purchase cost of land combat or civilian units. Their unique unit is [b]Reconnaissance Company[/b], a melee unit that replaces the Man-At-Arms. It's faster and stronger, but receives -100% flanking bonus.
 
 Mondstadt's Unique Ability is [b]City of Winds and Idylls[/b]. Constructing Improvement on Hills to earn extra Faith, and additional Production and Gold with Banking. They get additional adjacency bonuses from Pastures and Plantations, and Plantations can even trigger Culture Bombs and earn Culture bonuses from Luxury resources. Howeven they are slower to build districts, and cannot receive the minor adjacency bonuses from adjacent districts.
 
 As an expert of explosion, [b]Klee[/b]'s Leader Ability is [b]Exquisite Compound[/b]. They can reveal Niter when the game starts, and their siege units can attack twice in a turn. Don't forget to initiate the Fish Blasting Carnival project in cities with a Favonius Stronghold - which grants a Pounding Surprise, a Weapon of Mass Destruction which can be launched by a [b]Jumpy Dumpty[/b] and destroys buildings and units without leaving any Fallout, upon completion!
 
-The Unique District of Sumeru is [b]Akademiya[/b] which replaces the Campus district. It can only be constructed in Rainforest or Woods, and receive standard adjacency bonuses from adjacent rainforests instead of minor one. It also grants additional Science for each Citizen if the city has a University. Sumeru people do not chop Rainforests or Woods, and use their Unique Unit [b]Forest Ranger[/b] to Patrol them to earn yields. It is good at earning Production, Science and Culture from Rainforests and Woods, and is also a good defending unit which ignores Movement penalty of Woods and Rainforests.
+The Unique District of Sumeru is [b]Akademiya[/b] which replaces the Campus district. It can only be constructed in Rainforest or Woods, and receive standard adjacency bonuses from adjacent rainforests. It also grants additional Science for each Citizen if the city has a University. Sumeru people  use their Unique Unit [b]Forest Ranger[/b] to Patrol them to earn yields. It is good at earning Production, Science and Culture from Rainforests and Woods, and is also a good defending unit which ignores Movement penalty of Woods and Rainforests.
 
 The Unique Ability of rainforest-dwelling [b]Sumeru[/b] is [b]Forest of Jnana and Vidya[/b]. They can build districts in Woods and Rainforests without removing them, and receive Science from Rainforests. The extra Science from Rainforests is further enhanced with Scientific Theory technology.
 
-The Leader Ability [b]Illusory Heart[/b] of [b]Nahida[/b] makes tiles adjacent to Sumeru cities become her palace of illusion. They provide extra Food, Production or Culture based on features or Hills terrain they have.
+The Leader Ability [b]Illusory Heart[/b] of [b]Nahida[/b] makes tiles adjacent to Sumeru cities become her palace of illusion and shows the reactive nature of Dendro Element. Within 1 tile range of a City Center, Marshes and Floodplains tiles provide extra Food for the city, and Woods and Rainforests tiles with Freshwater provide Production. Volcanic Soil or Geothermal Fissures tiles adjacent to their cities gain Culture bonus. These bonuses are doubled in Powered cities.
 
 Which one do you prefer, free Mondstadt or wise Sumeru? How would you lead them to build a civilization that stand the test of time?
 

@@ -21,12 +21,14 @@
 	</District_RequiredFeatures>
 	
 	<District_Adjacencies>
+		<!--
 		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldChangeId="Favonius_HolySite_Faith"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science1"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science2"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science3"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science4"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science5"/>
+		-->
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Jungle_Science_Akademiya"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="District_Science"/>
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="GBR_Science"/>
