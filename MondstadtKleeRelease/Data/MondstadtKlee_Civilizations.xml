@@ -249,16 +249,10 @@
 			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_EDUCATION_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_SCIENTIFIC_THEORY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_SCIENTIFIC_THEORY_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
-
 		<Row>
 			<ModifierId>TRAIT_SUMERU_FOREST_VALID_HOLY_SITE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
@@ -460,16 +454,6 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>

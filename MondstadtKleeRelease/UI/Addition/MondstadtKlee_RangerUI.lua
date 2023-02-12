@@ -226,3 +226,79 @@ end
 Events.LoadGameViewStateDone.Add(Initialize)
 Events.UnitSelectionChanged.Add(OnUnitSelectionChanged)
 Events.UnitMoveComplete.Add(OnUnitMoveComplete)
+
+-- ===========================================================================
+-- Power Status Support by UzukiShimamura based on Nea Bajara's code
+include("SupportFunctions")
+
+function RefreshCityPowerProperty(playerID, cityID)
+	if not Modding.IsModActive("4873eb62-8ccc-4574-b784-dda455e74e68") then return end;-- Gathering Storm not enabled
+	local player = Players[playerID]
+    local pCity = CityManager.GetCity(playerID, cityID)
+    if pCity == nil then 
+    	return 
+    end
+    local cityX = pCity:GetX()
+    local cityY = pCity:GetY()
+    local CityPlot = Map.GetPlot(cityX, cityY)
+    local plotID = CityPlot:GetIndex()
+	local pPowerStatus = 0;
+    if pCity:GetPower() ~= nil then 
+		local pCityPower = pCity:GetPower();
+		local freePower:number = pCityPower:GetFreePower();
+		local temporaryPower:number = pCityPower:GetTemporaryPower();
+		local requiredPower:number = pCityPower:GetRequiredPower();
+		local PROP_FULL_POWER_STATUS = 'MONDSTADT_CITY_POWER_STATUS'
+		if (freePower > 0 or temporaryPower > 0 or requiredPower > 0) and pCityPower:IsFullyPowered() then
+			pPowerStatus = 1;
+		end
+		GameEvents.MondstadtSetCityPlotProperty.Call(playerID, cityID, PROP_FULL_POWER_STATUS, pPowerStatus)
+    end
+end
+
+function HasTrait( traitName:string, playerId:number )
+	if playerId == nil then playerId = Game.GetLocalPlayer(); end
+	if playerId == -1 then return false; end	-- Autoplay.
+	
+	local config :table = PlayerConfigurations[playerId];
+	if(config ~= nil) then
+		local leaderType:string = config:GetLeaderTypeName();
+		local civType	:string = config:GetCivilizationTypeName();
+		if leaderType then
+			for row in GameInfo.LeaderTraits() do
+				if row.LeaderType==leaderType and row.TraitType == traitName then
+					return true;
+				end
+			end
+		end
+		if civType then
+			for row in GameInfo.CivilizationTraits() do
+				if row.CivilizationType== civType then
+					if row.TraitType == traitName then
+						return true;
+					end
+				end
+			end
+		end
+	end
+	return false;
+end
+
+function OnTurnBegin_IllusoryHeart()
+	if not Modding.IsModActive("4873eb62-8ccc-4574-b784-dda455e74e68") then -- Gathering Storm not enabled
+		Events.TurnBegin.Remove(OnTurnBegin_IllusoryHeart);
+		return;
+	end
+	local players = Game.GetPlayers{Alive = true};
+	for _, player in ipairs(players) do
+		playerID = player:GetID();
+		if HasTrait("TRAIT_LEADER_ILLUSORY_HEART",playerID) then
+			for _, city in player:GetCities():Members() do
+				RefreshCityPowerProperty(player:GetID(), city:GetID())
+			end
+		end
+	end
+end
+
+Events.TurnBegin.Add(OnTurnBegin_IllusoryHeart);
+Events.CityAddedToMap.Add(RefreshCityPowerProperty);

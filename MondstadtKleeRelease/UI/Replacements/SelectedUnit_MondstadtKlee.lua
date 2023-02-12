@@ -5,16 +5,21 @@
 -- Import base file
 -- =================================================================================
 local files = {
-	"DL_SelectedUnit.lua",  -- Harmony in Diversity. NOTE THAT THIS MOD IS NOT PROVEN TO BE COMPATIBLE WITH HiD AND ALL ISSUES ABOUT IT IS UNSUPPORTED
-    --"SelectedUnit_Expansion2.lua",
+    "DL_SelectedUnit.lua", -- Harmony in Diversity. NOTE THAT THIS MOD IS NOT PROVEN TO BE COMPATIBLE WITH HiD AND ALL ISSUES ABOUT IT IS UNSUPPORTED
+	--'SelectedUnit_Expansion2.lua' It cannot be loaded because it was not imported. Fuck Firaxis. For HiD compatibility something more should be done but this is not considered in this mod. A compatibility patch might be made by them.
     "SelectedUnit.lua",
 }
+
+local isSelectedUnitReplaced = 0;
 
 for _, file in ipairs(files) do
     include(file)
     if Initialize then
-        print("SelectedUnit_MondstadtKlee: Loading " .. file .. " as base file");
-        break
+        print("MondstadtKlee loading " .. file .. " as base file");
+		if file ~= "SelectedUnit.lua" then
+			isSelectedUnitReplaced = 1;
+        break;
+		end
     end
 end
 -- ===========================================================================
@@ -31,10 +36,8 @@ local m_JungleInfo = GameInfo.Features['FEATURE_JUNGLE']
 -- ===========================================================================
 --	OVERRIDES
 -- ===========================================================================
--- 'SelectedUnit_Expansion2.lua' cannot be loaded because it was not be imported.
--- Its code has been copied here
--- Fuck Firaxis
-function RealizeGreatPersonLens(kUnit:table )
+-- XP2 Code has been copied here
+function XP2_RealizeGreatPersonLens(kUnit:table )
 	UILens.ClearLayerHexes(m_HexColoringGreatPeople);
 	if UILens.IsLayerOn( m_HexColoringGreatPeople ) then
 		UILens.ToggleLayerOff(m_HexColoringGreatPeople);
@@ -112,6 +115,10 @@ end
 --	CACHE BASE FUNCTIONS
 -- ===========================================================================
 local ORIGINAL_RealizeGreatPersonLens = RealizeGreatPersonLens;
+if Modding.IsModActive("4873eb62-8ccc-4574-b784-dda455e74e68") and isSelectedUnitReplaced == 0 then -- Gathering Storm enabled and no other known modification enabled.
+	ORIGINAL_RealizeGreatPersonLens = XP2_RealizeGreatPersonLens;
+	print("unmodified XP2 SelectUnit detected")
+end
 -- ===========================================================================
 --	OVERRIDES XP2 FUNCTIONS
 -- ===========================================================================
@@ -144,7 +151,6 @@ end
 -- ===========================================================================
 function RealizeGreatPersonLens(kUnit:table)
 	ORIGINAL_RealizeGreatPersonLens(kUnit)
-
 	if kUnit ~= nil and ( not UI.IsGameCoreBusy() ) then
 		local playerID:number = kUnit:GetOwner();
 		if playerID == Game.GetLocalPlayer() then
