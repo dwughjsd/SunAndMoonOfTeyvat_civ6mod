@@ -930,4 +930,9 @@
 		</Row>
 	</ModifierArguments>
 
+	<CivilizationAudioTags>
+		<Row CivilizationType="CIVILIZATION_MONDSTADT" MusicOverride="true"/>
+		<Row CivilizationType="CIVILIZATION_SUMERU" MusicOverride="true"/>
+	</CivilizationAudioTags>
+
 </GameData>
