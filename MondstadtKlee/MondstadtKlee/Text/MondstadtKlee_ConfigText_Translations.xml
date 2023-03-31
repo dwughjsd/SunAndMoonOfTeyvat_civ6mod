@@ -55,10 +55,10 @@
 			<Text>心景幻成</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>相邻市中心的沼泽和泛滥平原单元格 +1 [ICON_Food] 食物，有淡水的森林或雨林单元格 +1 [ICON_Production] 生产力。</Text>
+			<Text>若相邻市中心，沼泽和泛滥平原单元格 +1 [ICON_Food] 食物，有淡水的森林或雨林单元格 +1 [ICON_Production] 生产力。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_XP2" Language="zh_Hans_CN">
-			<Text>相邻市中心的沼泽和泛滥平原单元格 +1 [ICON_Food] 食物，有淡水的森林或雨林单元格 +1 [ICON_Production] 生产力，火山土和地热裂缝单元格 +2 [ICON_Culture] 文化值。在 [ICON_Power] 电力充足的城市中，以上加成将翻倍。</Text>
+			<Text>若相邻市中心，沼泽和泛滥平原单元格 +1 [ICON_Food] 食物，有淡水的森林或雨林单元格 +1 [ICON_Production] 生产力，火山土和地热裂缝单元格 +2 [ICON_Culture] 文化值。在 [ICON_Power] 电力充足的城市中，以上加成将翻倍。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_NAME" Language="zh_Hans_CN">
 			<Text>智妙明论之林</Text>
