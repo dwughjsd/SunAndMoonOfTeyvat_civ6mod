@@ -7,7 +7,7 @@ GameEvents = ExposedMembers.GameEvents;
 
 local GAME_SPEED = GameConfiguration.GetGameSpeedType()
 local GAME_SPEED_MULTIPLIER = GameInfo.GameSpeeds[GAME_SPEED] and GameInfo.GameSpeeds[GAME_SPEED].CostMultiplier / 100 or 1
-local COOLDOWN_TURN = math.floor(GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN * GAME_SPEED_MULTIPLIER)
+local COOLDOWN_TURN = math.floor(GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN * GAME_SPEED_MULTIPLIER) or 50
 -- ===========================================================================
 --	VARIABLES
 -- ===========================================================================
@@ -107,7 +107,7 @@ function IsButtonHide(pUnit)
 		return true
 	end
 	
-	if pUnit:GetActionCharges() == 0 then
+	if pUnit:GetBuildCharges() == 0 then
 		return true
 	end
 	return false

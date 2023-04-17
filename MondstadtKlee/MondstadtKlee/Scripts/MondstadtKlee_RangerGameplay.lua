@@ -77,8 +77,13 @@ function SumeruRangerOperation(playerID:number, params:table)
 			Game.AddWorldViewText(0, YIELD_COLORS[yieldType] .. '+' .. tostring(yield) .. ' '.. GameInfo.Yields[yieldType].IconString .. '[ENDCOLOR]', params.X, params.Y)
 		end
 		pPlot:SetProperty(KEY_SUMERU_RANGER, Game.GetCurrentGameTurn())
-
-		pUnit:ChangeActionCharges(-1)
+		pUnitAbility = pUnit:GetAbility();
+		for i = 1,10 do
+			if pUnitAbility:GetAbilityCount("ABILITY_BUILD_CHARGE_"..i.."_SUMERU") == 0 then
+				pUnitAbility:ChangeAbilityCount("ABILITY_BUILD_CHARGE_"..i.."_SUMERU", 1);
+				break
+			end
+		end
 		UnitManager.FinishMoves(pUnit)
 	end
 end
