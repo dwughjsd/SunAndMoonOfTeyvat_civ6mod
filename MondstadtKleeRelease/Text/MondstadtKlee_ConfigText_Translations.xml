@@ -76,7 +76,7 @@
 			<Text>须弥特色近战单位。在树林和雨林地形有更快的 [ICON_Movement] 移动力。首次建造出兵营、兵工厂和军事学院时，其 [ICON_Strength] 战斗力将得到提升。可巡护森林和雨林而获得 [ICON_Production] 生产力和额外产出。一个森林和雨林单元格每50回合（标准速度下）可被巡林一次。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1" Language="zh_Hans_CN">
-			<Text>须弥特色近战单位。在树林和雨林地形有更快的 [ICON_Movement] 移动力。建成政体建筑时，其 [ICON_Strength] 战斗力将得到提升。可巡护森林和雨林而获得 [ICON_Production] 生产力和额外产出。一个森林和雨林单元格每50回合（标准速度下）可被巡林一次。</Text>
+			<Text>须弥特色近战单位。在树林和雨林地形有更快的 [ICON_Movement] 移动力。建成政体建筑时，其 [ICON_Strength] 战斗力将得到提升。可消耗次数巡护森林和雨林而获得 [ICON_Production] 生产力和额外产出。一个森林和雨林单元格每50回合（标准速度下）可被巡林一次。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_NAME" Language="zh_Hans_CN">
 			<Text>教令院</Text>

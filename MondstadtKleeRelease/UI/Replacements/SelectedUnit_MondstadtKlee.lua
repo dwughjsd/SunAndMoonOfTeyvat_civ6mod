@@ -27,7 +27,7 @@ end
 -- ===========================================================================
 GameEvents = ExposedMembers.GameEvents;
 
-local COOLDOWN_TURN = GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN or 10
+local COOLDOWN_TURN = GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN or 50
 -- ===========================================================================
 --	VARIABLES
 -- ===========================================================================
@@ -155,7 +155,7 @@ function RealizeGreatPersonLens(kUnit:table)
 		local playerID:number = kUnit:GetOwner();
 		if playerID == Game.GetLocalPlayer() then
 			local unitInfo = GameInfo.Units[kUnit:GetType()]
-			if unitInfo and unitInfo.UnitType == 'UNIT_SUMERU_FOREST_RANGER' and kUnit:GetActionCharges() > 0 then
+			if unitInfo and unitInfo.UnitType == 'UNIT_SUMERU_FOREST_RANGER' and kUnit:GetBuildCharges() > 0 then
 				local res = {
 					Plots = {}
 				}

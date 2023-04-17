@@ -3,25 +3,11 @@
   <Properties>
     <Name>LOC_KLEE_MONDSTADT_MOD_TITLE</Name>
     <Description>LOC_KLEE_MONDSTADT_MOD_DESCRIPTION</Description>
-    <Created>1673359387</Created>
+    <Created>1681729533</Created>
     <Teaser>LOC_KLEE_MONDSTADT_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
-  <LocalizedText>
-    <Text id="LOC_KLEE_MONDSTADT_MOD_TITLE">
-      <en_US>Sun and Moon of Teyvat Pack</en_US>
-      <zh_Hans_CN>提瓦特的日月包</zh_Hans_CN>
-    </Text>
-      <Text id="LOC_KLEE_MONDSTADT_MOD_TEASER">
-      <en_US>New Civilizations and Leaders - Klee of Mondstadt and Nahida of Sumeru</en_US>
-      <zh_Hans_CN>新文明和领袖——蒙德的可莉和须弥的纳西妲</zh_Hans_CN>
-    </Text>
-      <Text id="LOC_KLEE_MONDSTADT_MOD_DESCRIPTION">
-      <en_US>Contains two new civilizations and leaders.</en_US>
-      <zh_Hans_CN>包含2个新文明和领袖。</zh_Hans_CN>
-    </Text>
-  </LocalizedText>
   <References>
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
     <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
@@ -162,6 +148,20 @@
       <File>Data/ARX/Civ_LEADER_NAHIDA.png</File>
     </UpdateLogitechARX>
   </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_KLEE_MONDSTADT_MOD_TITLE">
+      <en_US>Sun and Moon of Teyvat Pack</en_US>
+      <zh_Hans_CN>提瓦特的日月包</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_KLEE_MONDSTADT_MOD_TEASER">
+      <en_US>New Civilizations and Leaders - Klee of Mondstadt and Nahida of Sumeru</en_US>
+      <zh_Hans_CN>新文明和领袖——蒙德的可莉和须弥的纳西妲</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_KLEE_MONDSTADT_MOD_DESCRIPTION">
+      <en_US>Contains two new civilizations and leaders.</en_US>
+      <zh_Hans_CN>包含2个新文明和领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
     <File>ArtDefs/Cultures.artdef</File>
