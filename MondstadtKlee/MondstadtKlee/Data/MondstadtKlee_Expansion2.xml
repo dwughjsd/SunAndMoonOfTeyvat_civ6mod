@@ -504,4 +504,47 @@
 			<Value>15</Value>
 		</InsertOrIgnore>
 	</ModifierArguments>
+
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_SPACE_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SPACE_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_DISTRICT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AKADEMIYA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AKADEMIYA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
