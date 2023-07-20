@@ -8,6 +8,7 @@ GameEvents = ExposedMembers.GameEvents;
 local GAME_SPEED = GameConfiguration.GetGameSpeedType()
 local GAME_SPEED_MULTIPLIER = GameInfo.GameSpeeds[GAME_SPEED] and GameInfo.GameSpeeds[GAME_SPEED].CostMultiplier / 100 or 1
 local COOLDOWN_TURN = math.floor(GlobalParameters.SUMERU_RANGER_COOLDOWN_TURN * GAME_SPEED_MULTIPLIER) or 50
+local GAME_COST_ESCALATION = GameInfo.GlobalParameters["GAME_COST_ESCALATION"].Value or 1000
 -- ===========================================================================
 --	VARIABLES
 -- ===========================================================================
@@ -70,7 +71,8 @@ function Calculate(featureIndex)
 
 	local techProgress = GetTechProgress(pPlayer)
 	local civicProgress = GetCivicProgress(pPlayer)
-	local modifier = (1 + 9 * math.floor( math.max(techProgress, civicProgress) * 100 ) / 100) * GAME_SPEED_MULTIPLIER
+	local costEscalation = (GAME_COST_ESCALATION / 100) -1
+	local modifier = (1 + costEscalation * math.floor( math.max(techProgress, civicProgress) * 100 ) / 100) * GAME_SPEED_MULTIPLIER
 	
 	local yields = {}
 	for yieldType, yield in pairs(m_BaseYields[featureType]) do
