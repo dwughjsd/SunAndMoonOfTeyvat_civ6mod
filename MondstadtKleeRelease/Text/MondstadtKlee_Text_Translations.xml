@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+	<!-- 简体中文(Simplified Chinese) -->
 		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>蒙德帝国</Text>
 		</InsertOrIgnore>
@@ -1063,6 +1064,1068 @@
 			<!--理论上是请求开放边界，但从未被使用过-->
 			<Text>我的国民需要暂时穿越您的领地。请不要怪我，藤蔓也会靠着墙壁去到更接近天穹的地方嘛。</Text>
 		</Row>
-	</LocalizedText>
+	<!-- 繁體中文(Traditional Chinese) -->
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>蒙德帝國</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>蒙德的</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_1" Language="zh_Hant_HK">
+			<Text>奧特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_2" Language="zh_Hant_HK">
+			<Text>艾伯特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_3" Language="zh_Hant_HK">
+			<Text>魯道夫</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_4" Language="zh_Hant_HK">
+			<Text>伍德</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_5" Language="zh_Hant_HK">
+			<Text>阿託</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_6" Language="zh_Hant_HK">
+			<Text>派恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_7" Language="zh_Hant_HK">
+			<Text>傑克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_8" Language="zh_Hant_HK">
+			<Text>查爾斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_9" Language="zh_Hant_HK">
+			<Text>安東尼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_10" Language="zh_Hant_HK">
+			<Text>麥爾斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_1" Language="zh_Hant_HK">
+			<Text>阿拉米</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_2" Language="zh_Hant_HK">
+			<Text>門羅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_3" Language="zh_Hant_HK">
+			<Text>威拉格</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_4" Language="zh_Hant_HK">
+			<Text>波爾託</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_5" Language="zh_Hant_HK">
+			<Text>昆恩</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_6" Language="zh_Hant_HK">
+			<Text>尼爾森</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_7" Language="zh_Hant_HK">
+			<Text>塞琉斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_8" Language="zh_Hant_HK">
+			<Text>布魯斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_9" Language="zh_Hant_HK">
+			<Text>霍夫曼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_10" Language="zh_Hant_HK">
+			<Text>舒茨</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_1" Language="zh_Hant_HK">
+			<Text>吉麗安娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_2" Language="zh_Hant_HK">
+			<Text>薇爾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_3" Language="zh_Hant_HK">
+			<Text>維多利亞</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_4" Language="zh_Hant_HK">
+			<Text>諾拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_5" Language="zh_Hant_HK">
+			<Text>艾琳</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_6" Language="zh_Hant_HK">
+			<Text>貝雅特麗奇</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_7" Language="zh_Hant_HK">
+			<Text>唐娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_8" Language="zh_Hant_HK">
+			<Text>芙蘿拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_9" Language="zh_Hant_HK">
+			<Text>赫塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_10" Language="zh_Hant_HK">
+			<Text>瑪喬麗</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_1" Language="zh_Hant_HK">
+			<Text>葛瑞絲</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_2" Language="zh_Hant_HK">
+			<Text>莉莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_3" Language="zh_Hant_HK">
+			<Text>蘇西</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_4" Language="zh_Hant_HK">
+			<Text>艾拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_5" Language="zh_Hant_HK">
+			<Text>安娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_6" Language="zh_Hant_HK">
+			<Text>布蘭琪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_7" Language="zh_Hant_HK">
+			<Text>優律</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_8" Language="zh_Hant_HK">
+			<Text>海倫</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_9" Language="zh_Hant_HK">
+			<Text>瑪格麗特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_10" Language="zh_Hant_HK">
+			<Text>莎拉</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MONDSTADT" Language="zh_Hant_HK">
+			<Text>蒙德城</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="zh_Hant_HK">
+			<Text>墜星山谷</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="zh_Hant_HK">
+			<Text>摘星崖</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="zh_Hant_HK">
+			<Text>低語森林</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="zh_Hant_HK">
+			<Text>仲夏庭園</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="zh_Hant_HK">
+			<Text>望風角</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="zh_Hant_HK">
+			<Text>千風神殿</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_GALESONG_HILL" Language="zh_Hant_HK">
+			<Text>風嘯山坡</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDRISE" Language="zh_Hant_HK">
+			<Text>風起地</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_OATH" Language="zh_Hant_HK">
+			<Text>誓言岬</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="zh_Hant_HK">
+			<Text>達達烏帕谷</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FALCON_COAST" Language="zh_Hant_HK">
+			<Text>鷹翔海灘</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="zh_Hant_HK">
+			<Text>蒼風高地</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DAWN" Language="zh_Hant_HK">
+			<Text>晨曦</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="zh_Hant_HK">
+			<Text>銘記之谷</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SPRINGVALE" Language="zh_Hant_HK">
+			<Text>清泉鎮</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="zh_Hant_HK">
+			<Text>忘卻之峽</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WOLVENDOM" Language="zh_Hant_HK">
+			<Text>奔狼領</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CECILIA" Language="zh_Hant_HK">
+			<Text>塞西莉亞</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="zh_Hant_HK">
+			<Text>明冠峽</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="zh_Hant_HK">
+			<Text>風龍廢墟</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="zh_Hant_HK">
+			<Text>雪葬之都</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="zh_Hant_HK">
+			<Text>寒天之釘</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="zh_Hant_HK">
+			<Text>芬德尼爾</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="zh_Hant_HK">
+			<Text>覆雪之路</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="zh_Hant_HK">
+			<Text>星熒洞窟</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="zh_Hant_HK">
+			<Text>眠龍谷</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MUSK" Language="zh_Hant_HK">
+			<Text>馬斯克</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="zh_Hant_HK">
+			<Text>無名小島</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="zh_Hant_HK">
+			<Text>荊夫港</Text>
+		</InsertOrIgnore>
 
+		<Row Tag="LOC_CIVINFO_MONDSTADT_LOCATION" Language="zh_Hant_HK">
+			<Text>提瓦特大陸</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_SIZE" Language="zh_Hant_HK">
+			<Text>大約數十平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_POPULATION" Language="zh_Hant_HK">
+			<Text>大約數十萬到上百萬</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_CAPITAL" Language="zh_Hant_HK">
+			<Text>蒙德城</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_KLEE" Language="zh_Hant_HK">
+			<Text>可莉，在您所到之處，眾敵皆化為灰燼。您是火花騎士，爆炸和火光是您最好的朋友，也是獨特的至寶。與騎士團的夥伴一同玩轉世界，傳播頌唱自由的牧歌。好好表現吧，這樣人們就會稱讚您為蒙德的最強戰力！</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_LAKE_CIDER_LAKE_NAME" Language="zh_Hant_HK">
+			<Text>果酒湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_STARFELL_LAKE_NAME" Language="zh_Hant_HK">
+			<Text>星落湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME" Language="zh_Hant_HK">
+			<Text>明冠山脈</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME" Language="zh_Hant_HK">
+			<Text>望風山脈</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME" Language="zh_Hant_HK">
+			<Text>龍脊山脈</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_FAITH" Language="zh_Hant_HK">
+			<Text>相鄰種植園提供+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_SCIENCE" Language="zh_Hant_HK">
+			<Text>相鄰種植園提供+{1_num} [ICON_Science] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_GOLD" Language="zh_Hant_HK">
+			<Text>相鄰種植園提供+{1_num} [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_CULTURE" Language="zh_Hant_HK">
+			<Text>相鄰種植園提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_PRODUCTION" Language="zh_Hant_HK">
+			<Text>相鄰種植園提供+{1_num} [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_FAITH" Language="zh_Hant_HK">
+			<Text>相鄰牧場提供+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_SCIENCE" Language="zh_Hant_HK">
+			<Text>相鄰牧場提供+{1_num} [ICON_Science] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_GOLD" Language="zh_Hant_HK">
+			<Text>相鄰牧場提供+{1_num} [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_CULTURE" Language="zh_Hant_HK">
+			<Text>相鄰牧場提供+{1_num} [ICON_Culture] 文化值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_PRODUCTION" Language="zh_Hant_HK">
+			<Text>相鄰牧場提供+{1_num} [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" Language="zh_Hant_HK">
+			<Text>相鄰聖地區域提供+{1_num} [ICON_Faith] 信仰值。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_NAME" Language="zh_Hant_HK">
+			<Text>炸魚狂歡節</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_SHORT_NAME" Language="zh_Hant_HK">
+			<Text>炸魚狂歡節</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>完成後為您的國家財產增加一枚砰砰禮物，一種爆炸半徑為1，不產生核汙染，只能摧毀建築和單位的大規模殺傷性武器。需要 [ICON_Resource_Niter] 硝石。維護費是8 [ICON_Gold] 金幣。</Text>
+		</Row>
+		<Row Tag="LOC_WMD_JUMPY_DUMPTY_NAME" Language="zh_Hant_HK">
+			<Text>砰砰禮物</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_NAME" Language="zh_Hant_HK">
+			<Text>轟轟火花</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>如果 [ICON_Movement] 移動力允許，每回合+1額外攻擊。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="zh_Hant_HK">
+			<Text>西風劍術：宗室</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>-100%夾擊加成。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KLEE_QUOTE" Language="zh_Hant_HK">
+			<Text>“城裡放炮禁閉室報到”、“炸彈傷人琴找上門”、“放火燒山可莉完蛋”——這就是可莉在騎士團的生存守則。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_NAME" Language="zh_Hant_HK">
+			<Text>逃跑的太陽</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>會毫不猶豫地使用核武器。尊重擁有強大核威懾力的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<Text>你也不害怕我的炸彈呢！嘿嘿，太好了，可莉果然交到了很好的朋友！</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>可莉很高興您喜歡大爆炸</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<Text>如果你想學習炸彈的製作方法，我也可以來教你哦。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_LOW_NUKE_LOVE" Language="zh_Hant_HK">
+			<Text>可莉失望於您不敢使用核武器</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--同意聲明友誼-->
+			<Text>你是可莉的玩伴了！那就來和可莉一起撐到看完馬戲團的午夜專場！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--拒絕聲明友誼-->
+			<Text>凱亞哥哥說，這樣做了以後，琴團長恐怕會讓我再也見不到第二天的太陽……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--請求聲明友誼-->
+			<Text>你是個好人！來和可莉做朋友，帶我出去玩吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--請求聲明友誼被接受-->
+			<Text>帶可莉出去玩吧！我們一起來冒險！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--請求聲明友誼被拒絕-->
+			<Text>可莉不是小孩子了——帶我出去玩——</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--被宣戰 - 1.6-->
+			<Text>既然要可莉來找你，那可莉就來啦！蹦蹦炸彈，預備——！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--主動宣戰- 1.6-->
+			<Text>嗯，要帶蹦蹦炸彈、嘟嘟可……還有我自己！我來抓你啦！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--接受使節派遣 - 收到贈禮・其二-->
+			<Text>可莉好開心！謝謝你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--拒絕使節派遣 - 討厭的食物…-->
+			<Text>討厭使者——可莉要出去玩——</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--請求派遣使節 - 想要了解可莉・其五-->
+			<Text>我們的代表團帶了“可莉烤魚”送給你！——呃，其實魚是直接在湖裡就被炸彈烤熟了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--被譴責-->
+			<Text>如果你是在什麼縱火現場發現了炸彈的話，那就不是我做的，絕對不是。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--譴責玩家 - 迷境之島！無法預測的旅行-->
+			<Text>壞傢伙、壞傢伙壞傢伙！（譴責你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--初次見面 - 角色頁面-->
+			<Text>西風騎士團“火花騎士”，可莉！……呃——後面該說什麼詞來著？可莉背不下來啦……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--初次見面，提供最近城市位置-->
+			<Text>要和可莉一起來我們附近的城市炸魚嗎？雖然被抓住就是一整天的禁閉，但魚很好吃，所以值得！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--初次見面，玩家提供最近城市位置-->
+			<Text>好耶！是大冒險。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--初次見面，請求交換首都位置-->
+			<Text>有好多餐館和旅店都很在意媽媽寫的《提瓦特遊覽指南》的權威評價，可是連她都沒有聽過你的首都。可莉一定要了解了解！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是玩家發起外交時使用的，但實際上從未被使用過 - 想要了解可莉・其一-->
+			<Text>你好！你是來找可莉玩的嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--請求結盟 - Civ6 generic-->
+			<Text>您想結為盟友嗎？</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--要求移開邊境軍隊-->
+			<Text>可莉今天在我們的邊界勇敢地抓到了打扮奇怪的軍隊！是你的嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--戰敗- 戰鬥語音-->
+			<Text>可莉……想回家了……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--同意交易-->
+			<Text>好耶！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--拒絕交易-->
+			<Text>過分……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是同意求和，但從未被使用過-->
+			<Text>可莉喜歡和平！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是拒絕求和，但從未被使用過-->
+			<Text>我要把你們全——都炸完！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是求和，但從未被使用過-->
+			<Text>你是好人。等我們和談了，再一起玩，好嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是同意開放邊界，但從未被使用過-->
+			<Text>你是個好人，所以我也會耐心地等你辦完自己的事的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是拒絕開放邊界，但從未被使用過-->
+			<Text>討厭你們的軍隊——什麼人都討厭！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KLEE_ANY" Language="zh_Hant_HK">
+			<!--理論上是請求開放邊界，但從未被使用過-->
+			<Text>可莉必須要經過你的邊境去一個地方！求求你啦——幫幫可莉吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_SUBTITLE" Language="zh_Hant_HK">
+			<Text>“逃跑的太陽”，西風騎士團火花騎士</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>務必小心可莉的“寶物”——她喜歡使用這些炸彈給敵人制造麻煩。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>作為風與牧歌的國度，蒙德的城市通常靠近丘陵和農業資源。他們專注於種植園和牧場而不是區域的建設，並讓開拓者如蒲公英一般飛向遠方。有了西風騎士團駐地，他們可以在購買單位時獲得折扣，以便加速早期擴張或軍事行動。對可莉領導的蒙德而言，發展未必需要依靠自己建立的城市——如果有其它玩家的城市擋道了，他們就可以送出一個砰砰禮物作為驚喜！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>在蒙德的街頭巷尾，傳聞有一名紅衣小女孩，擁有著西風騎士團中獨一無二的最強“至寶”。在她出現的地方總是伴隨著爆炸的火光與灰燼，隨後她便消失無蹤，無人知曉她的真容。人們甚至猜測，她是西風騎士團真正的最強戰力，但對當時的西風騎士團代理團長而言，她——可莉，卻是令人頭痛的調皮鬼，不時需要被關進禁閉室反省一番。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>可莉的母親艾莉絲是蒙德知名的大冒險家，《提瓦特遊覽指南》的作者，比可莉還要更擅長闖禍。在可莉心中，媽媽非常厲害，無所不能。從小，她的母親就手把手教她調配火藥、挑選引信，依照個人創意製造更壯觀漂亮的煙花……甚至還教她如何配置炸藥來炸塌整座摘星崖，再在被西風騎士訓斥的時候對彼此尷尬地吐舌頭。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>艾莉絲還為可莉製作了玩偶嘟嘟可，把它與可莉的幸運四葉草綴在一起，掛在可莉大大的揹包上。嘟嘟可是可莉最初的朋友，也是最好的朋友之一。考慮到艾莉絲母女二人的其他作品（比如說蹦蹦炸彈），騎士團相信這個東西也許某個時候也會爆炸！</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>繼承了母親的貪玩本性，這位天賦異稟的爆炸狂人對會爆炸的物件投入了極大的熱忱，在一場童年時期的爆炸試驗中獲得了“神之眼”——被神明認可之人所得到的贈禮。旅行者到達提瓦特大陸前3年，可莉的父母將她託付給西風騎士團撫養，並繼續他們的冒險旅途。在西風騎士團的保護下，她得以安全地成長。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>雖然騎士團在保護她這一方面取得了可喜的成功，但令西風騎士團大為煩惱的是，他們在保護蒙德的公物這一方面就不那麼盡人意了。在可莉的盡情玩鬧下，無論是車輛、貨棚還是森林和湖泊，都難逃一劫。幾乎每週可莉都會惹出類似的事件，然後在騎士們的嚴厲目光下被送去禁閉室。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text>這樣的情況總是一次又一次發生，雖然可莉並不是壞孩子，但做事卻總是不計後果又慌忙試圖彌補，不過幾天又把所有規矩拋在腦後。於是，每次她被放出禁閉室，不出兩天就又會製造新的爆炸，以至於有時候可莉的破壞能力甚至會讓人以為西風騎士只擅長幫倒忙。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text>可莉為騎士團和蒙德城招惹了不少亂子，不過一旦她的才能用對地方，也將爆發出可畏的實力。騎士團的討伐行動中，可莉的爆炸就起到過關鍵作用——只是她出於一貫不計後果的童心佈下了過多炸彈，改變了望風山地的面貌。從那之後，望風山地紅衣騎士的傳說便流傳開來。她的能力使她成為了大名鼎鼎的“火花騎士”，也讓騎士們通常都喜歡甚至有些溺愛她（不過即使如此大家都多少對可莉有些敬而遠之，否則就容易惹爆炸上身）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_8" Language="zh_Hant_HK">
+			<Text>雖然可莉的母親並不經常陪伴在她身邊，但她卻始終在默默守護著可莉。時不時地，她會為可莉帶來些意外驚喜，比如扮作“嘟嘟大魔王”邀請她與旅行者以及一眾西風騎士前往金蘋果群島冒險。小小的可莉早就明白，自己總有一天也會長大並踏上媽媽的道路，總有一天她的作品也會讓媽媽為之驕傲。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>位於提瓦特大陸東北部的蒙德，被稱為“風與牧歌的城邦”。信奉風神巴巴託斯，是提瓦特大陸的塵世七國之一，也是遊戲中旅行者尋找走失的家人的旅途起點。群山和廣袤的平原間，自由之風攜著蒲公英的氣息吹拂過果酒湖，為坐落於湖心島上的蒙德城送去巴巴託斯的祝福與恩澤。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>在旅行者到達提瓦特大陸的至少3000年前，烈風之魔神迭卡拉庇安建立了蒙德國。當時蒙德大地均被廣袤的冰雪覆蓋，人類不得不尋求魔神的庇護。迭卡拉庇安在後來被稱為風龍廢墟的位置周圍建立王都，並以風牆環繞來保護城市。當時的王都的結構整體呈環形，可能分為三層，每層對應的職能不同。城市正中是一座高大的塔樓，迭卡拉庇安居住在其中。舊蒙德的疆域覆蓋了明冠山脈和蒼風高地地區，向南延伸至如今的晨曦酒莊到璃月之間。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>迭卡拉庇安為人民設計了生活，似乎所有人民都被事先安排好了各自的位置。他對自己的王城十分滿意，睥睨著在無盡的烈風中直不起身子的子民，卻認為他們表示的是對王者的敬愛與無邊的順服。直到最後被推翻之前，他都以為眾臣愛他，一如他愛他們。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>於是，在舊蒙德成立的400年以後，在風精靈溫迪的領導下，吟遊詩人、流民、騎士乃至舊統治者的情人以及萬千不堪迭卡拉庇安重負的蒙德人們發動起義，處死了暴君並結束了他的統治。溫迪成為了成為新的風神，被稱作“巴巴託斯”。成為魔神後，巴巴託斯重塑了蒙德，用風吹散了蒙德地區的暴風雪，改變了地形，並在果酒湖邊建立了新的城市。之後，一些聲名顯赫的起義軍形成了古恩希爾德家族和勞倫斯家族等家族，共同組成了後來的貴族階層。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>隨著巴巴託斯成為了掌管提瓦特一方的塵世七執政之一，同時蒙德的貴族制度也已建立，蒙德地區的戰事全部結束。巴巴託斯不願成為迭卡拉庇安那樣的暴君，決定讓蒙德成為“自由之地”，教授蒙德人一些生產技能和使用風之翼滑翔的方式，將大權交給蒙德民眾後離去。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text>在巴巴託斯創造的溫和氣候和蒙德人的開拓下，蒙德快速發展。在貴族統治的早期，貴族作為蒙德人心中的榜樣受到極大的尊敬和愛戴。許多節日和風俗在這個時期由貴族創立，他們與平民一同和諧共進。當時，狩獵是一項常見的活動，是蒙德的統治階級的愛好。狩獵的歡宴與所有隨從和領民一同共享，貴族們藉此展現他們慷慨。羽球節和風花節也可追溯至這個時代。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text>但承平日久，新貴族逐漸腐化，墮落成為欺凌奴役平民的專制暴政，卻視自身為領主和君王。勞倫斯家族成為最大家族，是蒙德真正的統治者，其餘貴族大多一邊效忠勞倫斯家族一邊殘酷壓制平民。儘管仍有部分貴族試圖維繫著貴族和平民關係的平衡，但腐敗的教會和殘暴的貴族早已朽爛不堪，最後仍然不可避免地崩塌了。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_8" Language="zh_Hant_HK">
+			<Text>貴族統治時代的後期，越來越多的平民意識到自身的處境，反抗貴族統治之聲日起。在角鬥士溫妮莎十歲那年的羽球節慶典上，先前離去並進入沉睡的風神巴巴託斯聽見了受壓迫蒙德人的祈禱與呼喚，便以溫迪的名義來到蒙德。他對蒙德現狀感到震驚，便與一位角鬥士溫妮莎一同再次掀起了反抗——正如他第一次帶領人民反抗上一次暴政一般。輕車熟路的風神成功將舊貴族驅逐出境。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_9" Language="zh_Hant_HK">
+			<Text>貴族統治的時代結束之後，新的組織接替了統治者的位置。為了防止暴政再次出現，溫妮莎建立了西風騎士團，並將舊教會重組。貴族統治中被推平的風神雕像也被重建。人們尊奉四位革命中的功臣為“四風守護”：東風之龍、南風之獅、北風之狼、西風之鷹。遺憾的是，和平時光再次侵蝕了歷史。多年以後，四風守護的信仰逐漸佚失，對應的廟宇也被荒棄。西風騎士團成立後500年，魔龍杜林入侵蒙德，使巴巴託斯再次被喚醒並召喚東風之龍特瓦林協助抵抗。特瓦林在戰鬥中重傷，並在接下來的500年中被蒙德人遺忘。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_10" Language="zh_Hant_HK">
+			<Text>儘管歷史以來遭遇了多次暴政，甚至深陷災禍之苦，蒙德這片風神之地從未屈服。在西風騎士團的治理下，蒙德人高唱著自由之歌，歡迎所有遠道而來的可敬旅人，以包容的心態面對文化的融合與變遷。他們記錄下全國的地情文化、研究丘丘人的語言習俗。酒業的大發展催生了材料各異、種類繁多的酒精以及非酒精飲料。鍊金術重新得到了發現，不再僅僅是是拼接物件的把戲。艾莉絲和芭芭拉發展了蒙德的偶像歌手文化，為古典詩琴演奏民謠的蒙德音樂增添獨特新旋律。人們慶祝羽球節和風花節，願蒙德的自由之風吹蕩久長。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_FAVONIUS_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>除去偵察騎士等其它下屬組織，西風騎士團共有十個小隊長，每人領導一個騎士小隊。其中，聲名顯赫的舊貴族後裔“浪花騎士”優菈帶領第四小隊，也稱作遊擊小隊。遊擊小隊經常需要深入蒙德的荒野進行偵察，駐紮在高山深澗中，並緊盯可能出現的敵人或不明的異常現象。無論是應對魔物還是深淵教團，這些斬獲過諸多功勳的偵察兵常常是後勤小隊或調查小隊的情報來源，但也多次作為戰鬥主力主動進攻，將陰謀扼殺於萌芽狀態。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_JUMPY_DUMPTY_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>如果有人說可莉是西風騎士團的最強戰力，那他一定是見識過蹦蹦炸彈。可莉說蹦蹦炸彈是她帶來無限快樂的“好朋友”之一，而它能成為朋友的最好理由自然是——會爆炸！畢竟，作為騎士團的火花騎士，可莉絕不是為騎士團拖後腿的見習新人，而是實力可畏的爆破專家……甚至用炸彈好好“調整”過一番望風山地的地貌。因為經常使用爆炸物闖禍，她常常被關入（或自覺進入）西風騎士團的禁閉室。也難怪凱亞需要告誡可莉：“放火燒山，可莉完蛋”。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>西風騎士團是守護蒙德的騎士團，最初是在旅行者到來的1000年前由溫妮莎在風神巴巴託斯的幫助下所建立，用以實現風神的意圖——推翻當時的貴族專制，之後成為蒙德秩序的制定者和守護者，也同時控制著西風教會。在旅行者來到提瓦特大陸的時代，騎士團的大團長是法爾伽，但他率隊出國遠征，長期未歸。因此，團內事務便由擁有蒲公英騎士和獅牙騎士頭銜的代理大團長琴代為完成。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>蒙德人對有關於出征在外的騎士團士兵及其駐地的訊息知之甚少，但仍能經常見到在蒙德城市內的西風騎士在執行任務。以舊貴族專制時期建立的建築物（後來的西風騎士團總部）為駐地，留守城內的西風騎士們，特別是第四小隊（遊擊小隊）和第六小隊（後勤小隊），仍要負責管理、幫助市民以及處理危險情況。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>須彌帝國</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_ADJECTIVE" Language="zh_Hant_HK">
+			<Text>須彌的</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME" Language="zh_Hant_HK">
+			<Text>大赤沙海</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_1" Language="zh_Hant_HK">
+			<Text>伊拉傑</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_2" Language="zh_Hant_HK">
+			<Text>拉菲克</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_3" Language="zh_Hant_HK">
+			<Text>薩勒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_4" Language="zh_Hant_HK">
+			<Text>沙班達爾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_5" Language="zh_Hant_HK">
+			<Text>加扎裡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_6" Language="zh_Hant_HK">
+			<Text>埃爾凡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_7" Language="zh_Hant_HK">
+			<Text>哈坎</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_8" Language="zh_Hant_HK">
+			<Text>馬斯魯爾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_9" Language="zh_Hant_HK">
+			<Text>哈勒敦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_10" Language="zh_Hant_HK">
+			<Text>普熱瓦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_1" Language="zh_Hant_HK">
+			<Text>馬姆杜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_2" Language="zh_Hant_HK">
+			<Text>拜伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_3" Language="zh_Hant_HK">
+			<Text>多加</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_4" Language="zh_Hant_HK">
+			<Text>古拉布吉爾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_5" Language="zh_Hant_HK">
+			<Text>賈揚特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_6" Language="zh_Hant_HK">
+			<Text>凱萬</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_7" Language="zh_Hant_HK">
+			<Text>阿拉耶什</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_8" Language="zh_Hant_HK">
+			<Text>羅因賈</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_9" Language="zh_Hant_HK">
+			<Text>夏姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_10" Language="zh_Hant_HK">
+			<Text>扎伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_1" Language="zh_Hant_HK">
+			<Text>妲卡瑪忒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_2" Language="zh_Hant_HK">
+			<Text>法爾扎妮</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_3" Language="zh_Hant_HK">
+			<Text>哈爾瓦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_4" Language="zh_Hant_HK">
+			<Text>珀姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_5" Language="zh_Hant_HK">
+			<Text>蓮塔</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_6" Language="zh_Hant_HK">
+			<Text>雅瓦娜尼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_7" Language="zh_Hant_HK">
+			<Text>海娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_8" Language="zh_Hant_HK">
+			<Text>希忒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_9" Language="zh_Hant_HK">
+			<Text>琪娜特</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_10" Language="zh_Hant_HK">
+			<Text>卡塔揚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_1" Language="zh_Hant_HK">
+			<Text>艾莉亞</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_2" Language="zh_Hant_HK">
+			<Text>艾拉姆</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_3" Language="zh_Hant_HK">
+			<Text>奇拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_4" Language="zh_Hant_HK">
+			<Text>娜澤寧</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_5" Language="zh_Hant_HK">
+			<Text>尼卡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_6" Language="zh_Hant_HK">
+			<Text>塔拉內</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_7" Language="zh_Hant_HK">
+			<Text>莎莉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_8" Language="zh_Hant_HK">
+			<Text>魯梅拉</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_9" Language="zh_Hant_HK">
+			<Text>羅莎娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_10" Language="zh_Hant_HK">
+			<Text>娜斯米兒</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU" Language="zh_Hant_HK">
+			<Text>須彌城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AVIDYA_FOREST" Language="zh_Hant_HK">
+			<Text>道成林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHINVAT_RAVINE" Language="zh_Hant_HK">
+			<Text>離渡谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHA_HILL" Language="zh_Hant_HK">
+			<Text>香醉坡</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHARVA" Language="zh_Hant_HK">
+			<Text>化城</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAZADAHA_POOL" Language="zh_Hant_HK">
+			<Text>天臂池</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOKAPALA_JUNGLE" Language="zh_Hant_HK">
+			<Text>護世森</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHATRAKAM_CAVE" Language="zh_Hant_HK">
+			<Text>茸蕈窟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAWTIYIMA_FOREST" Language="zh_Hant_HK">
+			<Text>無鬱稠林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALCAZARZARAY" Language="zh_Hant_HK">
+			<Text>卡薩扎萊宮</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARDRAVI_VALLEY" Language="zh_Hant_HK">
+			<Text>阿陀河谷</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEVANTAKA_MOUNTAIN" Language="zh_Hant_HK">
+			<Text>降諸魔山</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_ORMOS" Language="zh_Hant_HK">
+			<Text>奧摩斯港</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIMARA" Language="zh_Hant_HK">
+			<Text>維摩莊</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHAVAN_REALM" Language="zh_Hant_HK">
+			<Text>善見地</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_APAM_WOODS" Language="zh_Hant_HK">
+			<Text>水天叢林</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARAVAN_RIBAT" Language="zh_Hant_HK">
+			<Text>喀萬驛</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARDIS_DHYAI" Language="zh_Hant_HK">
+			<Text>禪那園</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINS_OF_DAHRI" Language="zh_Hant_HK">
+			<Text>荼訶之座</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YASNA_MONUMENT" Language="zh_Hant_HK">
+			<Text>謁頌幽境</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VISSUDHA_FIELD" Language="zh_Hant_HK">
+			<Text>二淨甸</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANARANA" Language="zh_Hant_HK">
+			<Text>桓那蘭那</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FANE_OF_ASHVATTHA" Language="zh_Hant_HK">
+			<Text>覺王之殿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOST_NURSERY" Language="zh_Hant_HK">
+			<Text>失落苗圃</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOBEK_OASIS" Language="zh_Hant_HK">
+			<Text>豐饒綠洲</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AARU" Language="zh_Hant_HK">
+			<Text>阿如</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABDJU_ROAD" Language="zh_Hant_HK">
+			<Text>捨身步道</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAR_AL_SHIFA" Language="zh_Hant_HK">
+			<Text>活力之家</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYE_OF_THE_SANDS" Language="zh_Hant_HK">
+			<Text>沙之眼</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALLEY_OF_DAHRI" Language="zh_Hant_HK">
+			<Text>荼訶落谷</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_BARRACKS_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兵營提供+15 [ICON_Strength] 戰鬥力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ARMORY_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>兵工廠提供+15 [ICON_Strength] 戰鬥力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>軍事學院提供+15 [ICON_Strength] 戰鬥力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>1級政體建築提供+15 [ICON_Strength] 戰鬥力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>2級政體建築提供+15 [ICON_Strength] 戰鬥力。</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>3級政體建築提供+15 [ICON_Strength] 戰鬥力。</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_PROMOTION_RANGER_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_TOOLTIP" Language="zh_Hant_HK">
+			<Text>巡林</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_YIELD_TOOLTIP" Language="zh_Hant_HK">
+			<Text>{1_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_FEATURE_TOOLTIP" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_UNCOOLED_TOOLTIP" Language="zh_Hant_HK">
+			<Text>[NEWLINE]最近已巡林過。在{1_Num}回合以內，無法再次巡林。</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_TECH_UNLOCK_TOOLTIP" Language="zh_Hant_HK">
+			<Text>[NEWLINE]所需科技：{2_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_YIELD_TOOLTIP" Language="zh_Hant_HK">
+			<Text>產出{1_Num} {2_IconStr} {3_Str}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="zh_Hant_HK">
+			<Text>草神納西妲，森羅永珍在您眼中不過是蜃景夢幻，但您之所為必將改變塵世的面貌。您熟知林間生命中蘊藏的力量，您的人民也從中照見了知識和真相。播下心識之種吧，願世人皆景仰須彌：草木豐茂之地，智慧雄辯之國。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Language="zh_Hant_HK">
+			<Text>智慧之主</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>設法獲得 [ICON_Science] 科技值，喜歡同樣專注於 [ICON_Science] 科技的文明。不喜歡 [ICON_SCIENCE] 科技值低的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_HIGH_SCIENCE" Language="zh_Hant_HK">
+			<Text>您在科技上付出的努力讓納西妲十分欣喜</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_LOW_SCIENCE" Language="zh_Hant_HK">
+			<Text>您忽視科技發展，納西妲頗為失望</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_SUMERU_LOCATION" Language="zh_Hant_HK">
+			<Text>提瓦特大陸</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_SIZE" Language="zh_Hant_HK">
+			<Text>大約數十平方公里</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_POPULATION" Language="zh_Hant_HK">
+			<Text>大約數十萬到上百萬</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_CAPITAL" Language="zh_Hant_HK">
+			<Text>須彌城</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_SUBTITLE" Language="zh_Hant_HK">
+			<Text>小吉祥草王、摩訶善法大吉祥智慧主、魔神布耶爾</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>智慧之神身處幻景宮殿之中，靜靜解讀世界的奧祕。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>須彌人居住在雨林和沙漠之中，以他們無人能敵的 [ICON_Science] 科技值產出為傲。對須彌而言，最重要的是要佔據儘量多的雨林單元格，如此他們便可使用巡林員收穫大量 [ICON_Production] 生產力和 [ICON_Science] 科技值。教令院更是可以進一步提升他們的科技優勢。使用納西妲進行遊戲時，切記為市中心選擇一個合適的位置以獲得額外的產出。在摩訶善法大吉祥智慧主的帶領下，須彌定能繁榮——並輕取科技勝利。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>在旅行者來到須彌的五百年前，前任草神大慈樹王在嘗試從世界樹——提瓦特人所有的資訊和記憶的儲庫——中消除禁忌知識的過程中逝去了。與世界樹相連的大慈樹王在治理世界樹的同時也被禁忌知識所汙染，只有當這個存在本身被徹底遺忘時，禁忌知識才會被徹底清除。因此，她折下世界樹最純淨的枝杈，作為自己的輪迴轉世。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>經由大慈樹王之手誕生的便是小吉祥草王納西妲。那時，禁忌知識的汙染仍未完全消除，但作為新生的神明，小吉祥草王卻無法應對世界樹的汙染。因此，賢者在找到了小吉祥草王，將其接回須彌城以後，迅速對其感到失望。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>賢者遂改造了大慈樹王留在淨善宮的冥想裝置使其無法從內部開啟，將小吉祥草王囚禁於其中。她的神之心（神明身份的證明）則被用於虛空終端——大慈樹王所造的，集合傳遞人類知識的裝置——的運轉。虛空成為了新誕神明的耳與目。她利用虛空遍歷人們的喜怒哀樂，當然也知曉他們對舊神的崇拜與新神的失望，與諸如“智慧之神已經不復存在”的評價。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>納西妲深知自己必須不斷學習，儘快成長，才能面對來自世界最深處的威脅，這是她無法迴避的使命。因此，即便得不到理解和重視，她也沒有半分意見。但於此同時，教令院的大賢者阿扎爾則另有計劃。在他看來，如果小吉祥草王沒有能力拯救世界樹，就應該創造有能力的神明。他們使用雷神之心，以機械人偶散兵的身體為基礎，建造了新神明的軀體。為了造神，教令院還利用虛空收集須彌人的夢境。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>教令院的所作所為很快被旅行者所知。旅行者前往沙漠，與賽諾、艾爾海森、迪希雅、拉赫曼等人結成同盟，商定了救出小吉祥草王的計劃並最終成功。大賢者被逮捕，基本成型的新神“正機之神”被擊敗，神之心也被奪取。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text>利用兩顆神之心——草神和雷神之心，小吉祥草王解讀出了大慈樹王最後的話語。大慈樹王在淨化禁忌知識時，世界樹中人們對她的回憶與知識也一起被汙染。為了徹底淨化世界樹，只能將世界樹中其一切的相關資訊抹除。雖然無比悲痛，但納西妲不得不親手從世界樹中抹去大慈樹王的一切。此後，所有提瓦特原住民再無關於前代草神的記憶。森林無法記住一切，只有來自另一個世界的訪客（包括旅行者）還保留著真相。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text>在後來的提瓦特人的記憶中，世界上從來只有一個草神，那就是小吉祥草王，從未更迭。但實際上只是新上任的納西妲明白，有很多事正等待她去做。她流放了涉及造神計劃的賢者，關閉了虛空終端，取消了對須彌沙漠地區的歧視政策。用她的說法，她希望重新讓人們的求知慾和好奇心支配學術領域。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_8" Language="zh_Hant_HK">
+			<Text>曾經大賢者們盜取了須彌人的夢境，製造了“須彌人不會做夢”的傳言並將其解釋為智慧和理性的體現，但長久以來，智慧之神都認為夢境是人類智慧的結晶。隨著虛空終端的關閉，夢境回到了須彌人的生活中。也只有在虛空完成它的使命，禁忌知識被完全消除之後，納西妲才能放眼須彌的未來，真正去展望獨屬於這片國度的美好圖景。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_9" Language="zh_Hant_HK">
+			<Text>發現了消除禁忌知識的方法，如同大慈樹王所言，“作為智者，應該為探尋到答案而高興”。但令納西妲遺憾的是，她終究沒有時間解答：一個即將走向未來的國度是否能記得一個不復存在的名字？最終，她放下過去而堅強起來，因為她比任何人都明白——在須彌，她將是所有人的寄託與依靠。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>儘管具體的時間尚不明確，須彌的歷史最早始於花神、赤王和大慈樹王的合作。三位魔神共同建造了阿伊·哈努姆（意為“月女城”），也被稱作“圓形劇場之城”。在如今已埋入黃沙的古老文獻中，花神也被稱作夢的女主人。她與另外兩位魔神曾是好友，並以不同的方式分別追求著智慧。花神的生日仍在為須彌人所慶祝（儘管如今他們用以慶祝的是草神的生日）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>三位魔神本打算將阿伊·哈努姆建設為一處“應許之地”……但好景不長，由於尚不明確的原因，花神突然隕落，連帶的她所創造的紫紅色帕蒂莎蘭也就此消失。按照民間傳說的記載，花神死於“烈日與黃沙的惡意”，但也有說法認為，“死亡正是花之主人從最開始便盡力追尋的終結，為失去的歡樂增添苦澀的風味”——換句話說，是花神自己策劃了自己的死。在她離世後，赤王與大慈樹王分道揚鑣，各自建立自己的文明。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>之後，有多個沙漠中的藩王興起，這些小王國均由失去神明領導的凡人統治。此時被稱為“鍍金藩王的割據時代”，最終結束於赤王和大慈樹王的迴歸並重建“綠洲樂園”。藩王奧爾瑪茲領導的居爾城便存在於這個時代，其歷史被記載於後世的民間傳說之中。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>兩位神明以自己的方式重建了沙漠之國，曾經荒廢的城市很可能在此時也再次興起。不過在後來，大慈樹王決定離開沙漠，只留赤王與他的黃沙子嗣。赤王獨自統治沙漠之國期間，大慈樹王前往沙海東方，製造了法留納神機將一片沙漠變為雨林。在沙漠和雨林的交界處，防沙壁被建立起來。她和信仰她的學者建設起了一片繁茂的雨林，之後這些學者還將創立教令院生論派。須彌城建立在聖樹——一棵須彌叢林地區的巨樹——之上，由教令院賢者們幫助樹王管理國家事務。大慈樹王還創造了蘭那羅，一種操縱夢境的小生物。這之後，魔神戰爭塵埃落定，大慈樹王取得勝利成為了塵世七執政之一。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>而獨自統治沙漠王國的赤王卻陷入了災禍。他經受不住禁忌知識的誘惑。儘管他事後後悔地將其稱作“毒藥”，但後悔也已經太晚了。禁忌知識給須彌降下了災難：“自從赤王將‘禁忌的知識’帶到這個世界，便如同瘟疫一般散播開來。腦海充斥著瘋狂的囈語，灰黑色的鱗片爬滿了背脊，大地也似乎被奪去了生命，只剩絕望的死寂……”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text>赤王隨即尋求大慈樹王的幫助，期望他的舊友能夠救他於水火。草神召集祭司修建起數座神廟，制止災禍蔓延並建立了阿如村，赤王文明的最後殘存。大慈樹王耗盡了她的力量，身軀退回了孩童模樣，但即便如此仍然不夠。最終，赤王決定犧牲自己，試圖為災難畫上句號，將禁忌知識封印。此後，赤王的文明就此分崩離析，分散為一群小型城邦。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text>這樣的狀態僅僅持續了500年，之後坎瑞亞災變發生了。除大慈樹王以外的七神都被召集前往名為坎瑞亞的國度，而大慈樹王有一項更為重要的任務——保護世界樹，根植於深淵之中，連線著全世界的地脈的草元素力量之源，全提瓦特人的知識和記憶的儲庫。本該被封印的禁忌知識，伴隨著波及整個提瓦特大陸的災難而汙染了世界樹。大慈樹王知道單靠自己的力量，根本無法將禁忌知識驅逐。於是她創造了統合人類智慧的裝置，命名為“虛空”。藉助虛空，她借走了人們的夢境，將禁忌知識幾乎從世界樹中完全清除。但她本身也被禁忌知識所汙染……最終，要徹底清除禁忌知識，她必須讓自己被世界徹底遺忘。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_8" Language="zh_Hant_HK">
+			<Text>雖然大慈樹王幾乎清除了禁忌知識，但她終究無法清除被汙染的自身的存在。於是，她折下世界樹最純淨的枝杈，作為她的輪迴轉世，也就是新生的小吉祥草王，以使自身能夠最終被完全從世界樹中清除，隨後便犧牲了自己。在這個期間，禁忌知識仍繼續毒害須彌，製造瘋狂、死域和魔鱗病，教令院的學者們無論如何努力也無力迴天。新生的草神並沒有掌握清除世界樹汙染的方法，因此她僅僅成為了大慈樹王已死的象徵，被絕望而陷入瘋狂的教令院賢者囚禁。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_9" Language="zh_Hant_HK">
+			<Text>僅僅囚禁新草神並不能解決任何問題。在五百年的掙扎中，慌不擇路的教令院聽信了愚人眾的“博士”，決定嘗試自己製造新的神明，以取代並未顯示出神明的智慧的小吉祥草王。為了完成這一目標，他們甚至將須彌城的居民困在夢境輪迴中，反覆收集他們的夢境來激發雷神之心的力量。這項計劃最終被旅行者成功制止。旅行者救出了小吉祥草王，並奪取了兩顆神之心——一顆草神之心，一顆雷神之心。用兩顆神之心的力量，小吉祥草王最終解讀出了處理禁忌知識的最終解決方案：淨化世界樹，徹底抹去大慈樹王。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_10" Language="zh_Hant_HK">
+			<Text>在萬分悲痛中，小吉祥草王拯救了世界樹，消除了禁忌知識引發的災難。但從那以後，提瓦特的原住民再也不記得大慈樹王，而是相信草神從未更迭，就是現在的小吉祥草王。她開始真正執掌須彌，關閉了虛空終端，並專注於規劃須彌的未來。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMERU_FOREST_RANGER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>巡林員是巡護須彌森林的公務人員，主要活躍在道成林中，尤其是其總部化城郭附近。他們的主要工作包括幫助路過的旅行者，以及維護須彌雨林（包括維護林間的道路和基礎設施，監測野生動物種群，以及治理死域——使生命逐漸枯萎的異常現象）。他們定期向位於禪那園的學者報告森林情況，並從他們手中得到各種支援物資。巡林隊中的資深成員被稱為巡林官。在旅行者來到須彌時，巡林隊的領導者是大巡林官提納裡。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>教令院由大慈樹王創立，是須彌的主要行政機構，也是全提瓦特最富盛名的研究院所，尤其以其祕術和歷史記錄的文獻集而聞名於世。教令院總部位於須彌城的樹幹之中，學術機構共有六大學派：生論派（生命科學）、明論派（天文學）、素論派（鍊金術和地理學）、知論派（語言學與邏輯學）、因論派（歷史與社會學）以及妙論派（工程學）。每個學派均依託於一所學院，由一位賢者領導。同時，在六學派的六賢者之中，會推舉出一位大賢者，作為統轄教令院的頂點。在教令院要取得學位需要經過漫長而痛苦的過程。在30歲以後才獲得學位的學生並不罕見，巨大的壓力使得學者們往往早早白頭。在小吉祥草王誕生之後，教令院將新生的神明囚禁，直到旅行者將她救出。她隨後奪回了這個機構的領導權並流放了時任大賢者阿扎爾。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_NAHIDA_QUOTE" Language="zh_Hant_HK">
+			<Text>畢竟，我只是“月亮”，而真正的“太陽”早就不在了吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--被譴責 - 來自某位神明的凝視-->
+			<Text>即便是沒有月亮的夜晚，一眾星光亦足以刺破虛幻與謊言。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--譴責玩家 - 空幻迴響的花神誕祭-->
+			<Text>不論你是為了什麼目的才這樣做，都是無法原諒的。（譴責你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--初次見面 - -->
+			<Text>初次見面，我已經關注你很久了。我叫納西妲。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--初次見面，玩家提供最近城市位置-->
+			<Text>很好。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--初次見面，請求交換首都位置-->
+			<Text>所以，我可以用我首都的情況，換取你那兒的嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--請求結盟 - Civ6 generic-->
+			<Text>您想結為盟友嗎？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<Text>我以智慧之神的名義為你賜福，從今往後不再會有困惑阻礙你的旅途。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<Text>我們無法觀測未來的所有可能性，只能靠略顯笨拙的試錯獲取知識。痛苦只是學費而已，再正常不過啦。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--同意聲明友誼-->
+			<Text>呵呵，走吧，接下來的旅途也請你引路了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--拒絕聲明友誼-->
+			<Text>我完全不瞭解你。要我接受你的友誼，就好像要我嚥下一團髒兮兮的烏雲一樣。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--請求聲明友誼-->
+			<Text>你冒險經驗這麼豐富，當我的朋友好不好啊？你之後所有的故事，我都想親身感受。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--請求聲明友誼被接受-->
+			<Text>這種感覺，就像月蓮找到了蓮葉，珊瑚真珠找到了貝殼。</Text>
+		</Row>
+	
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--請求聲明友誼被拒絕-->
+			<Text>這世上有太多的東西都是過時不候的呢。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--被宣戰 - 識藏日-->
+			<Text>是我的妄自菲薄與遷就才促成了現在的局面，添了這麼多麻煩。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--主動宣戰 - 墜落之夢-->
+			<Text>可惜，你觸犯了教令院六宗罪之一，還對這徹頭徹尾的惡行毫無自知。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--接受使節派遣 -->
+			<Text>你的代表團到了。呵呵，感謝你們的禮物，我非常喜歡。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--拒絕使節派遣 - -->
+			<Text>你要先做好你自己。就像如果做不好毛蟲，還怎麼做好蝴蝶呢？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--請求派遣使節 - -->	
+			<Text>我派出了一支帶著禮物的代表團。有你喜歡的東西嗎？</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--初次見面，提供最近城市位置-->
+			<Text>我們附近有一座城市。不知道幹什麼的話，要不要我帶你去轉轉呀？</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--要求移開邊境軍隊 - 墜落之夢-->
+			<Text>如果你把我們邊境的軍隊用在正途上，也許能成為更加賢明的新一代領袖。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--戰敗-->
+			<Text>生命……終有盡時……</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--同意交易-->
+			<Text>謝謝，太感謝了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--拒絕交易-->
+			<Text>這樣不太明智……</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">	
+			<!--理論上是玩家發起外交時使用的，但實際上從未被使用過 - -->
+			<Text>知識，與你分享。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--理論上是同意求和，但從未被使用過-->
+			<Text>重建任何事物都需要時間，但不論是文化、友誼、信任…我們都會重新得到的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--理論上是拒絕求和，但從未被使用過-->
+			<Text>你智慧之名所做的一切愚行，我都會以神明的名義……好好報復的！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--理論上是求和，但從未被使用過-->
+			<Text>充分認識到戰爭的虛無之後，應該重溫和平的意義了。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--理論上是同意開放邊界，但從未被使用過-->
+			<Text>歡迎來須彌做客。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--理論上是拒絕開放邊界，但從未被使用過-->
+			<Text>你還是換個策略吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NAHIDA_ANY" Language="zh_Hant_HK">
+			<!--理論上是請求開放邊界，但從未被使用過-->
+			<Text>我的國民需要暫時穿越您的領地。請不要怪我，藤蔓也會靠著牆壁去到更接近天穹的地方嘛。</Text>
+		</Row>
+	</LocalizedText>
 </GameData>
