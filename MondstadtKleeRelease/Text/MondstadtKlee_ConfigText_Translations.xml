@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+	<!-- 简体中文(Simplified Chinese) -->
 		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_NAME" Language="zh_Hans_CN">
 			<Text>蒙德</Text>
 		</InsertOrIgnore>
@@ -83,6 +84,90 @@
 		</Row>
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>须弥特色科技区域。替代学院区域。必须建造在树林或雨林中。[NEWLINE][NEWLINE]每个相邻雨林 +1 [ICON_Science] 科技值。本城市若建有大学，每位 [ICON_Citizen] 公民每回合带来 +0.5 [ICON_Science] 科技值，研究科学理论后额外 +0.5。</Text>
+		</Row>
+	<!-- 繁體中文(Traditional Chinese) -->
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_NAME" Language="zh_Hant_HK">
+			<Text>蒙德</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_LEADER_KLEE_NAME" Language="zh_Hant_HK">
+			<Text>可莉</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_NAME" Language="zh_Hant_HK">
+			<Text>可莉特調</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>忽略科技要求顯示 [ICON_RESOURCE_Niter] 硝石資源。首次建造兵工廠後獲得“火藥”科技。攻城單位每回合+1額外攻擊次數。可在擁有西風騎士團駐地區域的任意城市中開展“炸魚狂歡節”項目。解鎖“火藥”科技後獲得特色單位“蹦蹦炸彈”。</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_NAME" Language="zh_Hant_HK">
+			<Text>風與牧歌之城</Text>
+		</InsertOrIgnore>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED" Language="zh_Hant_HK">
+			<Text>已改良的丘陵 +1 [ICON_Faith] 信仰值，“銀行業”額外+1 [ICON_Production] 生產力和+2 [ICON_Gold] 金錢。牧場和種植園為區域提供標準相鄰加成。種植園可觸發文化炸彈，位於奢侈品資源上 +2 [ICON_Culture] 文化值。區域與其他區域相鄰時不會獲得少量相鄰加成。建造區域時-30% [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_XP2" Language="zh_Hant_HK">
+			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED}風力發電廠和離岸風力發電廠+4 [ICON_Power] 電力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_NAME" Language="zh_Hant_HK">
+			<Text>西風騎士團駐地</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>蒙德特色區域，替代軍營。建造花費更低且可以建在市中心旁。本城市購買陸地軍事和平民單位所需成本減少30%。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="zh_Hant_HK">
+			<Text>西風遊擊小隊</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>蒙德特色中世紀近戰單位，替代披甲戰士。[ICON_Movement] 移動力和 [ICON_Strength] 戰鬥力更高，但-100%夾擊加成。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_NAME" Language="zh_Hant_HK">
+			<Text>蹦蹦炸彈</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可莉作為領袖時的蒙德特色文藝復興時期攻城單位。只能進行近戰攻擊。當靠近一座城市時，可讓近戰單位忽略城牆，直接攻擊該城。可發射砰砰禮物和原子武器。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_NAME" Language="zh_Hant_HK">
+			<Text>須彌</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NAHIDA_NAME" Language="zh_Hant_HK">
+			<Text>納西妲</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_NAME" Language="zh_Hant_HK">
+			<Text>心景幻成</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>若相鄰市中心，沼澤和氾濫平原單元格 +1 [ICON_Food] 食物，有淡水的森林或雨林單元格 +1 [ICON_Production] 生產力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_XP2" Language="zh_Hant_HK">
+			<Text>若相鄰市中心，沼澤和氾濫平原單元格 +1 [ICON_Food] 食物，有淡水的森林或雨林單元格 +1 [ICON_Production] 生產力，火山土和地熱裂縫單元格 +2 [ICON_Culture] 文化值。在 [ICON_Power] 電力充足的城市中，以上加成將翻倍。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_NAME" Language="zh_Hant_HK">
+			<Text>智妙明論之林</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>可在森林和雨林中建設區域。雨林 +1 [ICON_Science] 科技值，研究科學理論後額外+1。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_XP2" Language="zh_Hant_HK">
+			<Text>單位無法砍伐雨林和樹林。{LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_NAME" Language="zh_Hant_HK">
+			<Text>巡林員</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>須彌特色近戰單位。在樹林和雨林地形有更快的 [ICON_Movement] 移動力。首次建造出兵營、兵工廠和軍事學院時，其 [ICON_Strength] 戰鬥力將得到提升。可巡護森林和雨林而獲得 [ICON_Production] 生產力和額外產出。一個森林和雨林單元格每50回合（標準速度下）可被巡林一次。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1" Language="zh_Hant_HK">
+			<Text>須彌特色近戰單位。在樹林和雨林地形有更快的 [ICON_Movement] 移動力。建成政體建築時，其 [ICON_Strength] 戰鬥力將得到提升。可消耗次數巡護森林和雨林而獲得 [ICON_Production] 生產力和額外產出。一個森林和雨林單元格每50回合（標準速度下）可被巡林一次。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_AKADEMIYA_NAME" Language="zh_Hant_HK">
+			<Text>教令院</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_AKADEMIYA_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>須彌特色科技區域。替代學院區域。必須建造在樹林或雨林中。[NEWLINE][NEWLINE]每個相鄰雨林 +1 [ICON_Science] 科技值。本城市若建有大學，每位 [ICON_Citizen] 公民每回合帶來 +0.5 [ICON_Science] 科技值，研究科學理論後額外 +0.5。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
