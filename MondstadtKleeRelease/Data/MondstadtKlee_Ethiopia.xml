@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Not needed
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldChangeId="LeyLine_Faith"/>
+	</District_Adjacencies>
+	-->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="LeyLine_Science"/>
+	</District_Adjacencies>
+</GameData>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_FAVONIUS_STRONGHOLD" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_AKADEMIYA" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_FAVONIUS_STRONGHOLD" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+		<Row CivUniqueDistrictType="DISTRICT_AKADEMIYA" ReplacesDistrictType="DISTRICT_CAMPUS"/>
+	</DistrictReplaces>
+
+	<Districts>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" Name="LOC_DISTRICT_FAVONIUS_STRONGHOLD_NAME" Description="LOC_DISTRICT_FAVONIUS_STRONGHOLD_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_FAVONIUS_STRONGHOLD"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" Name="LOC_DISTRICT_AKADEMIYA_NAME" Description="LOC_DISTRICT_AKADEMIYA_DESCRIPTION" PrereqTech="TECH_WRITING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_AKADEMIYA"/>
+	</Districts>
+
+	<District_RequiredFeatures>
+		<Row DistrictType="DISTRICT_AKADEMIYA" FeatureType="FEATURE_JUNGLE"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" FeatureType="FEATURE_FOREST"/>
+	</District_RequiredFeatures>
+	
+	<District_Adjacencies>
+		<!--
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldChangeId="Favonius_HolySite_Faith"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science1"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science2"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science3"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science4"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Mountains_Science5"/>
+		-->
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Jungle_Science_Akademiya"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="District_Science"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="GBR_Science"/>
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<Row ID="Favonius_HolySite_Faith" Description="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Jungle_Science_Akademiya" Description="LOC_DISTRICT_JUNGLE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE"/>
+	</Adjacency_YieldChanges>
+
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+
+	<!--XP1 only-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_FAVONIUS_STRONGHOLD" ModifierId="FAVONIUS_STRONGHOLD_UNIT_PURCHASE_DISCOUNT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_FAVONIUS_STRONGHOLD" ModifierId="FAVONIUS_STRONGHOLD_CIVILIAN_UNIT_PURCHASE_DISCOUNT"/>
+	</TraitModifiers>
+
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_AKADEMIYA" ModifierId="AKADEMIYA_SCIENCE_PER_POP"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" ModifierId="AKADEMIYA_SCIENCE_PER_POP_SCIENTIFIC_THEORY"/>
+	</DistrictModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>FAVONIUS_STRONGHOLD_UNIT_PURCHASE_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNITS_PURCHASE_COST</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_CITY_HAS_FAVONIUS_STRONGHOLD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FAVONIUS_STRONGHOLD_CIVILIAN_UNIT_PURCHASE_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_CITY_HAS_FAVONIUS_STRONGHOLD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AKADEMIYA_SCIENCE_PER_POP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>SUMERU_BUILDING_IS_UNIVERSITY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AKADEMIYA_SCIENCE_PER_POP_SCIENTIFIC_THEORY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>FAVONIUS_STRONGHOLD_UNIT_PURCHASE_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>FAVONIUS_STRONGHOLD_UNIT_PURCHASE_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<!--seems that there's no need to exclude rock band in XP1.-->
+		<Row ModifierId="FAVONIUS_STRONGHOLD_CIVILIAN_UNIT_PURCHASE_DISCOUNT" Name="UnitType" Value="UNIT_BUILDER, UNIT_TRADER, UNIT_SETTLER, UNIT_MISSIONARY, UNIT_APOSTLE, UNIT_INQUISITOR, UNIT_GURU, UNIT_ARCHAEOLOGIST, UNIT_NATURALIST, UNIT_ROCK_BAND"/>
+		<Row ModifierId="FAVONIUS_STRONGHOLD_CIVILIAN_UNIT_PURCHASE_DISCOUNT" Name="Amount" Value="30"/>
+
+		<Row>
+			<ModifierId>AKADEMIYA_SCIENCE_PER_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AKADEMIYA_SCIENCE_PER_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AKADEMIYA_SCIENCE_PER_POP_SCIENTIFIC_THEORY</ModifierId>
+			<Name>Amount</Name>
+			<Value>.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AKADEMIYA_SCIENCE_PER_POP_SCIENTIFIC_THEORY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row RequirementSetId="SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row>
+			<RequirementSetId>SUMERU_BUILDING_IS_UNIVERSITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_SCIENTIFIC_THEORY_SUMERU</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SUMERU_UNIVERSITY_SCIENTIFIC_THEORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SUMERU_BUILDING_IS_UNIVERSITY</RequirementSetId>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_FAVONIUS_STRONGHOLD</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_FAVONIUS_STRONGHOLD</Value>
+		</Row>
+		<Row>
+			<RequirementId>SUMERU_REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

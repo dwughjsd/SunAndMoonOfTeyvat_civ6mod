@@ -1,0 +1,65 @@
+For who wants a detailed description of these leader instead of a first-look-style text:
+
+Klee - Exquisite Compound
+
+Reveals Niter without technology requirement. When the first Armory is constructed the Gunpowder technology is unlocked. +1 additional attack per turn for all siege units. May initiate the Fish Blasting Carnival project in any city with a Encampment district. Gain the Jumpy Dumpty unique unit with Gunpowder.
+
+Leader Unique Unit - Jumpy Dumpty
+Mondstadt unique Renaissance era siege unit when Klee is their leader. Has only melee attack. When adjacent to a city, attacking melee units ignore Walls and immediately assault the city. Can be armed with Pounding Surprises and nuclear weapons.
+
+Mondstadt - City of Winds and Idylls
+
++1 Faith from improved Hills. Additional +1 Production and +2 Gold with Banking. Pastures and Plantations provide a standard adjacency bonus for all districts. Plantations trigger a Culture Bomb, and +2 Culture if on a Luxury resource. Specialty districts do not receive a minor adjacency for being adjacent to another district. -30% Production toward Districts. [GATHERING STORM] Offshore Wind Farms and Wind Farms receive +4 Power.
+
+Unique District - Favonius Stronghold
+
+A district unique to Mondstadt which replaces the Encampment. Cheaper to build and can be built adjacent to the City Center. Land combat or civilian units are 30% cheaper to purchase in this city.
+
+Unique Unit - Reconnaissance Company
+Mondstadt unique Medieval era melee unit that replaces the Man-At-Arms. Has higher Movement and Combat Strength, but -100% flanking bonus.
+
+Nahida - Illusory Heart
++1 Food to Marsh and Floodplains tiles and +1 Production to Woods and Rainforests tiles with Freshwater if they are adjacent to a City Center.
+
+[GATHERING STORM] +1  Food to Marsh and Floodplains tiles, +1 Production to Woods and Rainforests tiles with Freshwater and +1 Culture to Volcanic Soil and Geothermal Fissure tiles if they are adjacent to a City Center. These numbers are doubled in Powered cities.
+
+Sumeru - Forest of Jnana and Vidya
+All districts can be built on Woods and Rainforest tiles. +1 Science to all Rainforest tiles. Additional +1 with Science Theory. [GATHERING STORM] Units cannot chop Woods and Rainforests.
+
+Unique District - Akademiya
+A district unique to Sumeru for scientific endeavors. Replaces the Campus district. Can only be constructed in Rainforest or Woods. +1 Science bonus for each adjacent Rainforest tile. +0.5 Science per turn for each Citizen when the city has a Library. Additional +0.5 with Scientific Theory.
+
+Unique Unit - Forest Ranger
+Sumeru unique melee unit. Faster Movement in Woods and Rainforest terrain. Combat Strength is increased when government buildings are constructed. May use a charge to patrol in Woods and Rainforests to gain Production and additional yields. A Woods or Rainforest tile can be patrolled once every 50 turns (on Standard Speed).
+
+提供给更喜欢直接看详细的能力说明的玩家：
+
+可莉 - 可莉特调
+忽略科技要求显示硝石资源。首次建造兵工厂后获得“火药”科技。攻城单位每回合+1额外攻击次数。可在拥有西风骑士团驻地区域的任意城市中开展“炸鱼狂欢节”项目。解锁“火药”科技后获得特色单位“蹦蹦炸弹”。
+
+领袖特色单位 - 蹦蹦炸弹
+可莉作为领袖时的蒙德特色文艺复兴时期攻城单位。只能进行近战攻击。当靠近一座城市时，可让近战单位忽略城墙，直接攻击该城。可发射砰砰礼物和原子武器。
+
+蒙德 - 风与牧歌之城
+已改良的丘陵+1信仰值，“银行业”额外+1生产力和+2金钱。牧场和种植园为区域提供标准相邻加成。种植园可触发文化炸弹，位于奢侈品资源上+2文化。区域与其他区域相邻时不会获得少量相邻加成。建造区域时-30%生产力。【风云变幻】风力发电厂和离岸风力发电厂+4 电力。
+
+特色区域 - 西风骑士团驻地
+蒙德特色区域，替代军营。建造花费更低且可以建在市中心旁。本城市购买陆地军事和平民单位所需成本减少30%。
+
+特色单位 - 西风游击小队
+蒙德特色中世纪近战单位，替代披甲战士。移动力和战斗力更高，但-100%夹击加成。
+
+纳西妲 - 心景幻成
+相邻市中心的沼泽和泛滥平原单元格 +1 食物，有淡水的森林或雨林单元格 +1 生产力。
+
+【风云变幻】相邻市中心的沼泽和泛滥平原单元格 +1 食物有淡水的森林或雨林单元格 +1 生产力，火山土和地热裂缝单元格 +1 文化值。在电力充足的城市中，以上加成将翻倍。
+
+须弥 - 智妙明论之林
+可在森林和雨林中建设区域。雨林产出 +1 科技值，研究科学理论后额外+1。【风云变幻】单位无法砍伐雨林和树林。
+
+特色区域 - 教令院
+须弥特色科技区域。替代学院区域。必须建造在树林或雨林中。每个相邻雨林 +1 科技值。本城市若建有大学，每位公民每回合带来 +0.5 科技值，研究科学理论后额外 +0.5。
+
+特色单位 - 巡林员
+须弥特色近战单位。在树林和雨林地形有更快的移动力。建成政体建筑时，其战斗力将得到提升。可消耗次数巡护森林和雨林而获得生产力和额外产出。一个森林和雨林单元格每50回合（标准速度下）可被巡林一次。
+

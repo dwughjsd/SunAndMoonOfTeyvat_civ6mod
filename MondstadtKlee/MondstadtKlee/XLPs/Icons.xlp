@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Mondstadt128"/>
+			<m_ObjectName text="Mondstadt128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt22"/>
+			<m_ObjectName text="Mondstadt22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt256"/>
+			<m_ObjectName text="Mondstadt256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt30"/>
+			<m_ObjectName text="Mondstadt30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt32"/>
+			<m_ObjectName text="Mondstadt32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt36"/>
+			<m_ObjectName text="Mondstadt36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt44"/>
+			<m_ObjectName text="Mondstadt44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt45"/>
+			<m_ObjectName text="Mondstadt45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt48"/>
+			<m_ObjectName text="Mondstadt48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt50"/>
+			<m_ObjectName text="Mondstadt50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt64"/>
+			<m_ObjectName text="Mondstadt64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mondstadt80"/>
+			<m_ObjectName text="Mondstadt80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee256"/>
+			<m_ObjectName text="LeaderKlee256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee32"/>
+			<m_ObjectName text="LeaderKlee32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee45"/>
+			<m_ObjectName text="LeaderKlee45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee48"/>
+			<m_ObjectName text="LeaderKlee48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee50"/>
+			<m_ObjectName text="LeaderKlee50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee55"/>
+			<m_ObjectName text="LeaderKlee55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee64"/>
+			<m_ObjectName text="LeaderKlee64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderKlee80"/>
+			<m_ObjectName text="LeaderKlee80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Favonius22"/>
+			<m_ObjectName text="Favonius22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Favonius256"/>
+			<m_ObjectName text="Favonius256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Favonius32"/>
+			<m_ObjectName text="Favonius32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Favonius38"/>
+			<m_ObjectName text="Favonius38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Favonius50"/>
+			<m_ObjectName text="Favonius50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Favonius80"/>
+			<m_ObjectName text="Favonius80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumpty22"/>
+			<m_ObjectName text="JumpyDumpty22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumpty256"/>
+			<m_ObjectName text="JumpyDumpty256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumpty32"/>
+			<m_ObjectName text="JumpyDumpty32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumpty38"/>
+			<m_ObjectName text="JumpyDumpty38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumpty50"/>
+			<m_ObjectName text="JumpyDumpty50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumpty80"/>
+			<m_ObjectName text="JumpyDumpty80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusPortrait200"/>
+			<m_ObjectName text="FavoniusPortrait200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusPortrait256"/>
+			<m_ObjectName text="FavoniusPortrait256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusPortrait38"/>
+			<m_ObjectName text="FavoniusPortrait38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusPortrait50"/>
+			<m_ObjectName text="FavoniusPortrait50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusPortrait70"/>
+			<m_ObjectName text="FavoniusPortrait70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FavoniusPortrait95"/>
+			<m_ObjectName text="FavoniusPortrait95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumptyPortrait200"/>
+			<m_ObjectName text="JumpyDumptyPortrait200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumptyPortrait256"/>
+			<m_ObjectName text="JumpyDumptyPortrait256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumptyPortrait38"/>
+			<m_ObjectName text="JumpyDumptyPortrait38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumptyPortrait50"/>
+			<m_ObjectName text="JumpyDumptyPortrait50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumptyPortrait70"/>
+			<m_ObjectName text="JumpyDumptyPortrait70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JumpyDumptyPortrait95"/>
+			<m_ObjectName text="JumpyDumptyPortrait95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru128"/>
+			<m_ObjectName text="Sumeru128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru22"/>
+			<m_ObjectName text="Sumeru22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru256"/>
+			<m_ObjectName text="Sumeru256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru30"/>
+			<m_ObjectName text="Sumeru30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru32"/>
+			<m_ObjectName text="Sumeru32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru36"/>
+			<m_ObjectName text="Sumeru36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru44"/>
+			<m_ObjectName text="Sumeru44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru45"/>
+			<m_ObjectName text="Sumeru45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru48"/>
+			<m_ObjectName text="Sumeru48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru50"/>
+			<m_ObjectName text="Sumeru50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru64"/>
+			<m_ObjectName text="Sumeru64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sumeru80"/>
+			<m_ObjectName text="Sumeru80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida256"/>
+			<m_ObjectName text="LeaderNahida256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida32"/>
+			<m_ObjectName text="LeaderNahida32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida45"/>
+			<m_ObjectName text="LeaderNahida45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida48"/>
+			<m_ObjectName text="LeaderNahida48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida50"/>
+			<m_ObjectName text="LeaderNahida50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida55"/>
+			<m_ObjectName text="LeaderNahida55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida64"/>
+			<m_ObjectName text="LeaderNahida64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderNahida80"/>
+			<m_ObjectName text="LeaderNahida80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRanger22"/>
+			<m_ObjectName text="ForestRanger22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRanger256"/>
+			<m_ObjectName text="ForestRanger256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRanger32"/>
+			<m_ObjectName text="ForestRanger32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRanger38"/>
+			<m_ObjectName text="ForestRanger38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRanger50"/>
+			<m_ObjectName text="ForestRanger50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRanger80"/>
+			<m_ObjectName text="ForestRanger80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRangerPortrait200"/>
+			<m_ObjectName text="ForestRangerPortrait200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRangerPortrait256"/>
+			<m_ObjectName text="ForestRangerPortrait256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRangerPortrait38"/>
+			<m_ObjectName text="ForestRangerPortrait38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRangerPortrait50"/>
+			<m_ObjectName text="ForestRangerPortrait50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRangerPortrait70"/>
+			<m_ObjectName text="ForestRangerPortrait70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ForestRangerPortrait95"/>
+			<m_ObjectName text="ForestRangerPortrait95"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

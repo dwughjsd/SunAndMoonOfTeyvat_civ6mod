@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_FAVONIUS_STRONGHOLD" Texture="Moment_Infrastructure_Mondstadt"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" Texture="Moment_UniqueUnit_Mondstadt_FavoniusKnight"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MONDSTADT_JUMPY_DUMPTY" Texture="Moment_UniqueUnit_Mondstadt_JumptyDumpty"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_AKADEMIYA" Texture="Moment_Infrastructure_Sumeru"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SUMERU_FOREST_RANGER" Texture="Moment_UniqueUnit_Sumeru_ForestRanger"/>
+	</MomentIllustrations>
+
+	<Types>
+		<Row Type="MODIFIER_PLAYER_UNITS_DISABLE_OPERATION_SUMERU" Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_UNITS_DISABLE_OPERATION_SUMERU</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_CHANGE_UNIT_OPERATION_AVAILABILITY</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<Traits>
+		<Update>
+			<Where Description="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_XP2"/>
+		</Update>
+		<Update>
+			<Where Description="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_XP2"/>
+		</Update>
+		<Update>
+			<Where Description="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_XP2"/>
+		</Update>
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_NO_REMOVE_FOREST_JUNGLE"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_NO_REMOVE_FOREST_JUNGLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_DISABLE_OPERATION_SUMERU</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FOREST_JUNGLE_REQUIREMENTS_SUMERU</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_NO_REMOVE_FOREST_JUNGLE</ModifierId>
+			<Name>OperationType</Name>
+			<Value>UNITOPERATION_REMOVE_FEATURE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSetRequirements>
+		<Delete RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_HAS_FLOODPLAINS"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_HAS_FLOODPLAINS_TAG"/>
+	</RequirementSetRequirements>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_SAPIENTIA_OROMASDIS" AgendaTwo="AGENDA_FLAT_EARTHER"/>
+	</ExclusiveAgendas>
+
+	<District_Adjacencies>
+		<!--<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldChangeId="Government_Faith"/>-->
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Government_Science"/>
+		<!--
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Geothermal_Science"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Reef_Science"/>
+		-->
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Pamukkale_Science"/>
+	</District_Adjacencies>
+
+	<Districts_XP2>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" AttackRange="2"/>
+	</Districts_XP2>
+	
+	<Types>
+		<Row Type="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_DRAGONSPINE" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_LAKE_CIDER_LAKE" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_STARFELL_LAKE" Kind="KIND_NAMED_LAKE"/>
+	</Types>
+	
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WIND_FARM</ImprovementType>
+			<ModifierId>WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_WIND_FARM</ImprovementType>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>MONDSTADT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>MONDSTADT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WIND</Value>
+		</Row>
+		<Row>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER_MONDSTADT</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WIND</Value>
+		</Row>
+	</ModifierArguments>
+
+	<NamedLakes>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_CIDER_LAKE" Name="LOC_NAMED_LAKE_CIDER_LAKE_NAME"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_STARFELL_LAKE" Name="LOC_NAMED_LAKE_STARFELL_LAKE_NAME"/>
+	</NamedLakes>
+	<NamedMountains>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" Name="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_DRAGONSPINE" Name="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME"/>
+	</NamedMountains>
+	<NamedDeserts>
+		<InsertOrIgnore NamedDesertType="NAMED_DESERT_GREAT_RED_SAND" Name="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME"/>
+	</NamedDeserts>
+
+	<NamedLakeCivilizations>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_CIDER_LAKE" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedLakeType="NAMED_LAKE_STARFELL_LAKE" CivilizationType="CIVILIZATION_MONDSTADT"/>
+	</NamedLakeCivilizations>
+	<NamedMountainCivilizations>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS" CivilizationType="CIVILIZATION_MONDSTADT"/>
+		<InsertOrIgnore NamedMountainType="NAMED_MOUNTAIN_DRAGONSPINE" CivilizationType="CIVILIZATION_MONDSTADT"/>
+	</NamedMountainCivilizations>
+	<NamedDesertCivilizations>
+		<InsertOrIgnore NamedDesertType="NAMED_DESERT_GREAT_RED_SAND" CivilizationType="CIVILIZATION_SUMERU"/>
+	</NamedDesertCivilizations>
+	
+	<Project_ResourceCosts>
+		<InsertOrIgnore ProjectType="PROJECT_FISH_BLASTING" ResourceType="RESOURCE_NITER" StartProductionCost="10"/>
+	</Project_ResourceCosts>
+
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_MONDSTADT_FAVONIUS_KNIGHT" ResourceCost="10"/>
+		<Row UnitType="UNIT_MONDSTADT_JUMPY_DUMPTY" ResourceCost="10"/>
+	</Units_XP2>
+
+	<AiLists>
+		<Row ListType="NukeLoverResolutions" AgendaType="TRAIT_AGENDA_FLEEING_SUNLIGHT" System="Resolutions"/>
+		<Row ListType="NukeLoverDiscussions" AgendaType="TRAIT_AGENDA_FLEEING_SUNLIGHT" System="Discussions"/>
+	</AiLists>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_GOVERNMENT</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_GOVERNMENT</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_CANAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_CANAL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_CANAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_CANAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_CANAL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_CANAL</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_CANAL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_CANAL</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_DAM</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA</TraitType>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_DAM</ModifierId>
+		</Row>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_PRODUCTION_POWERED"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_POWERED"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_ILLUSORY_HEART" ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE_POWERED"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_DAM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_DAM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_VALID_FEATURES_DISTRICTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_PRODUCTION_POWERED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FRESHWATER_FOREST_OR_JUNGLE_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_POWERED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE_POWERED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_DAM</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_FOREST_VALID_DAM</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_DAM</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SUMERU_JUNGLE_VALID_DAM</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_PRODUCTION_POWERED" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FOREST_JUNGLE_PRODUCTION_POWERED" Name="Amount" Value="1"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_POWERED" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_FLOODPLAIN_MARSH_FOOD_POWERED" Name="Amount" Value="1"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE" Name="Amount" Value="2"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE_POWERED" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_LEADER_NAHIDA_ADJACENT_GEOTHERMAL_VOLCANIC_CULTURE_POWERED" Name="Amount" Value="2"/>
+	</ModifierArguments>
+
+	<AiListTypes>
+		<Row ListType="NahidaDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="NahidaDiscussions" AgendaType="TRAIT_AGENDA_SAPIENTIA_OROMASDIS" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="NahidaDiscussions" Item="WC_EMERGENCY_SPACE_STATION" Favored="true"/>
+	</AiFavoredItems>
+
+	<TypeTags>
+		<Delete Type="ABILITY_BYPASS_WALLS" Tag="CLASS_MONDSTADT_JUMPY_DUMPTY"/>
+		<Row Type="ABILITY_BYPASS_WALLS_PROMOTION_CLASS" Tag="CLASS_MONDSTADT_JUMPY_DUMPTY"/>
+	</TypeTags>
+
+	<RequirementSets>
+		<Row RequirementSetId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+		<Row RequirementSetId="PLOT_IS_FRESHWATER_FOREST_OR_JUNGLE_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>	
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_HAS_VOLCANIC_SOIL"/>
+		<Row RequirementSetId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_HAS_GEOTHERMAL_FIISSURE"/>
+		<Row RequirementSetId="PLOT_IS_FRESHWATER_FOREST_OR_JUNGLE_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FOREST_OR_JUNGLE_REQUIREMENTS_FULFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FRESHWATER_FOREST_OR_JUNGLE_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FRESHWATER_FOREST_OR_JUNGLE_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_IS_FRESH_WATER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FRESHWATER_FOREST_OR_JUNGLE_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_CITY_IS_FULLY_POWERED_MONDSTADT"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_FLOODPLAIN_OR_MARSH_REQUIREMENTS_FULFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_FLOODPLAIN_OR_MARSH_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_CITY_IS_FULLY_POWERED_MONDSTADT"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_FURFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_FURFILLED_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CITY_CENTER_NAHIDA"/>
+		<Row RequirementSetId="PLOT_IS_ADJACENT_GEOTHERMAL_VOLCANIC_ADJACENT_TO_POWERED_CITY_CENTER_REQUIREMENTS_NAHIDA" RequirementId="REQUIRES_CITY_IS_FULLY_POWERED_MONDSTADT"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_FURFILLED_NAHIDA" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
+		<Row RequirementId="REQUIRES_CITY_IS_FULLY_POWERED_MONDSTADT" RequirementType="REQUIREMENT_PLOT_PROPERTY_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_FURFILLED_NAHIDA" Name="RequirementSetId" Value="PLOT_IS_VOLCANIC_SOIL_GEOTHERMAL_FISSURE_REQUIREMENTS_NAHIDA"/>
+		<Row RequirementId="REQUIRES_CITY_IS_FULLY_POWERED_MONDSTADT" Name="PropertyName" Value="MONDSTADT_CITY_POWER_STATUS"/>
+		<Row RequirementId="REQUIRES_CITY_IS_FULLY_POWERED_MONDSTADT" Name="PropertyMinimum" Value="1"/>
+	</RequirementArguments>
+
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SUMERU_FOREST_RANGER"/>
+			<Set>
+				<Description>LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1</Description>
+			</Set>
+		</Update>
+	</Units>
+	
+	<TypeTags>
+		<Row Type="ABILITY_FOREST_RANGER_GOV1_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_FOREST_RANGER_GOV2_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Row Type="ABILITY_FOREST_RANGER_GOV3_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Delete Type="ABILITY_NIHANG_BARRACKS_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Delete Type="ABILITY_NIHANG_ARMORY_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+		<Delete Type="ABILITY_NIHANG_ACADEMY_STRENGTH" Tag="CLASS_SUMERU_FOREST_RANGER"/>
+	</TypeTags>
+
+	<BuildingModifiers>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_TALL" ModifierId="SUMERU_FOREST_RANGER_GOV1_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_WIDE" ModifierId="SUMERU_FOREST_RANGER_GOV1_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_CONQUEST" ModifierId="SUMERU_FOREST_RANGER_GOV1_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="SUMERU_FOREST_RANGER_GOV2_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_SPIES" ModifierId="SUMERU_FOREST_RANGER_GOV2_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_FAITH" ModifierId="SUMERU_FOREST_RANGER_GOV2_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_MILITARY" ModifierId="SUMERU_FOREST_RANGER_GOV3_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_CULTURE" ModifierId="SUMERU_FOREST_RANGER_GOV3_ABILITY"/>
+		<InsertOrIgnore BuildingType="BUILDING_GOV_SCIENCE" ModifierId="SUMERU_FOREST_RANGER_GOV3_ABILITY"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV1_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV2_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV3_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV1_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FOREST_RANGER_GOV1_STRENGTH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV2_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FOREST_RANGER_GOV2_STRENGTH</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>SUMERU_FOREST_RANGER_GOV3_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FOREST_RANGER_GOV3_STRENGTH</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+	<Types>
+		<InsertOrIgnore Type="ABILITY_FOREST_RANGER_GOV1_STRENGTH" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="ABILITY_FOREST_RANGER_GOV2_STRENGTH" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="ABILITY_FOREST_RANGER_GOV3_STRENGTH" Kind="KIND_ABILITY"/>
+	</Types>
+	<UnitAbilities>
+		<InsertOrIgnore UnitAbilityType="ABILITY_FOREST_RANGER_GOV1_STRENGTH" Name="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_NAME" Description="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_FOREST_RANGER_GOV2_STRENGTH" Name="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_NAME" Description="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<InsertOrIgnore UnitAbilityType="ABILITY_FOREST_RANGER_GOV3_STRENGTH" Name="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_NAME" Description="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_GOV1_STRENGTH</UnitAbilityType>
+			<ModifierId>FOREST_RANGER_GOV1_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_GOV2_STRENGTH</UnitAbilityType>
+			<ModifierId>FOREST_RANGER_GOV2_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<UnitAbilityType>ABILITY_FOREST_RANGER_GOV3_STRENGTH</UnitAbilityType>
+			<ModifierId>FOREST_RANGER_GOV3_STRENGTH</ModifierId>
+		</InsertOrIgnore>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV1_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV2_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV3_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+		</InsertOrIgnore>
+	</Modifiers>
+	<ModifierArguments>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV1_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV2_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<ModifierId>FOREST_RANGER_GOV3_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</InsertOrIgnore>
+	</ModifierArguments>
+
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_SPACE_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SPACE_ROCK</UnitPromotionType>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ROCK_BAND_LEVEL_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TOURISM_BOMB_DISTRICT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AKADEMIYA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AKADEMIYA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ROCKBAND_SPACE_ROCK_AKADEMIYA_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>500</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_DESCRIPTION" Language="en_US">
+			<Text>Mondstadt Empire</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_ADJECTIVE" Language="en_US">
+			<Text>Mondstadt</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_1" Language="en_US">
+			<Text>Otto</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_2" Language="en_US">
+			<Text>Albert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_3" Language="en_US">
+			<Text>Rudolf</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_4" Language="en_US">
+			<Text>Wood</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_5" Language="en_US">
+			<Text>Athos</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_6" Language="en_US">
+			<Text>Payne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_7" Language="en_US">
+			<Text>Jack</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_8" Language="en_US">
+			<Text>Charles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_9" Language="en_US">
+			<Text>Anthony</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MALE_10" Language="en_US">
+			<Text>Miles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_1" Language="en_US">
+			<Text>Aramis</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_2" Language="en_US">
+			<Text>Monroe</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_3" Language="en_US">
+			<Text>Wyratt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_4" Language="en_US">
+			<Text>Porthos</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_5" Language="en_US">
+			<Text>Quinn</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_6" Language="en_US">
+			<Text>Nelson</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_7" Language="en_US">
+			<Text>Cyrus</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_8" Language="en_US">
+			<Text>Bruce</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_9" Language="en_US">
+			<Text>Huffman</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_MALE_10" Language="en_US">
+			<Text>Schulz</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_1" Language="en_US">
+			<Text>Jilliana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_2" Language="en_US">
+			<Text>Vile</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_3" Language="en_US">
+			<Text>Victoria</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_4" Language="en_US">
+			<Text>Nora</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_5" Language="en_US">
+			<Text>Ellin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_6" Language="en_US">
+			<Text>Beatrice</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_7" Language="en_US">
+			<Text>Donna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_8" Language="en_US">
+			<Text>Flora</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_9" Language="en_US">
+			<Text>Hertha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_FEMALE_10" Language="en_US">
+			<Text>Marjorie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_1" Language="en_US">
+			<Text>Grace</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_2" Language="en_US">
+			<Text>Lily</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_3" Language="en_US">
+			<Text>Susie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_4" Language="en_US">
+			<Text>Ella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_5" Language="en_US">
+			<Text>Anna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_6" Language="en_US">
+			<Text>Blanche</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_7" Language="en_US">
+			<Text>Eury</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_8" Language="en_US">
+			<Text>Helen</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_9" Language="en_US">
+			<Text>Margaret</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MONDSTADT_MODERN_FEMALE_10" Language="en_US">
+			<Text>Sara</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MONDSTADT" Language="en_US">
+			<Text>Mondstadt</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARFELL_VALLEY" Language="en_US">
+			<Text>Starfell Valley</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARSNATCH_CLIFF" Language="en_US">
+			<Text>Starsnatch Cliff</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WHISPERING_WOODS" Language="en_US">
+			<Text>Whispering Woods</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MIDSUMMER_COURTYARD" Language="en_US">
+			<Text>Midsummer Courtyard</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMBEARER_POINT" Language="en_US">
+			<Text>Stormbearer Point</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_THOUSAND_WINDS_TEMPLE" Language="en_US">
+			<Text>Thousand Winds Temple</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_GALESONG_HILL" Language="en_US">
+			<Text>Galesong Hill</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDRISE" Language="en_US">
+			<Text>Windrise</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_OATH" Language="en_US">
+			<Text>Cape Oath</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DADAUPA_GORGE" Language="en_US">
+			<Text>Dadaupa Gorge</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FALCON_COAST" Language="en_US">
+			<Text>Falcon Coast</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WINDWAIL_HIGHLAND" Language="en_US">
+			<Text>Windwail Highland</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DAWN" Language="en_US">
+			<Text>Dawn</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_VALLEY_OF_REMEMBRANCE" Language="en_US">
+			<Text>Valley of Remembrance</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SPRINGVALE" Language="en_US">
+			<Text>Springvale</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_FORSAKEN_RIFT" Language="en_US">
+			<Text>Forsaken Rift</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WOLVENDOM" Language="en_US">
+			<Text>Wolvendom</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CECILIA" Language="en_US">
+			<Text>Cecilia</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_BRIGHTCROWN_CANYON" Language="en_US">
+			<Text>Brightcrown Canyon</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STORMTERROR_S_LAIR" Language="en_US">
+			<Text>Stormterror's Lair</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_EMTOMBED_CITY" Language="en_US">
+			<Text>Entombed City</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SKYFROST_NAIL" Language="en_US">
+			<Text>Skyfrost Nail</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_CAPE_VINDAGNYR" Language="en_US">
+			<Text>Vindagnyr</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_SNOW_COVERED_PATH" Language="en_US">
+			<Text>Snow-Covered Path</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_STARGLOW_CAVERN" Language="en_US">
+			<Text>Starglow Cavern</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_WYRMREST_VALLEY" Language="en_US">
+			<Text>Wyrmrest Valley</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_MUSK" Language="en_US">
+			<Text>Musk</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_NAMELESS_ISLAND" Language="en_US">
+			<Text>Nameless Island</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CITY_NAME_DORNMAN_PORT" Language="en_US">
+			<Text>Dornman Port</Text>
+		</InsertOrIgnore>
+
+		<Row Tag="LOC_CIVINFO_MONDSTADT_LOCATION" Language="en_US">
+			<Text>Teyvat</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_SIZE" Language="en_US">
+			<Text>Tens of square kilometers</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_POPULATION" Language="en_US">
+			<Text>Tens of thousands to millions or so</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MONDSTADT_CAPITAL" Language="en_US">
+			<Text>City of Mondstadt</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_KLEE" Language="en_US">
+			<Text>All your enemies go up in flames when you appear, Klee. Your are the Spark Knight, with explosions and flashes being your best friends and unparalleled treasures. Play the world with your fellow Knights of Favonius and spread idylls to freedom. Do well, and people will praise you as the strongest of Mondstadt!</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_LAKE_CIDER_LAKE_NAME" Language="en_US">
+			<Text>Cider Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_STARFELL_LAKE_NAME" Language="en_US">
+			<Text>Starfell Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_BRIGHTCROWN_MOUNTAINS_NAME" Language="en_US">
+			<Text>Brightcrown Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_STORMBEARER_MOUNTAINS_NAME" Language="en_US">
+			<Text>Stormbearer Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_DRAGONSPINE_NAME" Language="en_US">
+			<Text>Dragonspine</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PLANTATION_MONDSTADT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from adjacent Plantation {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_CULTURE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_PASTURE_MONDSTADT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from adjacent Pasture {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FAVONIUS_HOLY_SITE_FAITH" Language="en_US">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy Site district.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_NAME" Language="en_US">
+			<Text>Fish Blasting Carnival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_SHORT_NAME" Language="en_US">
+			<Text>Fish Blasting Carnival</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_FISH_BLASTING_DESCRIPTION" Language="en_US">
+			<Text>Adds one Pounding Surprise, a weapon of mass destruction that destroy only buildings and units with a blast radius of 1 and doesn't produce radioactive fallout, to your nation's inventory upon completion. Requires [ICON_Resource_Niter] Niter. Maintenance is 8 [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_WMD_JUMPY_DUMPTY_NAME" Language="en_US">
+			<Text>Pounding Surprise</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_NAME" Language="en_US">
+			<Text>Sparks 'n' Splash</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BONUS_ATTACK_KLEE_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="en_US">
+			<Text>Favonius Bladework - Edel</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>-100% flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KLEE_QUOTE" Language="en_US">
+			<Text>"Explosion inside city wall, grounded be thy woe," "Explosions can hurt people, Jean can be dreadful," "Mondstadt be bombed, Klee be doomed." Those're the survival rules that the Knights of Favonius gave me.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_NAME" Language="en_US">
+			<Text>Fleeing Sunlight</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_FLEEING_SUNLIGHT_DESCRIPTION" Language="en_US">
+			<Text>Has no hesitation to use nuclear weapons. Respects other civilizations that project strength with nuclear weapons.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Hey, you're not scared of my bombs right? Tee-hee, I knew it! That's why you're my bestest friend ever!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_HIGH_NUKE_LOVE" Language="en_US">
+			<Text>Klee is pleased you love big explosions</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_KLEE_ANY" Language="en_US">
+			<Text>If you ever wanna learn how to make a bomb, I can teach you y'know.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_FLEEING_SUNLIGHT_LOW_NUKE_LOVE" Language="en_US">
+			<Text>Klee is disappointed you dare not to use nuclear weapons</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You're now my friend! Let's stay up to watch the circus' special midnight performance!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>If I accepted your friendship, Jean would make sure Klee never sees the light of day again. That's what Jean said, Kaeya told me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You are the best! Please make friend and come play with me!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Let us play today, pleeeease? I wanna go on an adventure!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Klee is not a baby! Please take me out to play together!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You wanted Klee to come find you, so here Klee comes! Jumpy Dumpties, get ready!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Hmm, I need to bring Jumpy Dumpties, Dodoco, and... myself! I'm gonna catch you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I'm so happy! Thank you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I hate, hate, hate your delegation! I wanna go out and play!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Our delegation brings you a present - barbecued fish, made with my own secret recipe! ...Okay, so the secret recipe is exploding the fish out of the water.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>If you find some bombs near any fires, they're not mine. Definitely. Not. Mine.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You are a very bad, bad, bad guy! (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Spark Knight Klee of the Knights of Favonius! ...There's some more, but uh, I forgot. I'm not so good at remembering...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Do you wanna come to our city nearby and blast some fish with me? I'll get grounded for a whole day, but it's way worth it coz the fish taste sooo goood!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Yea! Let's go on a big adventure!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Mom writes the Teyvat Travel Guide, so all the restaurants and hotels in the whole world care what she thinks about them. But even she has never heard of your capital! So I have to know about it!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Hello, are you here for playtime with Klee?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Klee was a brave girl today! I found some really weird-looking troops at our border! Are they yours?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I wanna go home now...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Yea!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>No fair!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_KLEE_ANY" Language="en_US">
+			<Text>Ah, I just love it when peace comes round!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I will blow you aaaalll up!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You're a good person. Once we make peace, we can go play together again, okay?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>You are really nice, so I don't mind waiting until you are finished with your work.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I hate, hate, hate your troops! All of them!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_KLEE_ANY" Language="en_US">
+			<Text>I need to cross through your territory go a certain place! Please please help me!</Text>
+		</Row>
+
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_SUBTITLE" Language="en_US">
+			<Text>"Fleeing Sunlight", Spark Knight of the Knights of Favonius</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Beware of Klee's "treasures" - she loves using these bombs to bring troubles to her enemies</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>As a nation of winds and idylls, most cities of Mondstadt are near hills and agricultural resources. They focus on construction of Plantations and Pastures instead of Districts, and let their Settlers fly far away like dandelions. With Favonius Strongholds, they can have discounts when purchasing units to help early-game expansion and military operations. For Mondstadt led by Klee, development does not rely solely on cities they built theirselves - If a city of another player gets in their way, they can send a Pounding Surprise!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>In the streets and back alleys of Mondstadt, rumor has it that there is a girl in red, who holds an unparalleled treasure within the Knights of Favonius. No matter where or when this girl appears, it is not long before everything goes up in flames, and as the aftermath of the explosions fades away, she disappears without a trace - there are few who have ever seen her face. There are even those that go so far to say that she is the most powerful within the Knights of Favonius. Though as far as then-Acting Grand Master is concerned, Klee, the girl, is a troublesome naughty child, and needs to be locked up solitary confinement from time to time.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Alice, Klee’s mother, is an adventurer highly renowned in Mondstadt, author of the popular Teyvat Travel Guide and is even better at making troubles than her. There is nothing this incredible mother cannot do — as far as Klee is concerned, anyway. Alice used to guide Klee step-by-step through the techniques for adding gunpowder and selecting fuses, and encourage her to express her creativity through ever-bolder and more beautiful fireworks... She even taught her how to place explosive charges to bring the whole Starsnatch Cliff down and stuck their tongues out at each other awkwardly while being told off by Knights of Favonius.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Alice also made a doll named Dodoco for Klee, affixed it to Klee's four-leaf clover, and hung on her big backpack. Dodoco is Klee's first friend, and one of her best. Considering other things Alice and her daughter had invented (for example, the Jumpy Dumpty), Knights of Favonius believe that this doll might explode at any time too!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Inherited her mother’s playfulness, the natural-born pyromaniac is incredibly enthusiastic in all that explodes and had already been acknowledged by a Vision, a gift bestowed upon those who are recognized by the gods, from a very young age. 3 years before the Traveler arrived Teyvat, Klee was entrusted to the Knights of Favonius by her parents who continue their adventures and grows up safely under the protection of the Knights of Favonius.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Though Knights of Favonius has made considerable progress in protecting Klee, they are haunted by their failure to protect Mondstadt from being damaged by her. Carts, storage shacks, forests or lakes are all victims of Klee’s explosions. About once or twice a week, Klee makes some troubles, and is then escorted to solitary confinement under stern glares of knights.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>Such scenario occurs once and once again. Klee is not a bad kid by nature, it's just that her curious and playful nature always results in her failing to think before she acts. Every time she gets into trouble, she guiltily tries to make up for it. Though once Klee is out of solitary confinement, there is usually no more than a day or two before the sound of explosions return to Mondstadt. She makes so many troubles that some people even think that Knights of Favonius are only good at causing troubles.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>Though Klee always ends up causing trouble for the Knights of Favonius and Mondstadt, her skills with explosives can be quite handy if applied correctly. Utilizing Klee's special talents Knights of Favonius was able to defeat a horde of invading hilichurls - however, she also forever changed the face of Stormbearer Mountains in that same operation due to recklessly placing too many charges. Since then, the legend of the "Red Knight of the Stormbearer Mountains" began to circulate around Mondstadt. With her talents, she became the famous Spark Knight and is well-loved and sometimes even spoiled by her fellow knights (though some of them keep her at a distance to avoid being involved by explosions).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KLEE_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>Though Klee’s mother is not often be with her daughter, she always watches over her silently. Occasionally she brings some surprises to Klee, such as acting as Dodo-King to invite her to go on an adventure on Golden Apple Archipelago with the Traveler and some Knights of Favonius. Though still small, Klee knew she would one day become just like her mother. One day, her explosives would become something that her mother would be proud of.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Mondstadt lies in the northeast of Teyvat and is known as "the City of Winds and Idylls". It is the city-state that worships Lord Barbatos, the Anemo Archon, one of the seven mortal nations in Teyvat, and the first in which the Traveler starts to look for their lost sibling. From amongst mountains and wide-open plains, carefree breezes carry the scent of dandelions, a gift from Barbatos, across Cider Lake to Mondstadt, which sits on an island in the middle of the lake.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>At least 3,000 years before the Traveler’s arrival, Decarabian, the God of Storms, founded the nation of Mondstadt. That was a time when the region of Mondstadt is filled with blizzards, and humans had to seek gods for protection. Decarabian establishes his capital city in the area later known as Stormterror's Lair and created a storm wall around it to protect his city. The city was built in a ring-shape and is thought to be divided into 3 rings, with each ring having different functions. Right in the center of the city was the tall tower where Decarabian resided. The original scope of Old Mondstadt's territory encompassed the Brightcrown Mountains and Windwail Highland areas and went to the southern area between Liyue and Dawn Winery nowadays.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Decarabian micromanaged his city. It seems that every resident of the city had been arranged their own spot. He felt content about his capital and looked down at the bent backs of his subjects in the howling wind, believing it to be a sign of their adoration and unwavering obedience. Even before his reign ended, Decarabian believed that his people loved him as he loved them.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>So, 400 years after the old Mondstadt was found, bards, the homeless, knights and even the lover of the old king, together with thousands of Mondstadt people who were fed up with Decarabian, rebelled under the leadership of Venti, a wind spirit, killed the tyrant and ended his reign. Venti became the new Anemo Archon called Barbatos. After becoming a new Archon, Barbatos reshaped Mondstadt, using his winds to blow away the snow and ice covering the land and terraforming the region of Mondstadt in the process. He then took his people from Decarabian's old city and moved to Cider Lake, where they build the modern city of Mondstadt. After that, prominent clans, which later arose as leaders of Mondstadt, such as the Gunnhildr Clan and the Lawrence Clan, are found by some renowned rebels.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>As Barbatos became one of the Seven Archons who preside over the seven regions of Teyvat, and a new aristocracy is founded, the war in Mondstadt has ended. Barbatos don’t want to be a tyrant like Decarabian and decided to make Mondstadt a land of freedom. He taught Mondstadt people some production skills and the way to use a Wind Glider, transferred the political power to them, and departed.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>Mondstadt began to flourish with a temperate climate created by Barbatos and pioneers developing it. At the Early Aristocratic Period, the aristocrats were greatly respected and loved as models of Mondstadt people. Many of the festivals and customs in Mondstadt were enacted by the aristocracy for the betterment of the common people. Commonplace were the hunts, a hobby of the ruling class of Mondstadt. The festivities were shared with their servants and the common folk as a sign of the benevolence of the nobles. Ludi Harpastum and Windblume also trace back to this era.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>However, as peace prolonged, new nobles grew corrupt and fell to degeneracy, eventually becoming tyrants who enslaved and tormented the common people while viewing themselves as overlords and kings. The Lawrence Clan became the foremost clan in Mondstadt and became the main rulers of the city, while most other noble clans upheld its degeneracy, using their strength to oppress the commoners. Though there are still some nobles tried to maintain the balance between nobles and commoners, the Church and tyrants has been so corrupted that finally inevitably collapsed.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>In the Late Aristocratic Period, more and more commoners had awakened, and the force against aristocrats built up. Barbatos who previously departed and slumbered heard the prayers and cries of the oppressed and descended on Mondstadt under the guise of Venti. He was surprised by the situation of Mondstadt then, and rebelled against the aristocracy again with Vennessa, a gladiator – just as how he rebelled against an older tyranny. The Anemo Archon, who had been quite familiar with rebellions, exiled most of the aristocracy successfully.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>New organization took the place of the aristocracy after their era has ended. To prevent tranny from emerging again, Vennessa founded the Knights of Favonius, and reformed the old Church. Statues of Barbatos that were taken down by aristocracy was rebuilt again. People worshipped 4 key entities that supported the revolution as the Four Winds: Dragon of the East, Wolf of the North, Lion of the South, and Falcon of the West. Regretfully, as peace time erodes the history again, the worship of the Four Winds faded away, and temples built for them were abandoned. 500 years after the Knights of Favonius was founded, Durin, a shadow dragon, invaded Mondstadt, and awakened Barbatos who summoned Dvalin to come to their aid again. Dvalin was grievously injured in battle and was forgotten by Mondstadt people for the next 500 years.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MONDSTADT_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>Though encountered a lot of tyrannies in their history and even suffered a lot from the Cataclysm, Mondstadt, the land of Barbatos never surrender. Under the lead of the Knight of the Favonius, Mondstadt people sing songs to freedom, welcome all honorable travelers coming from places far away and keep open-minded about mixtures and changes of their culture. They record geographies and cultures of the whole nation, research the language and customs of Hilichurls. Advancements of alcohol industry created a wide array of alcoholic beverages and soft drinks. Alchemy has been reinvented and are not longer thought to be nothing more than "putting broken odds and ends" together. Mondstadt has begun developing an idol subculture through Alice and Barbara, adding new rhythms to their traditional music which mainly uses lyres to play ballads. People celebrate Ludi Harpastum and Windblume, wishing the wind of freedom lasts long in Mondstadt.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_FAVONIUS_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Excluding other subdivisions like the Outriders, the Knights of Favonius are known to have ten captains that each leads a company. Among them, Eula, the renowned scion of the old aristocracy heads the 4th Company, or the Reconnaissance Company. They often go into the wilderness of Mondstadt and station in mountains and valleys to perform reconnaissance and keep an eye on any approaching enemies or strange phenomena. No matter the enemies they meet are monsters or the Abyss Order, these much-acclaimed scouts are the major sources of information for the Logistics company and the Investigation company, and for many times they perform proactive attacks as a main force, nipping their nefarious plots in the bud.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MONDSTADT_JUMPY_DUMPTY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>If someone says Klee is the strongest within the Knights of Favonius, he must have seen how Jumpy Dumpty works. Klee says that it is one of her "bestest friends" which brings her tons of explosive fun, and the best reason for it of being a friend is that – of course – it explodes! After all, Klee is not just some rookie who drags the team down but an explosives expert with formidable power... and even completely "adjusted" the face of Stormbearer Mountains with her explosives. Due to troubles her bombs make, she is frequently sent to (or voluntarily enter) the solitary confinement room. No wonder why Kaeya told her: "Mondstadt be bombed, Klee be doomed."</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Knights of Favonius is the order of knights that protects Mondstadt, founded by Vennessa with the help of Barbatos 1,000 years before the Traveler’s arrival, to prevent aristocrats from ruling the land, as Barbatos originally intended. Later, the knights act as the lawmen and protectors of Mondstadt. The Church of Favonius is also controlled by them. At the time when the Traveler arrived the land of Teyvat, the Knights of Favonius was led by Grand Master Varka. He went out of Mondstadt on an expedition with his squad and has left for long, so Jean who holds the title of Dandelion Knight and Lionfang Knight, filled in as the Acting Grand Master.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_FAVONIUS_STRONGHOLD_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Mondstadt people know little about the squad on the expedition or their strongholds but can frequently see the Knights in the city carrying out missions. Headquartered in the building constructed in the Aristocratic Period (later called Knights of Favonius Headquarters), the Knights garrisoned in the Mondstadt city, especially the 4th Company, Reconnaissance and the 6th Company, Logistics, still have the duty of administration, helping citizens and handling dangerous situations.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_DESCRIPTION" Language="en_US">
+			<Text>Sumeru Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_ADJECTIVE" Language="en_US">
+			<Text>Sumeru</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GREAT_RED_SAND_NAME" Language="en_US">
+			<Text>Great Red Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_1" Language="en_US">
+			<Text>Iradj</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_2" Language="en_US">
+			<Text>Rafiq</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_3" Language="en_US">
+			<Text>Sal</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_4" Language="en_US">
+			<Text>Shahbandar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_5" Language="en_US">
+			<Text>Jazari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_6" Language="en_US">
+			<Text>Erfan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_7" Language="en_US">
+			<Text>Hakan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_8" Language="en_US">
+			<Text>Masrur</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_9" Language="en_US">
+			<Text>Khaldun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MALE_10" Language="en_US">
+			<Text>Przheva</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_1" Language="en_US">
+			<Text>Mamdouh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_2" Language="en_US">
+			<Text>Bhai</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_3" Language="en_US">
+			<Text>Durgar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_4" Language="en_US">
+			<Text>Gulabgir</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_5" Language="en_US">
+			<Text>Jayant</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_6" Language="en_US">
+			<Text>Kayvan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_7" Language="en_US">
+			<Text>Arayesh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_8" Language="en_US">
+			<Text>Royinjan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_9" Language="en_US">
+			<Text>Shyam</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_MALE_10" Language="en_US">
+			<Text>Zai</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_1" Language="en_US">
+			<Text>Dwarkanath</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_2" Language="en_US">
+			<Text>Farzaneh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_3" Language="en_US">
+			<Text>Halva</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_4" Language="en_US">
+			<Text>Pam</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_5" Language="en_US">
+			<Text>Lemta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_6" Language="en_US">
+			<Text>Yavanani</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_7" Language="en_US">
+			<Text>Hana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_8" Language="en_US">
+			<Text>Sitt</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_9" Language="en_US">
+			<Text>Zinat</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_FEMALE_10" Language="en_US">
+			<Text>Katayoun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_1" Language="en_US">
+			<Text>Arya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_2" Language="en_US">
+			<Text>Elham</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_3" Language="en_US">
+			<Text>Kira</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_4" Language="en_US">
+			<Text>Nazenin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_5" Language="en_US">
+			<Text>Nika</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_6" Language="en_US">
+			<Text>Taraneh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_7" Language="en_US">
+			<Text>Sareh</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_8" Language="en_US">
+			<Text>Loumelat</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_9" Language="en_US">
+			<Text>Roshana</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SUMERU_MODERN_FEMALE_10" Language="en_US">
+			<Text>Nesmil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMERU" Language="en_US">
+			<Text>Sumeru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AVIDYA_FOREST" Language="en_US">
+			<Text>Avidya Forest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHINVAT_RAVINE" Language="en_US">
+			<Text>Chinvat Ravine</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHA_HILL" Language="en_US">
+			<Text>Gandha Hill</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANDHARVA" Language="en_US">
+			<Text>Gandharva</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAZADAHA_POOL" Language="en_US">
+			<Text>Yazadaha Pool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOKAPALA_JUNGLE" Language="en_US">
+			<Text>Lokapala Jungle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHATRAKAM_CAVE" Language="en_US">
+			<Text>Chatrakam Cave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAWTIYIMA_FOREST" Language="en_US">
+			<Text>Mawtiyima Forest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALCAZARZARAY" Language="en_US">
+			<Text>Alcazarzaray</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARDRAVI_VALLEY" Language="en_US">
+			<Text>Ardravi Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEVANTAKA_MOUNTAIN" Language="en_US">
+			<Text>Devantaka Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_ORMOS" Language="en_US">
+			<Text>Port Ormos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIMARA" Language="en_US">
+			<Text>Vimara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHAVAN_REALM" Language="en_US">
+			<Text>Ashavan Realm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_APAM_WOODS" Language="en_US">
+			<Text>Apam Woods</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARAVAN_RIBAT" Language="en_US">
+			<Text>Caravan Ribat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARDIS_DHYAI" Language="en_US">
+			<Text>Pardis Dhyai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUINS_OF_DAHRI" Language="en_US">
+			<Text>Ruins of Dahri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YASNA_MONUMENT" Language="en_US">
+			<Text>Yasna Monument</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VISSUDHA_FIELD" Language="en_US">
+			<Text>Vissudha Field</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANARANA" Language="en_US">
+			<Text>Vanarana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FANE_OF_ASHVATTHA" Language="en_US">
+			<Text>Fane of Ashvattha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOST_NURSERY" Language="en_US">
+			<Text>Lost Nursery</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOBEK_OASIS" Language="en_US">
+			<Text>Sobek Oasis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AARU" Language="en_US">
+			<Text>Aaru</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABDJU_ROAD" Language="en_US">
+			<Text>Abdju Road</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAR_AL_SHIFA" Language="en_US">
+			<Text>Dar al-Shifa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYE_OF_THE_SANDS" Language="en_US">
+			<Text>Eye of the Sands</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALLEY_OF_DAHRI" Language="en_US">
+			<Text>Valley of Dahri</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_BARRACKS_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Barracks.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ARMORY_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Armory.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_NIHANG_ACADEMY_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Military Academy.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV1_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Tier 1 Government building.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV2_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Tier 2 Government building.</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_ABILITY_FOREST_RANGER_GOV3_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength from Tier 3 Government building.</Text>
+		</InsertOrIgnore>	
+		<Row Tag="LOC_ABILITY_FOREST_RANGER_IGNORE_FOREST_MOVEMENT_PENALTY_DESCRIPTION" Language="en_US">
+			<Text>{LOC_PROMOTION_RANGER_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_TOOLTIP" Language="en_US">
+			<Text>Patrol</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_OPERATION_YIELD_TOOLTIP" Language="en_US">
+			<Text>{1_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_FEATURE_TOOLTIP" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_UNCOOLED_TOOLTIP" Language="en_US">
+			<Text>[NEWLINE]Recently patrolled. Cannot be patrolled again for another {1_Num} turns.</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_DISABLED_TECH_UNLOCK_TOOLTIP" Language="en_US">
+			<Text>[NEWLINE]Requires Technology: {2_Str}</Text>
+		</Row>
+		<Row Tag="LOC_SUMERU_RANGER_YIELD_TOOLTIP" Language="en_US">
+			<Text>Yields {1_Num} {2_IconStr} {3_Str}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAHIDA" Language="en_US">
+			<Text>Nahida, the Dendro Archon, all that dwell under the bowers of trees are naught but a fleeting mirage in your eyes, but your actions will surely change the face of this mortal world. You are familiar with the power inside lives in forests, and your people saw knowledge and truth there. Plant seeds of understanding, and may people around the world admire Sumeru as a land of grasses and woods, a nation of wisdom and eloquence.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_NAME" Language="en_US">
+			<Text>Sapientia Oromasdis</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_SAPIENTIA_OROMASDIS_DESCRIPTION" Language="en_US">
+			<Text>Tries to build up [ICON_Science] Science, and likes civilizations that also focus on [ICON_Science] Science. Dislikes those with low [ICON_SCIENCE] Science.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_HIGH_SCIENCE" Language="en_US">
+			<Text>Nahida is pleased with your efforts in Science</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_SAPIENTIA_OROMASDIS_LOW_SCIENCE" Language="en_US">
+			<Text>Nahida is disappointed that you ignore Science</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_SUMERU_LOCATION" Language="en_US">
+			<Text>Teyvat</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_SIZE" Language="en_US">
+			<Text>Tens of square kilometers</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_POPULATION" Language="en_US">
+			<Text>Tens of thousands to millions or so</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_SUMERU_CAPITAL" Language="en_US">
+			<Text>City of Sumeru</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_SUBTITLE" Language="en_US">
+			<Text>Lesser Lord Kusanali, Mahakusaladhamma, Archon Buer</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>The God of Wisdom lives in her palace of illusion, deciphering mysteries of the world in serenity.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Sumeru people reside in rainforests and deserts, being proud of their unparalleled [ICON_Science] Science output. For Sumeru, the first thing of all is to occupy as many Rainforest tiles as possible, so that they can use Forest Rangers to harvest a large amount of [ICON_Production] Production and [ICON_Science] Science. The Akademiya district can push their technological advantages even further. When playing as Nahida, remember to choose a good location for your city centers to gain additional yields. With the leadership of Mahakusaladhamma, Sumeru will surely prosper - and a Science Victory is in their reach.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>500 years before the Traveler went to Sumeru, Greater Lord Rukkhadevata, previous Dendro Archon deceased when trying to erase forbidden knowledge from Irminsul, the repository for all the information and memories of Teyvat. The Archon herself connected to the Irminsul was also contaminated by forbidden knowledge when trying to suppress it, and thus needs to be completely forgotten to eliminate all forbidden knowledge. So, she prepared for her next incarnation by cultivating the purest branch of Irminsul.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The result of Greater Lord Rukkhadevata’s work is Nahida, Lesser Lord Kusanali. At that time, the contamination of forbidden knowledge is not yet cleared, but Lesser Lord Kusanali as a newborn Archon was incapable of dealing with it. Because of that, the Sages soon became disappointed after they found her and took her back to Sumeru City.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>The Sages modified the device of Greater Lord Rukkhadevata's that she once used to isolate herself while meditating so that it can no longer be controlled from the inside to trap Lesser Lord Kusanali in it. Further, her Gnosis, proof of an archon's status, was used to maintain the Akasha system, a device developed by Greater Lord Rukkhadevata that can collect and share people’s knowledge. The Akasha system became the ears and eyes of the newborn deity. The Akasha enables her to observe and learn about people's emotions and gives her omnipresent sight and hearing so that she can understand voices that are not praise. She is aware of their devotion to the old goddess, their disillusionment with their new deity, and the many comments that “The God of Wisdom will never come back.”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>She knows in her heart that she must keep learning and grow up as quickly as she can to stand up and face the threats from the most abysmal corners of the world. This is her inevitable duty. Thus, whether she is misunderstood or underappreciated, Nahida makes no argument against it. However, at the same time, Azar. the Grand Sage of Akademiya had another plan. In his eyes, if Lesser Lord Kusanali has no ability to save Irminsul, people should create a new deity who has the ability. They used an Electro Gnosis to build a body for the new deity based on original construction of The Balladeer, a mechanical puppet. To create the new deity, the Akademiya even used the Akasha system to harvest Sumeru people’s dreams.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>What Akademiya did was soon known by the Traveler. The Traveler went to Sumeru desert, made an alliance with Cyno, Alhaitham, Dehya, Rahman and others, discussed a plan to rescue Lesser Lord Kusanali and finally succeeded. The Grand Sage was arrested. Shouki no Kami, the nearly completed new deity was defeated, and his Gnosis was taken.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>Using the two Gnosis – Dendro Gnosis and Electro Gnosis, Lesser Lord Kusanali deciphered Greater Lord Rukkhadevata’s last words. After her trial to purify forbidden knowledge, the memories and knowledge people have about her was also contaminated. The only way to fully purify Irminsul is erasing all information about her. Though in great pain, Nahida had to erase everything about Greater Lord Rukkhadevata in Irminsul by herself. After then, all native Teyvat people lost memories about the previous Dendro Archon. The forest failed to remember everything, only people from another world (including the Traveler) still have the truth in their minds.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>In memories of later Teyvat people, there has been only one Dendro Archon who is Lesser Lord Kusanali, and the Archon is never replaced by someone else. Nonetheless, Nahida, the Archon that in fact ascended recently, knew that there are still a lot for her to do. She exiled Sages involved in the deity creation plan, shut down Akasha system permanently, and abolished discriminative policies against desert area. In her words, she hopes to let curiosity and the thirst for knowledge drive the realm of academics once again.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>Sumeru people’s dreams were once stolen by Sages, and they forged the myth that Sumeru people never dream and explained it as a sign of wisdom and rationality. But since long time ago the God of Wisdoms think that dreams are manifestation of human wisdom. As the Akasha system halted, dreams returned to lives of Sumeru people. Only after Akasha system has finished its mission and forbidden knowledge is completely eradicated could Nahida focus on Sumeru's future and plan for the prosperity and happiness that her nation could call its own.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NAHIDA_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>Discovering the way to eliminate forbidden knowledge, as Greater Lord Rukkhadevata said, she should "feel joy at finally finding the answer as someone who delights in wisdom". But what made Nahida regretful is that she finally has no time to answer: Will a nation walking into the future still remember a name that no longer exists? At last, she left the past behind and became tenacious, because she knows that she is the one that all people rely on and trust in.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Though actual time remains uncertain, the history of Sumeru began when The Goddess of Flowers, Greater Lord Rukkhadevata, and King Deshret started their cooperation. The three God-Kings of Sumeru built Ay-Khanoum, the "City of Amphitheaters." whose name means "City of the Moon Maiden". In old files buried by the desert sands, the Goddess of Flowers was also called the Mistress of Dreams. She was a friend of the other two gods and pursued their own paths towards "wisdom." The birthday of the Goddess of Flowers is still celebrated by Sumeru people (though they later celebrate the birthday of Dendro Archon instead).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The three gods wanted to build Ay-Khanoum to make it a promised land... But good times don't last long, the Goddess of Flowers died suddenly for an unknown reason, and the purple Padisarah (a kind of flower) she created also disappeared. As per folk tales, The Goddess of Flowers died "due to the malice of the burning sun and yellow sand", but there are also rumor says that The Goddess of Flowers desired a "spectacular death" so that the bitterness of her death would preserve her legacy forever – in another word, she planned her death by herself. After her death, King Deshret and Greater Lord Rukkhadevata parted ways to create their own civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Later, several desert vassal city-states rose. All these kingdoms are ruled by mortals that lost their deities. This era is known as the vassal states era, and was finally ended by the return of King Deshret and Greater Lord Rukkhadevata and their rebuilding of their "oasis paradise". The vassal city-state of Gurabad ruled by Ormazd Shah existed in this era, and its history is recorded in later folk tales.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>The two gods rebuilt the kingdom of desert, and cities once devastated possibly rose again. But later, Greater Lord Rukkhadevata decided to leave the desert, leaving King Deshret and his scions of sands. During this period, Greater Lord Rukkhadevata comes to the East of the Great Red Sand and creates the Varuna Contraption that terraforms part of desert into a rainforest. At the border between the forest and the desert, the Wall of Samiel was erected to prevent the forest from undergoing desertification. With the help of her followers who would go on to establish the Amurta Darshan of Sumeru Akademiya, Rukkhadevata developed a flourishing rainforest. Sumeru City was built on the Divine Tree, a particularly massive tree located in Sumeru's forest region, and the sages of Sumeru Akademiya assisted Rukkhadevata in managing the nation's affairs. Rukkhadevata also created the Aranara, small creatures with the ability to control dreams. After that, when the Archon War came to an end, Greater Lord Rukkhadevata won and became one of the Seven Archons.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Meantime, King Deshret who ruled the desert kingdom alone stepped into a catastrophe. He eventually succumbed to the lure (he later called it as a "poison" but it’s too late) of forbidden knowledge. The forbidden knowledge brings calamities upon Sumeru. "People's minds were filled with crazed whispers, dark gray scales spread across their bodies, even the land was stripped of its vigor."</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>King Deshret asks Greater Lord Rukkhadevata for help, for the sake of their mutual friend. She gathered the priests, instructing them to build temples and creating Aaru Village as the last bastion of Deshret's civilization. She also expended a great deal of her power to suppress forbidden knowledge and regressed into a childlike form. Even this, however, was not enough; in the end, Deshret sacrificed himself to finally put an end to it. King Deshret's civilization fell and splintered into many smaller, human-led city-states.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text>The status quo lasted for only 500 years, and the Cataclysm happened. All of the Seven except Greater Lord Rukkhadevata are summoned to Khanenri'ah, while she had a more important mission – protect Irminsul, the root of Dendro power whose roots stretch down into the Abyss and are connected to the Ley Lines of the world, the repository for all of the information and memories of Teyvat. The forbidden knowledge which should have been suppressed before began polluting Irminsul alongside the disaster. Greater Lord Rukkhadevata knew that she cannot repel it with her sole power, so she created a device which gather wisdom of humanity and named it Akasha. By using Akasha system, she "borrowed" the dreams of her people and empowered her, so that she can clear forbidden knowledge nearly completely. However, she is also polluted by it... At last, she had to make herself forgotten by the whole world to eradicate forbidden knowledge.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text>Greater Lord Rukkhadevata almost cleared all forbidden knowledge, but after all she cannot purify herself who has also been contaminated. Since that, she cultivated the purest branch of Irminsul – newborn Lesser Lord Kusanali to be her next incarnation so that she can finally be cleared from Irminsul and sacrificed herself. During this time, the uncleared forbidden knowledge continued to torment Sumeru, bringing crazed whispers, The Withering, and Eleazar. Scholars in Akademiya tried their best but can still not turn the tables. The newborn Dendro Archon didn’t know the way to cure Irminsul, so she was only be seen as a symbol of the death of Greater Lord Rukkhadevata and was then trapped by desperate and hysteric Sages of Akademiya.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text>Isolating the new Dendro Archon solved no problem. In 500 years of struggling, Sages of the Akademiya had no choice but trust Il Dottore, "The Doctor" of Fatui, to create a new deity by themselves to take the place of Lesser Lord Kusanali who didn’t show any trace of divine wisdom. To accomplish the mission, they even trapped the denizens of Sumeru City in a samsara, harvesting their dreams repeatedly to excite power of an Electro Gnosis. The plan is stopped by the Traveler. The Traveler rescued Lesser Lord Kusanali and seized two Gnosis – one Dendro and another one Electro. With the power of two Gnosis, Lesser Lord Kusanali finally deciphered the ultimate solution to eradicate forbidden knowledge: purify Irminsul, and erase all about Greater Lord Rukkhadevata.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SUMERU_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text>With a great pain, Lesser Lord Kusanali saved Irminsul, and catastrophes caused by forbidden knowledge disappeared. However, natives of Teyvat can no longer remember Greater Lord Rukkhadevata but believing Lesser Lord Kusanali has always been the only Dendro Archon. She began her real reign over Sumeru, shut down the Akasha system, and started to focus on planning for the prosperity and happiness that her nation could call its own.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SUMERU_FOREST_RANGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Forest Rangers are a group of civil servants who protect the forests of Sumeru. They are most active in Avidya Forest, where their main outpost, Gandharva Ville, is located. They are responsible for helping travelers in need as well as preserving Sumeru's rainforests, for example by maintaining roads and infrastructures, monitoring wildlife populations, and suppressing Withering Zones, an anomaly that causes lives in them wither. They send regular reports about the state of Avidya Forest to the researchers of Pardis Dhyai, who in turn provide them with various support. The higher-ranking members in the Forest Rangers are called Forest Watchers. At the time when the Traveler arrived Sumeru, the Forest Rangers was led by Chief Officer Tighnari.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_AKADEMIYA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.Akademiya is founded by Greater Lord Rukkhadevata and act as Sumeru's main governing body, as well as the most prestigious institute in all Teyvat. It is particularly renowned for its corpus in arcane arts and historical records. It is located in the middle of the tree trunk of Sumeru City and is currently divided into Six Darshans: Amurta (life science), Rtawahist (astronomy), Spantamad (alchemy and geography), Haravatat (linguistics and logics), Vahumana (history and sociology), and Kshahrewar (engineering). Each Darshan was established under one of the names of Six Great Schools and is led by a Great Sage. Among them a Grand Sage is elected and become the absolute leader of the Akademiya. Obtaining a degree from the Akademiya is a notoriously long and stressful process. It is not uncommon for people to graduate after the age of 30, and the stress presses many students’ hair to turn gray. Lesser Lord Kusanali was isolated by Akademiya after her birth until the Traveler rescued her. Later she took back the leadership of this organization and exiled Azar, the then-Grand Sage.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_NAHIDA_QUOTE" Language="en_US">
+			<Text>In the end, I'm just the Moon. The real Sun is long gone.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Even in a moonless night, a shower of starlight can still drown out illusions and lies.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>No matter what you're trying to do, this is unforgivable. (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Nice to meet you! Hehe, I've actually been watching you for a long time already. My name's Nahida.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Good.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>So... can we trade knowledge? I want to hear all about your capital, and I will tell mine in return.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>As the God of Wisdom, I grant to you my blessing: From here onward, may your journey be free from confusion that clouds your mind and obstacles that block your path.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>We have no way of seeing all the possibilities that lie ahead in the future, so we have to rely on clumsy trial-and-error to gain knowledge. Just think of pain as the tuition you have to pay.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>The journey's only just beginning, and I'd like you to carry on leading the way.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>You're a complete unknown to me. Accepting your friendship is like swallowing an icky storm cloud.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>You're such an experienced adventurer... Can you be my friend? I want to experience all your future tales first-hand.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>I feel like a Nilotpala Lotus that's been reunited with its leaves, or a Sango Pearl that's found its shell.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>There are too many things in this world that you'll miss if you don't get there on time.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>My sense of inferiority and yielding led to all of this, and created so much trouble.</Text>
+		</Row>
+	
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Unfortunately, you've committed one of the six cardinal sins of the Akademiya, and even now remain completely unaware of how evil all of this truly is.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Your delegation has arrived. Hehe, I really appreciate the gifts. They are lovely.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>You first need to better yourself. If you haven't even figured out how to be a caterpillar, how can you be a butterfly?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>We have sent you a delegation bearing gifts. Find anything you like?</Text>
+		</Row>
+
+		
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>We have a city nearby. If you're not sure what to do next, how about I take you on a walk?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>If you use your army at my borders for a just cause, you may become a sager leader of the new generation.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>No life... lasts forever...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Thank you. Thank you so much.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>This was unwise...</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>I'd like to share in my knowledge.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>It will take time to rebuild everything, but no matter if it's culture, friendship, or trust... we will rebuild it.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>For all the folly you committed in the name of wisdom... As an archon, I will make you pay!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>After comprehending the hollowness of the war, it's time to revisit the meaning of peace.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>Just make yourselves at home.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>You'd better change tactics.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NAHIDA_ANY" Language="en_US">
+			<Text>My people need to pass through your lands for the time being. Please don't blame me. The flora also climbs up the fence to get closer to the sky.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- By Handsome Kai (PiPiKai)-->
+<Context>
+	<Grid ID="JumpyDumpty" Style="SubContainerSmall2" Size="48,24" ToolTip="LOC_WMD_JUMPY_DUMPTY_NAME" Hidden="1">
+		<Stack StackGrowth="Right" Anchor="L,C">
+			<Label String="[ICON_Nuclear]" Anchor="C,C" Offset="0,-1" />
+			<Label ID="JumpyDumptyCount" Offset="2,2" String="0" Style="FontNormal14" Align="C,C" />
+		</Stack>
+	</Grid>
+</Context>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Types>
+		<Row Type="PROJECT_FISH_BLASTING" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_FISH_BLASTING" Name="LOC_PROJECT_FISH_BLASTING_NAME" ShortName="LOC_PROJECT_FISH_BLASTING_SHORT_NAME" Description="LOC_PROJECT_FISH_BLASTING_DESCRIPTION" PrereqDistrict="DISTRICT_ENCAMPMENT" Cost="45" AdvisorType="ADVISOR_CONQUEST" PrereqResource="RESOURCE_NITER" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" WMD="true" CostProgressionParam1="1500" UnlocksFromEffect="true" AmenitiesWhileActive="3"/>
+	</Projects>
+	
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_FISH_BLASTING" ModifierId="PROJECT_COMPLETION_MODIFIER_CREATE_JUMPY_DUMPTY"/>
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierID>PROJECT_COMPLETION_MODIFIER_CREATE_JUMPY_DUMPTY</ModifierID>
+			<ModifierType>MODIFIER_PLAYER_CREATE_WMD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_MODIFIER_CREATE_JUMPY_DUMPTY</ModifierId>
+			<Name>Type</Name>
+			<Value>WMD_JUMPY_DUMPTY</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_MODIFIER_CREATE_JUMPY_DUMPTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+</GameData>

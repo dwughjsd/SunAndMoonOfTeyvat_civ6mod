@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MONDSTADT_NAME" Language="en_US">
+			<Text>Mondstadt</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_LEADER_KLEE_NAME" Language="en_US">
+			<Text>Klee</Text>
+		</InsertOrIgnore>
+		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_NAME" Language="en_US">
+			<Text>Exquisite Compound</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_EXQUISITE_COMPOUND_DESCRIPTION" Language="en_US">
+			<Text>Reveals [ICON_RESOURCE_Niter] Niter without technology requirement. When the first Armory is constructed the Gunpowder technology is unlocked. +1 additional attack per turn for all siege units. May initiate the Fish Blasting Carnival project in any city with a Encampment district. Gain the Jumpy Dumpty unique unit with Gunpowder.</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_NAME" Language="en_US">
+			<Text>City of Winds and Idylls</Text>
+		</InsertOrIgnore>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith from improved Hills. Additional +1 [ICON_Production] Production and +2 [ICON_Gold] Gold with Banking. Pastures and Plantations provide a standard adjacency bonus for all districts. Plantations trigger a Culture Bomb, and +2 [ICON_Culture] Culture if on a Luxury resource. Specialty districts do not receive a minor adjacency for being adjacent to another district. -30% [ICON_Production] Production toward Districts.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION" Language="en_US">
+			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_XP2" Language="en_US">
+			<Text>{LOC_TRAIT_CIVILIZATION_MONDSTADT_WINDS_AND_IDYLLS_DESCRIPTION_SHARED} Offshore Wind Farms and Wind Farms receive +4 [ICON_POWER] Power.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_NAME" Language="en_US">
+			<Text>Favonius Stronghold</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_FAVONIUS_STRONGHOLD_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Mondstadt which replaces the Encampment. Cheaper to build and can be built adjacent to the City Center. Land combat or civilian units are 30% cheaper to purchase in this city.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_NAME" Language="en_US">
+			<Text>Reconnaissance Company</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_FAVONIUS_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>Mondstadt unique Medieval era melee unit that replaces the Man-At-Arms. Has higher [ICON_Movement] Movement and [ICON_Strength] Combat Strength, but -100% flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_NAME" Language="en_US">
+			<Text>Jumpy Dumpty</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MONDSTADT_JUMPY_DUMPTY_DESCRIPTION" Language="en_US">
+			<Text>Mondstadt unique Renaissance era siege unit when Klee is their leader. Has only melee attack. When adjacent to a city, attacking melee units ignore Walls and immediately assault the city. Can be armed with Pounding Surprises and nuclear weapons.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SUMERU_NAME" Language="en_US">
+			<Text>Sumeru</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NAHIDA_NAME" Language="en_US">
+			<Text>Nahida</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_NAME" Language="en_US">
+			<Text>Illusory Heart</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles and +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater if they are adjacent to a City Center.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_XP2" Language="en_US">
+			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles, +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater and +2 [ICON_Culture] Culture to Volcanic Soil and Geothermal Fissure tiles if they are adjacent to a City Center. These numbers are doubled in [ICON_Power] Powered cities.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_NAME" Language="en_US">
+			<Text>Forest of Jnana and Vidya</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION" Language="en_US">
+			<Text>All districts can be built on Woods and Rainforest tiles. +1 [ICON_Science] Science to all Rainforest tiles. Additional +1 with Science Theory.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_XP2" Language="en_US">
+			<Text>Units cannot chop Woods and Rainforests. {LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_NAME" Language="en_US">
+			<Text>Forest Ranger</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION" Language="en_US">
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when Barracks, Armory, and Military Academy buildings are first constructed. May use a charge to patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 50 turns (on Standard Speed).</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUMERU_FOREST_RANGER_DESCRIPTION_XP1" Language="en_US">
+			<Text>Sumeru unique melee unit. Faster [ICON_Movement] Movement in Woods and Rainforest terrain. [ICON_Strength] Combat Strength is increased when government buildings are constructed. Can patrol in Woods and Rainforests to gain [ICON_Production] Production and additional yields. A Woods or Rainforest tile can be patrolled once every 50 turns (on Standard Speed).</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_AKADEMIYA_NAME" Language="en_US">
+			<Text>Akademiya</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_AKADEMIYA_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Sumeru for scientific endeavors. Replaces the Campus district. Can only be constructed in Rainforest or Woods.[NEWLINE][NEWLINE]+1 [ICON_Science] Science bonus for each adjacent Rainforest tile. +0.5 [ICON_SCIENCE] Science per turn for each [ICON_Citizen] Citizen when the city has a University. Additional +0.5 with Scientific Theory.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
