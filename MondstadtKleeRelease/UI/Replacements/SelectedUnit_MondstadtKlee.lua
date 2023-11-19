@@ -156,16 +156,17 @@ function RealizeGreatPersonLens(kUnit:table)
 		if playerID == Game.GetLocalPlayer() then
 			local unitInfo = GameInfo.Units[kUnit:GetType()]
 			if unitInfo and unitInfo.UnitType == 'UNIT_SUMERU_FOREST_RANGER' and kUnit:GetBuildCharges() > 0 then
-				local res = {
-					Plots = {}
-				}
-				GameEvents.SumeruGetOwnedPlots.Call(playerID, res)
-
 				local plots:table = {}
-				for _, plotIndex in ipairs(res.Plots) do
-					local pPlot = Map.GetPlotByIndex(plotIndex)
-					if pPlot and IsPlotMeet(playerID, pPlot) then
-						table.insert(plots, {"Great_People", plotIndex});
+				local pPlayer:table = Players[playerID]
+				local pPlayerCities:table = pPlayer:GetCities()
+				for _, pLoopCity in pPlayerCities:Members() do
+					local kCityPlots :table = Map.GetCityPlots():GetPurchasedPlots(pLoopCity)
+					for _, plotId in pairs(kCityPlots) do
+						local pPlot = Map.GetPlotByIndex(plotId)
+						if pPlot and IsPlotMeet(playerID, pPlot) then
+							table.insert(plots, {"Great_People", plotId})
+						end
+						
 					end
 				end
 

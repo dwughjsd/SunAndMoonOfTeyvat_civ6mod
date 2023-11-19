@@ -33,17 +33,6 @@ function SumeruGetPlotProperty(plotIndex:number, res:table)
 	end
 end
 -- ===========================================================================
-function SumeruGetOwnedPlots(playerID:number, res:table)
-	local pPlayer:table = Players[playerID]
-	local pPlayerCities:table = pPlayer:GetCities()
-	res.Plots = {}
-	for _, pLoopCity in pPlayerCities:Members() do
-		for _, plot in pairs(pLoopCity:GetOwnedPlots()) do
-			table.insert(res.Plots, plot:GetIndex())
-		end
-	end
-end
--- ===========================================================================
 function SumeruRangerOperation(playerID:number, params:table)
 	local pPlayer = Players[playerID]
 	if pPlayer then
@@ -90,7 +79,6 @@ end
 -- ===========================================================================
 function Initialize()
 	GameEvents.SumeruGetPlotProperty.Add(SumeruGetPlotProperty)
-	GameEvents.SumeruGetOwnedPlots.Add(SumeruGetOwnedPlots)
 	GameEvents.SumeruRangerOperation.Add(SumeruRangerOperation)
 end
 
