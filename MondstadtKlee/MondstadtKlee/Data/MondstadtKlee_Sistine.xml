@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" />
+			<Set Cost="20" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_AKADEMIYA" />
+			<Set Cost="20" />
+		</Update>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Update>
+			<Where DistrictType="DISTRICT_AKADEMIYA" YieldType="YIELD_SCIENCE"/>
+			<Set YieldChange="3" />
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldType="YIELD_PRODUCTION"/>
+			<Set YieldChange="2" />
+		</Update>
+	</District_CitizenYieldChanges>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+</GameData>

@@ -65,12 +65,7 @@
 	</ExclusiveAgendas>
 
 	<District_Adjacencies>
-		<!--<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldChangeId="Government_Faith"/>-->
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Government_Science"/>
-		<!--
-		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Geothermal_Science"/>
-		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Reef_Science"/>
-		-->
 		<Row DistrictType="DISTRICT_AKADEMIYA" YieldChangeId="Pamukkale_Science"/>
 	</District_Adjacencies>
 
