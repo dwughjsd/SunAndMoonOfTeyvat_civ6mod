@@ -55,10 +55,13 @@
 			<Text>Illusory Heart</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles and +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater if they are adjacent to a City Center.</Text>
+			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles and +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater if they are adjacent to a City Center. {LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_DOUBLED}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_XP2" Language="en_US">
-			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles, +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater and +2 [ICON_Culture] Culture to Volcanic Soil and Geothermal Fissure tiles if they are adjacent to a City Center. These numbers are doubled in [ICON_Power] Powered cities.</Text>
+			<Text>+1 [ICON_Food] Food to Marsh and Floodplains tiles, +1 [ICON_Production] Production to Woods and Rainforests tiles with Freshwater and +2 [ICON_Culture] Culture to Volcanic Soil and Geothermal Fissure tiles if they are adjacent to a City Center. {LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_DOUBLED}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ILLUSORY_HEART_DESCRIPTION_DOUBLED" Language="en_US">
+			<Text>These numbers are doubled after researching the Electricity technology.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_NAME" Language="en_US">
 			<Text>Forest of Jnana and Vidya</Text>
