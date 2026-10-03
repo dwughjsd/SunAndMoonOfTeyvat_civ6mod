@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Update>
+			<Where Domain="Players:Expansion2_Players" LeaderType="LEADER_NAHIDA"/>
+			<Set CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_SST"/>
+		</Update>
+	</Players>
+	<PlayerItems>
+		<Update>
+			<Where Domain="Players:Expansion2_Players" Type="DISTRICT_AKADEMIYA"/>
+			<Set Description="LOC_DISTRICT_AKADEMIYA_DESCRIPTION_SST"/>
+		</Update>
+	</PlayerItems>
+</GameData>

@@ -1,5 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<DistrictModifiers>
+		<Delete DistrictType="DISTRICT_AKADEMIYA" ModifierId="AKADEMIYA_SCIENCE_PER_POP"/>
+		<Delete DistrictType="DISTRICT_AKADEMIYA" ModifierId="AKADEMIYA_SCIENCE_PER_POP_SCIENTIFIC_THEORY"/>
+	</DistrictModifiers>
+	<Traits>
+		<Update>
+			<Where TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" />
+			<Set Description="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_SST" />
+		</Update>
+	</Traits>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_AKADEMIYA" />
+			<Set Description="LOC_DISTRICT_AKADEMIYA_DESCRIPTION_SST"/>
+		</Update>
+	</Districts>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_FOREST_JUNGLE_DISTRICT_HOUSING"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_SCIENTIFIC_THEORY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_JUNGLE_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA" ModifierId="TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_PRODUCTION_PENALTY"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FOREST_JUNGLE_DISTRICT_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FOREST_JUNGLE_REQUIREMENTS_SUMERU</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_EDUCATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_IMPROVED_JUNGLE_REQUIREMENTS_KLEE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_PRODUCTION_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_IMPROVED_JUNGLE_REQUIREMENTS_KLEE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_FOREST_JUNGLE_DISTRICT_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_JUNGLE_SCIENCE_EDUCATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_PRODUCTION_PENALTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_SUMERU_IMPROVED_JUNGLE_PRODUCTION_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row RequirementSetId="PLOT_HAS_IMPROVED_JUNGLE_REQUIREMENTS_KLEE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLOT_HAS_IMPROVED_JUNGLE_REQUIREMENTS_KLEE" RequirementId="PLOT_IS_JUNGLE_REQUIREMENT"/>
+		<Row RequirementSetId="PLOT_HAS_IMPROVED_JUNGLE_REQUIREMENTS_KLEE" RequirementId="REQUIRES_PLOT_HAS_IMPROVEMENT_KLEE"/>
+	</RequirementSetRequirements>
+
+		<!--General adjustments-->
 	<Districts>
 		<Update>
 			<Where DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" />
