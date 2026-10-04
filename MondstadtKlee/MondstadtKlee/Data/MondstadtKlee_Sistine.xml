@@ -132,5 +132,6 @@
 	</District_CitizenYieldChanges>
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_FAVONIUS_STRONGHOLD" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_AKADEMIYA" YieldType="YIELD_GOLD" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 </GameData>
