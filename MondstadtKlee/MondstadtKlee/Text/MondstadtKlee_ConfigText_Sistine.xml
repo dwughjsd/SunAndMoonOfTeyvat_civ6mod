@@ -2,11 +2,13 @@
 <GameData>
 	<LocalizedText>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_SST" Language="en_US">
-			<Text>Units cannot chop Woods and Rainforests. All districts can be built on Woods and Rainforest tiles. Districts placed on Woods and Rainforest tiles are granted +2 [ICON_Housing] Housing. +1 [ICON_Food] Food to all Rainforest tiles. Additional +1 [ICON_Science] Science with Education. +2 [ICON_Food] Food but -1 [ICON_Production] Production to improved Rainforest tiles.</Text>
+			<Text>Units cannot chop Woods and Rainforests. All districts can be built on Woods and Rainforest tiles. Districts placed on Woods and Rainforest tiles are granted +2 [ICON_Housing] Housing. +1 [ICON_Food] Food to all Rainforest tiles. Additional +1 [ICON_Science] Science with Education.</Text>
 		</Row>
+		<!--+2 [ICON_Food] Food but -1 [ICON_Production] Production to improved Rainforest tiles.-->
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FOREST_OF_JNANA_AND_VIDYA_DESCRIPTION_SST" Language="zh_Hans_CN">
-			<Text>单位无法砍伐雨林和树林。可在森林和雨林中建设区域。位于森林或雨林的区域 +2 [ICON_Housing] 住房。雨林 +1 [ICON_Food] 食物，研究“教育学”科技后 +1 [ICON_Science] 科技值。改良的雨林 +2 [ICON_Food] 食物，但 -1 [ICON_Production] 生产力。</Text>
+			<Text>单位无法砍伐雨林和树林。可在森林和雨林中建设区域。位于森林或雨林的区域 +2 [ICON_Housing] 住房。雨林 +1 [ICON_Food] 食物，研究“教育学”科技后 +1 [ICON_Science] 科技值。</Text>
 		</Row>
+		<!--改良的雨林 +2 [ICON_Food] 食物，但 -1 [ICON_Production] 生产力。-->
 		<Row Tag="LOC_DISTRICT_AKADEMIYA_DESCRIPTION_SST" Language="en_US">
 			<Text>A district unique to Sumeru for scientific endeavors. Replaces the Campus district. Can only be constructed in Rainforest or Woods.[NEWLINE][NEWLINE]+1 [ICON_Science] Science bonus for each adjacent Rainforest tile.</Text>
 		</Row>
