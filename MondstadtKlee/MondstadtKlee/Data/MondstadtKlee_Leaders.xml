@@ -278,6 +278,7 @@
 		<Row ListType="NahidaTechs"/>
 		<Row ListType="NahidaCivics"/>
 		<Row ListType="NahidaWonders"/>
+		<Row ListType="NahidaDistricts"/>
 	</AiListTypes>
 
 	<AiLists>
@@ -289,6 +290,7 @@
 		<Row ListType="NahidaTechs" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Technologies"/>
 		<Row ListType="NahidaWonders" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Buildings"/>
 		<Row ListType="NahidaCivics" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Civics"/>
+		<Row ListType="NahidaDistricts" LeaderType="TRAIT_LEADER_ILLUSORY_HEART" System="Districts"/>
 	</AiLists>
 
 	<AiFavoredItems>
@@ -319,6 +321,7 @@
 		<Row ListType="NahidaCivics" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/>
 		<Row ListType="NahidaCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
 		<Row ListType="NahidaCivics" Item="CIVIC_RECORDED_HISTORY" Favored="true"/>
+		<Row ListType="NahidaDistricts" Item="DISTRICT_AKADEMIYA" Favored="true"/>
 	</AiFavoredItems>
 
 	<Agendas>
